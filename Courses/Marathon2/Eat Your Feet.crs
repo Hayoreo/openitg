@@ -13,7 +13,7 @@ TIME=71.97:END=91.17:MODS=50% Brake, 20% Drunk, 40% Tipsy, 40% Beat, Bumpy:
 TIME=91.17:END=100.77:MODS=50% Brake, Dizzy, Bumpy:
 TIME=100.77:END=103.47:MODS=175% Mini:
 
-#SONG:D-Code:Hard:;
+#SONG:In The Groove 2/D-Code:Hard:;
 
 #MODS:
 
@@ -36,7 +36,7 @@ TIME=104.22:END=104.60:MODS=Beat:
 TIME=99.28:END=104.60:MODS=50% Brake, 40% Tornado, Sudden:
 TIME=104.60:END=108.00:MODS=Reverse, Flip, 50% Cross, 50% Split, 50% Alternate, Drunk, Tipsy:
 
-#SONG:Habanera 1:Hard:;
+#SONG:In The Groove 2/Habanera 1:Hard:;
 
 #MODS:
 TIME=00:END=112:MODS=Dark, 50% Mini, 5% Cross:
@@ -53,7 +53,7 @@ TIME=89.26:END=89.52:MODS=-75% Mini:
 TIME=96:END=104.92:MODS=70% Expand, 70% Bumpy, Dizzy:
 TIME=104.92:END=108:MODS=50% Drunk, 20% Tornado, 40% Bumpy, 30% Tipsy, 70% Expand:
 
-#SONG:Go 60 Go:Medium:;
+#SONG:In The Groove 2/Go 60 Go:Medium:;
 
 #MODS:
 TIME=00.00:END=106:MODS=Boomerang, Mirror, Reverse, Vivid, Distant, Dark, 2x, Hidden, 40% Mini:
@@ -64,4 +64,4 @@ TIME=67.49:END=79.49:MODS=70% Wave, 70% Drunk, 70% Tipsy, 20% Bumpy:
 TIME=79.49:END=91.49:MODS=40% Drunk, 50% Dizzy, 50% Wave, 20% Bumpy, 20% Brake:
 TIME=92.645:END=105.01:MODS=50% Dizzy, 40% Drunk, 50% Wave, 20% Tornado:
 
-#SONG:Renaissance:Medium:;
+#SONG:In The Groove 2/Renaissance:Medium:;

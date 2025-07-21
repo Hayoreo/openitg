@@ -1,0 +1,68 @@
+The following is a list of all changes that were made to each song.
+
+Agent Blatant: Offset, BPM, Cut
+Amore: Offset, BPM, Stop, Cut
+Baby Baby: Offset
+Baby Don't You Want Me: Offset and Stop
+Birdie: Offset, Stop
+**Bloodrush: Offset. Possible cut errors.
+Bumble Bee: No Change
+Clockwork Genesis: Offset and Stops
+Cryosleep: Offset and Stop
+D-Code: Offset. Seems drifty on a note-by-note basis
+Destiny: Offset
+Determinator: Offset
+Disconnected Disco: Offset. Seems drifty on a note-by-note basis
+Energizer: Offset, BPM
+**Fleadh Uncut: Offset. Possible cut errors.
+Funk Factory: Offset
+Get Happy: Offset
+Go 60 Go: Offset
+Habanera 1: Offset and BPM
+Hardcore Symphony: Offset
+High: Offset, Cut
+Hillbilly Hardcore: Offset
+Hispanic Panic: Offset, Cut
+Holy Guacamole: Offset
+Hustle Beach: BPM and offset
+Incognito: Offset
+Ize Pie: Offset
+July -Euromix-: Offset
+Know Your Enemy: BPM
+Life of a Butterfly: Offset
+**Lipstick Kiss: Offset. Possible cut errors.
+Liquid Moon: Offset and BPM. Minor drifting (~1-2 ms) still present.
+Little Kitty Mine: Offset
+Monolith: Offset and Stop
+**Music Pleeze: Offset, Cut. Drifting issues possibly still present.
+My Life is so Crazy: Offset
+No Princess: Offset
+One False Move: Offset, Cut
+Out of the Dark: Offset
+Pick Me Up & Tango: Offset
+Psalm Pilot: Offset
+Reactor: Offset
+Renaissance: Offset and Stop
+Ride the Bass: Offset
+Robotix: Offset, BPM, Cut, Steps
+Soapy Bubble: Offset and Cut
+Spaceman: Offset
+Spacy Crazy Girl: Offset
+Spin Chicken: Offset and Cut
+Summer ~Speedy Mix~: Stop and Offset
+**Summer In Belize: Offset and BPM. Still seems to drift back and forth
+Sunshine: Offset, Stop, Cut
+Sweet World: No change needed
+Temple of Boom: Offset, BPM, Cut
+The Message: Offset
+This is Rock & Roll: Offset
+Tribal Style: Offset
+Twilight: Offset
+Typical Tropical: Offset
+VerTex^2: Offset, BPMs, Stops
+Visible Noise: Offset
+Vorsprung Durch: Offset and BPM
+Wake Up: Offset
+Wanna Do: Offset and stop
+We Know What To Do: Offset
+!: Offset

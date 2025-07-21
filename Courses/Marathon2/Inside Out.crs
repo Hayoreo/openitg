@@ -11,7 +11,7 @@ TIME=50.90:END=65.45:MODS=Hallway, 50% Tipsy:
 TIME=65.45:END=79.99:MODS=Dark, 50% Drunk:
 TIME=79.99:END=94.54:MODS=25% Expand, 50% Hidden:
 TIME=94.54:END=103.63:MODS=50% Tipsy:
-#SONG:Visible Noise:Hard:;
+#SONG:In The Groove 2/Visible Noise:Hard:;
 
 
 #MODS:
@@ -27,7 +27,7 @@ TIME=68.74:END=73.93:MODS=Hallway, 30% Drunk, 30% Dizzy:
 TIME=73.93:END=84.31:MODS=-25% Mini, 40% Drunk:
 TIME=84.31:END=94.69:MODS=50% Tipsy:
 TIME=94.69:END=106.37:MODS=50% Dizzy:
-#SONG:Summer ~Speedy Mix~:Hard:;
+#SONG:In The Groove 2/Summer ~Speedy Mix~:Hard:;
 
 
 #MODS:
@@ -39,7 +39,7 @@ TIME=94.69:END=106.37:MODS=50% Dizzy:
   TIME=78.90:END=92.62:MODS=40% Tipsy:
   TIME=93.23:END=119.19:MODS=Hallway, 30% Tipsy:
   TIME=108.91:END=119.19:MODS=Space, 30% Drunk:
-#SONG:Euphoria:Hard:;
+#SONG:In The Groove/Euphoria:Hard:;
 
 
 #MODS:
@@ -51,4 +51,4 @@ TIME=52.36:END=64.00:MODS=60% Wave:
 TIME=69.82:END=81.45:MODS=50% Stealth:
 TIME=81.45:END=93.0:MODS=50% Drunk:
 TIME=104.74:END=120:MODS=50% Wave:
-#SONG:Pandemonium:Hard:;
+#SONG:In The Groove/Pandemonium:Hard:;

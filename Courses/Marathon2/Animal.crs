@@ -11,7 +11,7 @@ TIME=59.33:END=73.24:MODS=50% Beat, Flat:
 TIME=73.24:END=87.16:MODS=50% Bumpy:
 TIME=87.16:END=94.11:MODS=20% Tornado, 20% Tipsy:
 TIME=94.11:END=101.07:MODS=:
-#SONG:Bumble Bee:Hard:;
+#SONG:In The Groove 2/Bumble Bee:Hard:;
 
 
 #MODS:
@@ -23,7 +23,7 @@ TIME=51.18:END=65.29:MODS=Dizzy, 50% Beat:
 TIME=65.29:END=70.59:MODS=Blink, Dark:
 TIME=70.59:END=86.47:MODS=70% Mini, 50% Bumpy:
 TIME=86.47:END=100.58:MODS=90% Mini, Dizzy, Dark:
-#SONG:Birdie:Hard:;
+#SONG:In The Groove 2/Birdie:Hard:;
 
 
 #MODS:
@@ -34,7 +34,7 @@ TIME=50.07:END=65.61:MODS=60% Bumpy:
 TIME=65.61:END=79.42:MODS=90% Hidden:
 TIME=79.42:END=93.24:MODS=90% Bumpy:
 TIME=93.24:END=106.62:MODS=70% Wave, 120% Bumpy, Dark:
-#SONG:Little Kitty Mine:Hard:;
+#SONG:In The Groove 2/Little Kitty Mine:Hard:;
 
 
 #MODS:
@@ -51,4 +51,4 @@ TIME=93.11:END=105.11:MODS=Flat, 80% Wave, 30% Drunk:
 TIME=105.11:END=117.11:MODS=Flat, 80% Brake, 50% Tipsy:
 TIME=117.11:END=117.85:MODS=Stealth:
 TIME=117.85:END=119.72:MODS=Sudden:
-#SONG:Xuxa:Hard:;
+#SONG:In The Groove/Xuxa:Hard:;

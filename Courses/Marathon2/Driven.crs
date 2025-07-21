@@ -38,7 +38,7 @@ TIME=98.5:END=112:MODS=blind:
 TIME=110.5:END=113.5:MODS=stealth, dark:
 TIME=112:END=115:MODS=*30 -10000% mini:
 TIME=81.1:END=83.2:MODS=wide:
-#SONG:Pandemonium:Easy:;
+#SONG:In The Groove/Pandemonium:Easy:;
 
 #MODS:
 TIME=0.1:END=24.5:MODS=boomerang, 60% stealth:
@@ -71,7 +71,7 @@ TIME=92.5:END=95.6:MODS= split:
 TIME=95.6:END=99:MODS= *2 alternate, reverse:
 TIME=99:END=102:MODS= alternate:
 TIME=102:END=120:MODS= *2 split, reverse:
-#SONG:Energizer:Easy:;
+#SONG:In The Groove 2/Energizer:Easy:;
  
 #MODS:
 TIME=10.102:END=10.408:MODS=hidden,*9 -90% hiddenoffset:
@@ -223,7 +223,7 @@ TIME=87.84:END=88.01:MODS=*1000 500% Dizzy:
 TIME=88.01:END=88.06:MODS=*1000 0% dizzy:
 TIME=89.37:END=89.54:MODS=*1000 500% Dizzy:
 TIME=89.54:END=89.59:MODS=*1000 0% dizzy:
-#SONG:Monolith:Medium:;  
+#SONG:In The Groove 2/Monolith:Medium:;  
 
 
 
@@ -257,4 +257,4 @@ TIME=80:END=83.5:MODS=c1900:
 TIME=91.9:END=98.5:MODS=0.25x:
 TIME=98.5:END=103:MODS=*.8 200% incoming,*.2 30% centered, tipsy, drunk, 10% beat:
 TIME=103.8:END=115:MODS=0.01x, 50% flip, dark, stealth,:
-#SONG:One False Move:easy:;
+#SONG:In The Groove 2/One False Move:easy:;

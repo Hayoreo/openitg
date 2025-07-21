@@ -11,7 +11,7 @@
   TIME=69.60:END=83.51:MODS=30% Beat, Distant: 
   TIME=83.51:END=97.42:MODS=30% Beat, Hallway:  
   TIME=97.42:END=104.38:MODS=30% Beat, 30% Mini, 50% Flat: 
-#SONG:Ride The Bass:Hard:;
+#SONG:In The Groove 2/Ride The Bass:Hard:;
 
 #MODS:
   TIME=07.72:END=23.20:MODS=30% Beat:
@@ -20,7 +20,7 @@
   TIME=55.14:END=70.62:MODS=Dark, 30% Beat, 40% Bumpy:
   TIME=74.49:END=89.98:MODS=50% Expand, 30% Beat:
   TIME=89.98:END=105.46:MODS=Distant, Wave:
-#SONG:Music Pleeze:Hard:;
+#SONG:In The Groove 2/Music Pleeze:Hard:;
 
 #MODS: 
   TIME=0.1:END=7.10:MODS=1x: 
@@ -31,7 +31,7 @@
   TIME=57.73:END=86.60:MODS=3x, 70% Brake: 
   TIME=86.60:END=106.35:MODS=50% Beat, 60% Boost: 
   TIME=106.35:END=150.60:MODS=60% Boost: 
-#SONG:Get Happy:Hard:; 
+#SONG:In The Groove 2/Get Happy:Hard:; 
 
 #MODS:
   TIME=00.00:END=109.74:MODS=Reverse, 40% Beat: 
@@ -44,4 +44,4 @@
   TIME=68.60:END=82.31:MODS=50% Expand, Bumpy: 
   TIME=82.31:END=96.03:MODS=80% Brake, 30% Hidden: 
   TIME=96.03:END=109.74:MODS=125% Wave, Dark, Bumpy: 
-#SONG:This is Rock & Roll:Hard:;
+#SONG:In The Groove 2/This is Rock & Roll:Hard:;

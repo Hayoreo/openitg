@@ -31,7 +31,7 @@
   #MODS: 
    TIME=5.22:END=17.39:MODS=Reverse:
    TIME=6.95:END=17.39:MODS=110% Beat:
-   TIME=20.87:END=48.26:MODS=27% Boomerang, Sudden:
+   TIME=20.87:END=48.26:MODS=Boomerang, Sudden:
    TIME=48.70:END=62.61:MODS=Wave:
    TIME=62.61:END=63.48:MODS=0.25x:
    TIME=64.35:END=93.48:MODS=150% Boost, 80% Brake:

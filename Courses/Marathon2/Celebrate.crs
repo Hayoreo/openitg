@@ -11,7 +11,7 @@
   TIME=56.27:END=69.51:MODS=Vivid, 50% Drunk, 50% Tipsy:
   TIME=69.51:END=82.75:MODS=Dizzy, 35% Drunk:
   TIME=82.75:END=109.24:MODS=40% Bumpy, 40% Drunk, 50% Wave, 20% Dizzy:
-#SONG:July -Euromix-:Hard:;
+#SONG:In The Groove 2/July -Euromix-:Hard:;
 
 #MODS:
   TIME=13.76:END=27.48:MODS=Hallway, 20% Tipsy, 50% Drunk:
@@ -22,7 +22,7 @@
   TIME=78.90:END=92.62:MODS=Sudden, 30% Beat:
   TIME=93.23:END=119.19:MODS=*.02 30% Flip, *.08 -90% Mini, 25% Bumpy, 20% Dizzy:
   TIME=108.91:END=119.19:MODS=Hidden, Dark:
-#SONG:Euphoria:Medium:;
+#SONG:In The Groove/Euphoria:Medium:;
 
 #MODS:
   TIME=05.62:END=11.26:MODS=Wave:
@@ -34,7 +34,7 @@
   TIME=72.64:END=83.75:MODS=30% Boost, 25% Drunk:
   TIME=83.75:END=95.94:MODS=25% Stealth, 70% Hallway, 30% Bumpy:
   TIME=95.94:END=101.95:MODS=25% Stealth, 40% Expand, 70% Distant:
-#SONG:Sunshine:Hard:;
+#SONG:In The Groove 2/Sunshine:Hard:;
 
 #MODS:
   TIME=0:END=105.02:MODS=Reverse, Drunk:
@@ -47,4 +47,4 @@
   TIME=69.51:END=83.62:MODS=70% Mini, Dark, Tipsy:
   TIME=83.62:END=105.02:MODS=25% Mini, 50% Beat, Distant, 25% Bumpy:
   TIME=97.74:END=105.02:MODS=Distant, Dark:
-#SONG:Hillbilly Hardcore:Hard:;
+#SONG:In The Groove 2/Hillbilly Hardcore:Hard:;

@@ -10,7 +10,7 @@
   TIME=63.64:END=77.76:MODS=Distant, 50% Beat:
   TIME=77.76:END=91.87:MODS=Hallway, 50% Bumpy:
   TIME=91.87:END=107.31:MODS=50% Expand:
-#SONG:Out Of The Dark:Hard:;
+#SONG:In The Groove 2/Out Of The Dark:Hard:;
 
 #MODS:
   TIME=00.00:END=104.11:MODS=Dark:
@@ -20,7 +20,7 @@
   TIME=57.23:END=74.11:MODS=75% Boost, Dizzy:
   TIME=74.11:END=88.22:MODS=Sudden, 70% Tipsy:
   TIME=88.22:END=104.11:MODS=20% Flip, 50% Drunk:
-#SONG:Life of a Butterfly:Hard:;
+#SONG:In The Groove 2/Life of a Butterfly:Hard:;
 
 #MODS:
   TIME=00.00:END=107.82:MODS=Reverse:
@@ -31,7 +31,7 @@
   TIME=68.38:END=96.07:MODS=50% Brake, -60% Mini:
   TIME=82.64:END=96.07:MODS=Hallway, 20% Sudden, 15% Flip:
   TIME=96.07:END=107.82:MODS=Hidden:
-#SONG:Amore:Hard:;
+#SONG:In The Groove 2/Amore:Hard:;
 
 #MODS:
   TIME=00.00:END=110.74:MODS=Dark:
@@ -45,4 +45,4 @@
   TIME=76.80:END=87.70:MODS=40% Mini, 15% Flip:
   TIME=87.77:END=109.68:MODS=Distant, 25% Bumpy, 70% Wave, 25% Drunk:
   TIME=98.74:END=109.68:MODS=10% Tornado, 25% Tipsy, 50% Beat, 20% Stealth:
-#SONG:Destiny:Hard:;
+#SONG:In The Groove 2/Destiny:Hard:;

@@ -12,7 +12,7 @@ TIME=62.96:END=76.58:MODS=50% Sudden, 50% Brake:
 TIME=78.29:END=105.52:MODS=80% Expand, 40% Dizzy:
 TIME=91.90:END=105.52:MODS=50% Tipsy:
 
-#SONG:Soapy Bubble:Hard:;
+#SONG:In The Groove 2/Soapy Bubble:Hard:;
 
 
 #MODS:
@@ -24,7 +24,7 @@ TIME=63.99:END=95.99:MODS=70% Drunk:
 TIME=76.79:END=95.99:MODS=50% Dizzy:
 TIME=95.99:END=102.39:MODS=25% Tipsy, 25% Drunk, 25% Dizzy:
 
-#SONG:Incognito:Hard:; 
+#SONG:In The Groove 2/Incognito:Hard:; 
 
 
 #MODS:
@@ -37,7 +37,7 @@ TIME=68.54:END=81.60:MODS=150% Wave:
 TIME=81.60:END=94.66:MODS=40% Boost, 20% Drunk:
 TIME=94.66:END=106.70:MODS=60% Wave, 50% Sudden:
 
-#SONG:Determinator:Hard:;
+#SONG:In The Groove 2/Determinator:Hard:;
 
 
 #MODS:
@@ -51,4 +51,4 @@ TIME=72.69:END=82.29:MODS=50% Wave, 50% Brake, 20% Tornado, 20% Dizzy:
 TIME=83.65:END=105.59:MODS=20% Tornado, 50% Brake:
 TIME=94.62:END=105.59:MODS=50% Sudden, 50% Dizzy:
 
-#SONG:Clockwork Genesis:Hard:;
+#SONG:In The Groove 2/Clockwork Genesis:Hard:;

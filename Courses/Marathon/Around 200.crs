@@ -12,7 +12,7 @@
   TIME=96.00:END=105.08:MODS=80% Hidden:
   TIME=106.38:END=114.96:MODS=Space:
 
-#SONG:Hybrid:MEDIUM:;
+#SONG:In The Groove/Hybrid:MEDIUM:;
 
 #MODS:
   TIME=0.01:END=13.29:MODS=40% Dizzy:
@@ -24,7 +24,7 @@
   TIME=90.99:END=100.59:MODS=40% Dizzy, 40% Brake:
   TIME=101.79:END=108.99:MODS=Boost:
 
-#SONG:No 1 Nation:Hard:;
+#SONG:In The Groove/No 1 Nation:Hard:;
 
 #MODS:
   TIME=0.01:END=14.42:MODS=50% Drunk:
@@ -46,7 +46,7 @@
   TIME=88.53:END=108.01:MODS=30% Drunk, Wave:
   TIME=108.01:END=120.01:MODS=Boost:
 
-#SONG:Disconnected:Hard:;
+#SONG:In The Groove/Disconnected:Hard:;
 
 #MODS:
   TIME=0.01:END=11.35:MODS=40% Wave:
@@ -66,4 +66,4 @@
   TIME=111.16:END=121.14:MODS=40% Drunk, 20% Tipsy, 40% Wave:
   TIME=123.01:END=127.38:MODS=225% Brake:
 
-#SONG:Remember December:Hard:;
+#SONG:In The Groove/Remember December:Hard:;

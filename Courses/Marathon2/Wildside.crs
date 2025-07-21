@@ -15,7 +15,7 @@ TIME=85.44:END=98.58:MODS=30% Expand, 30% Boost, 50% Drunk, 50% Tipsy:
 TIME=98.58:END=105.16:MODS=35% Tornado:
 
 
-#SONG:Temple of Boom:Hard:;
+#SONG:In The Groove 2/Temple of Boom:Hard:;
 
 
 #MODS:
@@ -28,7 +28,7 @@ TIME=84.84:END=91.70:MODS=50% Dizzy, 70% Tipsy, 70% Drunk:
 TIME=91.70:END=104.99:MODS=50% Dizzy, 70% Tipsy, 70% Drunk, 50% Wave:
 
 
-#SONG:Holy Guacamole:Hard:;
+#SONG:In The Groove 2/Holy Guacamole:Hard:;
 
 
 #MODS:
@@ -40,7 +40,7 @@ TIME=54.85:END=68.56:MODS=50% Boost, 50% Expand, 50% Drunk, 50% Tipsy:
 TIME=68.56:END=82.28:MODS=Dark, 50% Boost, 30% Dizzy, 50% Sudden, 50% Hidden, 20% Drunk, 20% Tipsy:
 TIME=82.28:END=109.70:MODS=50% Boost, 60% Hidden, 50% Expand, Wave:
 
-#SONG:Tribal Style:Hard:;
+#SONG:In The Groove 2/Tribal Style:Hard:;
 
 
 #MODS:
@@ -55,4 +55,4 @@ TIME=80.80:END=100.40:MODS=40% Beat, 20% Tornado, Wave, Sudden:
 TIME=100.40:END=108.05:MODS=20% Beat, 50% Dizzy, 50% Drunk, Hidden, Wave:
 TIME=105.29:END=108.05:MODS=50% Beat:
 
-#SONG:Monolith:Hard:;
+#SONG:In The Groove 2/Monolith:Hard:;

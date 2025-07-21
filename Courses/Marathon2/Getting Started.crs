@@ -7,7 +7,7 @@
   TIME=14.33:END=28.66:MODS=20% Beat:
   TIME=42.99:END=57.31:MODS=20% Beat:
   TIME=71.64:END=85.97:MODS=30% Boost: 
-#SONG:Baby Baby:Easy:;
+#SONG:In The Groove 2/Baby Baby:Easy:;
 
 #MODS:
   TIME=00.00:END=99.85:MODS=Little, NoHolds, NoMines:
@@ -15,7 +15,7 @@
   TIME=43.81:END=57.52:MODS=40% Wave:
   TIME=71.24:END=84.95:MODS=40% Mini:
   TIME=98.67:END=105.52:MODS=40% Beat:
-#SONG:My Life is so Crazy:Easy:; 
+#SONG:In The Groove 2/My Life is so Crazy:Easy:; 
 
 #MODS:
   TIME=00.00:END=99.85:MODS=NoJumps, NoMines:
@@ -24,7 +24,7 @@
   TIME=58.65:END=66.32:MODS=2x:
   TIME=73.98:END=88.42:MODS=25% Stealth:
   TIME=88.42:END=102.41:MODS=40% Mini:
-#SONG:The Message:Medium:;
+#SONG:In The Groove 2/The Message:Medium:;
 
 #MODS:
   TIME=00.00:END=99.85:MODS=NoMines:
@@ -33,4 +33,4 @@
   TIME=58.65:END=72.88:MODS=50% Distant:
   TIME=72.88:END=81.76:MODS=40% Mini:
   TIME=81.76:END=95.99:MODS=40% Wave:
-#SONG:Baby Don't You Want Me:Medium:; 
+#SONG:In The Groove 2/Baby Don't You Want Me:Medium:; 

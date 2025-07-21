@@ -12,7 +12,7 @@ TIME=90.34:END=113.70:MODS=40% beat:
 TIME=103.77:END=113.30:MODS=110% Wave:
 
 
-#SONG:Drifting Away:Easy:;
+#SONG:In The Groove/Drifting Away:Easy:;
 
 	#MODS:
 
@@ -27,7 +27,7 @@ TIME=104.5:END=118.30:MODS=40% beat:
 TIME=118.00:END=127:MODS=Reverse:
 
 
-#SONG:Charlene:Medium:; 
+#SONG:In The Groove/Charlene:Medium:; 
 
 	#MODS:
 
@@ -43,7 +43,7 @@ TIME=90.7:END=100.8:MODS=Tipsy:
 TIME=101.1:END=120:MODS=Beat:
 TIME=118.66:END=123:MODS=Drunk:
 
-#SONG:ROM-eo & Juli8:Medium:;
+#SONG:In The Groove/ROM-eo & Juli8:Medium:;
 
 	#MODS:
 
@@ -59,6 +59,6 @@ TIME=95.65:END=127.16:MODS=Blink:
 TIME=109.2:END=127.16:MODS=70% Bumpy:
 TIME=119.99:END=127.16:MODS=Tipsy:
 
-#SONG:Touch Me:Hard:2x;
+#SONG:In The Groove/Touch Me:Hard:2x;
 
 

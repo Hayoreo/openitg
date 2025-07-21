@@ -17,7 +17,7 @@
   TIME=79.19:END=91.86:MODS=30% Beat, 50% Drunk, 30% Wave, 30% Tipsy:
   TIME=91.86:END=104.53:MODS=30% Beat, 50% Drunk, 30% Wave, 30% Tipsy, 50% Sudden:
   TIME=104.53:END=108.88:MODS=Tornado, *2 -500% Mini:
-#SONG:Energizer:Hard:;
+#SONG:In The Groove 2/Energizer:Hard:;
 
 #MODS:
   TIME=00.00:END=103.86:MODS=Dark, Blind:
@@ -30,7 +30,7 @@
   TIME=53.17:END=66.84:MODS=50% Wave, 50% Bumpy, Hallway, *10 Reverse:
   TIME=66.84:END=78.99:MODS=2x, 50% Wave, 50% Bumpy, Hallway, Reverse, 5% Flip, -75% Mini:
   TIME=78.99:END=103.86:MODS=50% Wave, 40% Beat, 75% Bumpy, 25% Brake, Reverse:
-#SONG:Bloodrush:Hard:;
+#SONG:In The Groove 2/Bloodrush:Hard:;
 
 #MODS:
   TIME=00.00:END=112.86:MODS=Dark, Blind:
@@ -43,7 +43,7 @@
   TIME=82.82:END=98.32:MODS=Bumpy, 50% Tipsy, 50% Drunk:
   TIME=98.32:END=107.62:MODS=50% Tipsy, 40% Beat, 40% Bumpy, 30% Drunk:
   TIME=107.62:END=112.86:MODS=50% Expand, 50% Tipsy, 50% Drunk, 50% Bumpy:
-#SONG:!:Hard:;
+#SONG:In The Groove 2/!:Hard:;
 
 #MODS:
   TIME=00.00:END=114.00:MODS=Dark, Blind, Mirror:
@@ -66,4 +66,4 @@
   TIME=109.95:END=111.03:MODS=*5 -500% Mini:
   TIME=111.03:END=120.00:MODS=*10 150% Mini:
 
-#SONG:Vertex^2:Hard:;
+#SONG:In The Groove 2/Vertex^2:Hard:;

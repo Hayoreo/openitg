@@ -8,7 +8,7 @@
   TIME=38.18:END=67.27:MODS=30% Beat:
   TIME=67.27:END=83.64:MODS=50% Expand:
   TIME=83.64:END=105.45:MODS=30% Beat, Flat:
-#SONG:Sweet World:Medium:;
+#SONG:In The Groove 2/Sweet World:Medium:;
 
 #MODS:
   TIME=00.00:END=99.85:MODS=Space:
@@ -19,7 +19,7 @@
   TIME=70.07:END=84.09:MODS=50% Stealth:
   TIME=84.09:END=91.09:MODS=Planted:
   TIME=91.09:END=99.85:MODS=Flat:
-#SONG:Spaceman:Hard:;
+#SONG:In The Groove 2/Spaceman:Hard:;
 
 #MODS:
   TIME=00.00:END=103.09:MODS=Hallway, Dark:
@@ -32,7 +32,7 @@
   TIME=72.86:END=79.97:MODS=40% Tipsy:
   TIME=79.97:END=87.09:MODS=Mini, 30% Beat, 50% Boost:
   TIME=87.09:END=103.09:MODS=Dizzy, 30% Drunk, 30% Tipsy, 40% Mini:
-#SONG:Spacy Crazy Girl:Hard:;
+#SONG:In The Groove 2/Spacy Crazy Girl:Hard:;
 
 #MODS:
   TIME=00.00:END=112.14:MODS=20% Beat, Distant, Dark, Blind:
@@ -43,4 +43,4 @@
   TIME=67.28:END=76.26:MODS=50% Expand, 50% Stealth:
   TIME=76.26:END=94.20:MODS=20% Drunk, 20% Tipsy, Blink:
   TIME=94.20:END=112.14:MODS=50% Wave, 20% Drunk, 20% Dizzy:
-#SONG:Zodiac:Hard:;
+#SONG:In The Groove/Zodiac:Hard:;

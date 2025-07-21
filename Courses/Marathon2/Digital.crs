@@ -12,7 +12,7 @@
   TIME=60.21:END=75.04:MODS=Hidden, 30% Beat:
   TIME=75.04:END=89.01:MODS=Blink:
   TIME=89.01:END=104.72:MODS=Wave, Dizzy:
-#SONG:High:Hard:;
+#SONG:In The Groove 2/High:Hard:;
 
 #MODS:
   TIME=00.00:END=104.57:MODS=Reverse, 40% Dizzy:
@@ -23,7 +23,7 @@
   TIME=63.43:END=77.14:MODS=Dark, 35% Tipsy:
   TIME=77.14:END=90.86:MODS=70% Mini, 80% Drunk, 20% Bumpy:
   TIME=90.86:END=104.57:MODS=-50% Mini, 10% Flip, 50% Brake, Hallway:
-#SONG:We Know What To Do:Hard:;
+#SONG:In The Groove 2/We Know What To Do:Hard:;
 
 #MODS:
   TIME=00.00:END=103.38:MODS=50% Boost, Dark, 30% Beat:
@@ -34,7 +34,7 @@
   TIME=66.46:END=81.23:MODS=10% Flip, 10% Drunk:
   TIME=81.23:END=95.99:MODS=50% Mini, 50% Drunk, 10% Tipsy, 10% Bumpy:
   TIME=95.99:END=103.38:MODS=20% Tornado, 30% Beat, 50% Bumpy:
-#SONG:Know Your Enemy:Hard:;
+#SONG:In The Groove 2/Know Your Enemy:Hard:;
 
 #MODS:
   TIME=00.00:END=111.19:MODS=5% Flip, Reverse, Dark:
@@ -48,4 +48,4 @@
   TIME=71.60:END=83.60:MODS=40% Expand, 30% Tipsy, 30% Drunk:
   TIME=83.60:END=96.40:MODS=80% Mini, 50% Wave, 15% Tornado:
   TIME=96.40:END=111.19:MODS=50% Dizzy, 50% Bumpy, 50% Brake:
-#SONG:Robotix:Hard:;
+#SONG:In The Groove 2/Robotix:Hard:;

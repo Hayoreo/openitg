@@ -13,7 +13,7 @@ TIME=49.53:END=65.30:MODS=80% Expand:
 TIME=65.30:END=79.31:MODS=70% Tipsy:
 TIME=79.31:END=93.33:MODS=40% Tornado:
 TIME=93.33:END=99.90:MODS=20% Wave:
-#SONG:Typical Tropical:Hard:;
+#SONG:In The Groove 2/Typical Tropical:Hard:;
 
 
 #MODS:
@@ -25,7 +25,7 @@ TIME=52.50:END=67.50:MODS=80% Brake:
 TIME=67.50:END=70.00:MODS=50% Blink:
 TIME=75.00:END=90.01:MODS=50% Mini, Flat:
 TIME=90.01:END=105.01:MODS=Mini, Dark, Incoming:
-#SONG:Hustle Beach:Hard:;
+#SONG:In The Groove 2/Hustle Beach:Hard:;
 
 
 #MODS:
@@ -41,7 +41,7 @@ TIME=72.64:END=83.75:MODS=35% Tornado:
 TIME=83.75:END=95.94:MODS=Brake:
 TIME=95.94:END=107.23:MODS=Flat, Dizzy:
 TIME=107.23:END=113.22:MODS=Expand:
-#SONG:Sunshine:Hard:;
+#SONG:In The Groove 2/Sunshine:Hard:;
 
 
 #MODS:
@@ -58,4 +58,4 @@ TIME=68.74:END=73.93:MODS=50% Boost:
 TIME=73.93:END=84.31:MODS=Sudden:
 TIME=84.31:END=94.69:MODS=Flat, Expand:
 TIME=94.69:END=106.37:MODS=80% Beat:
-#SONG:Summer ~Speedy Mix~:Hard:;
+#SONG:In The Groove 2/Summer ~Speedy Mix~:Hard:;

@@ -33,7 +33,7 @@
   TIME=88.28:END=93.79:MODS=*0.18 0% Centered, *0.07 0% Flip, *0.2 0% mini:
   TIME=93.79:END=100.34:MODS=*1000 1000% Dizzy:
   TIME=99.31:END=100.34:MODS=*200 300% Bumpy, Beat:
-#SONG:Hardcore Symphony:Hard:;
+#SONG:In The Groove 2/Hardcore Symphony:Hard:;
 
 #MODS: 
   TIME=0:END=29.52:MODS=Wave:
@@ -52,7 +52,7 @@
   TIME=94.13:END=95.85:MODS=*10 40% Mini: 
   TIME=95.85:END=103.86:MODS=40% Distant, 80% Drunk: 
   TIME=101.52:END=103.86:MODS=*10 40% Mini: 
-#SONG:Psalm Pilot:Hard:;
+#SONG:In The Groove 2/Psalm Pilot:Hard:;
 
 #MODS:
   TIME=00.00:END=103.89:MODS=Dark:
@@ -152,7 +152,7 @@
   TIME=100.89:END=101.49:MODS=*20 0% Flip:
   TIME=100.89:END=101.49:MODS=0.1x, *10000 10000% Dizzy:
   TIME=101.49:END=103.89:MODS=0.01x:
-#SONG:Vorsprung Durch Techno:Hard:
+#SONG:In The Groove 2/Vorsprung Durch Techno:Hard:
 
 #MODS: 
   TIME=0:END=13.39:MODS=50% Brake, 50% Wave: 
@@ -189,4 +189,4 @@
   TIME=95.98:END=99.47:MODS=50% Beat, 10% Flip, 60% Tipsy, -25% Mini: 
   TIME=99.47:END=102.96:MODS=75% Beat, 15% Flip, 90% Tipsy, -50% Mini: 
   TIME=102.96:END=106.24:MODS=Beat, 20% Flip, 120% Tipsy, -75% Mini: 
-#SONG:Summer In Belize:Hard:;
+#SONG:In The Groove 2/Summer In Belize:Hard:;

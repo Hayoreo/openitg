@@ -14,7 +14,7 @@
   TIME=92.12:END=102.02:MODS=50% Beat, 30% Boost, 30% Sudden:
   TIME=102.02:END=111.92:MODS=50% Beat, 50% Wave, 50% Drunk:
   TIME=111.92:END=123.06:MODS=50% Beat, 30% Expand, Bumpy:
-#SONG:Hip Hop Jam:Medium:;
+#SONG:In The Groove/Hip Hop Jam:Medium:;
 
 #MODS:
   TIME=14.99:END=29.42:MODS=30% Tornado:
@@ -23,7 +23,7 @@
   TIME=61.00:END=75.44:MODS=70% Hidden, Beat:
   TIME=77.24:END=107.02:MODS=20% Flip, 20% Tornado:
   TIME=90.78:END=107.02:MODS=20% Drunk, 20% Tipsy:
-#SONG:Pick Me Up & Tango:Hard:;
+#SONG:In The Groove 2/Pick Me Up & Tango:Hard:;
 
 #MODS:
   TIME=06.86:END=25.73:MODS=Bumpy, Beat:
@@ -33,7 +33,7 @@
   TIME=60.03:END=73.76:MODS=Wave:
   TIME=73.76:END=87.48:MODS=70% Bumpy, 70% Beat, 50% Tipsy:
   TIME=87.48:END=102.70:MODS=15% Tornado, 15% Flip, 20% Beat:
-#SONG:Hispanic Panic:Hard:;
+#SONG:In The Groove 2/Hispanic Panic:Hard:;
 
 #MODS:
   TIME=00.00:END=101.34:MODS=Reverse:
@@ -44,4 +44,4 @@
   TIME=58.15:END=72.70:MODS=Bumpy, 20% Mini, 20% Wave, 10% Tornado:
   TIME=72.70:END=85.43:MODS=Boomerang, Sudden:
   TIME=87.24:END=101.34:MODS=30% Expand, Beat, Sudden, Dark:
-#SONG:Fleadh Uncut:Hard:;
+#SONG:In The Groove 2/Fleadh Uncut:Hard:;

@@ -10,7 +10,7 @@
   TIME=62.77:END=77.54:MODS=Hallway, Wave: 
   TIME=77.54:END=107.08:MODS=Sudden: 
   TIME=92.31:END=107.08:MODS=50% Beat, Dark: 
-#SONG:Funk Factory:Hard:;
+#SONG:In The Groove 2/Funk Factory:Hard:;
  
 #MODS: 
   TIME=0.1:END=17.77:MODS=incoming, 5% Alternate: 
@@ -20,7 +20,7 @@
   TIME=65.18:END=88.88:MODS=incoming: 
   TIME=88.88:END=95.10:MODS=space: 
   TIME=95.10:END=150.10:MODS=incoming: 
-#SONG:Agent Blatant:Hard:;  
+#SONG:In The Groove 2/Agent Blatant:Hard:;  
  
 #MODS: 
   TIME=03.57:END=17.79:MODS=50% Beat: 
@@ -30,7 +30,7 @@
   TIME=60.44:END=74.66:MODS=70% Brake: 
   TIME=74.66:END=88.88:MODS=3x, 40% Beat: 
   TIME=88.88:END=103.10:MODS=Flat, 50% beat: 
-#SONG:Wake Up:Hard:; 
+#SONG:In The Groove 2/Wake Up:Hard:; 
 
 #MODS: 
   TIME=09.08:END=30.89:MODS=50% Beat:
@@ -44,4 +44,4 @@
   TIME=78.17:END=90.89:MODS=Brake:
   TIME=92.71:END=108.17:MODS=Hallway, 75% Beat, Dark:
   TIME=99.99:END=108.17:MODS=70% Bumpy:
-#SONG:Spin Chicken:Expert:;
+#SONG:In The Groove 2/Spin Chicken:Expert:;
