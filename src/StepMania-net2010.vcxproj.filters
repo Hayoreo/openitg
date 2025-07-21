@@ -420,13 +420,7 @@
     <ClCompile Include="NotesLoader.cpp">
       <Filter>Data Structures</Filter>
     </ClCompile>
-    <ClCompile Include="NotesLoaderBMS.cpp">
-      <Filter>Data Structures</Filter>
-    </ClCompile>
     <ClCompile Include="NotesLoaderDWI.cpp">
-      <Filter>Data Structures</Filter>
-    </ClCompile>
-    <ClCompile Include="NotesLoaderKSF.cpp">
       <Filter>Data Structures</Filter>
     </ClCompile>
     <ClCompile Include="NotesLoaderSM.cpp">
@@ -1805,13 +1799,7 @@
     <ClInclude Include="NotesLoader.h">
       <Filter>Data Structures</Filter>
     </ClInclude>
-    <ClInclude Include="NotesLoaderBMS.h">
-      <Filter>Data Structures</Filter>
-    </ClInclude>
     <ClInclude Include="NotesLoaderDWI.h">
-      <Filter>Data Structures</Filter>
-    </ClInclude>
-    <ClInclude Include="NotesLoaderKSF.h">
       <Filter>Data Structures</Filter>
     </ClInclude>
     <ClInclude Include="NotesLoaderSM.h">

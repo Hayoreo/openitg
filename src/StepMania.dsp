@@ -932,27 +932,11 @@ SOURCE=.\NotesLoader.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\NotesLoaderBMS.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\NotesLoaderBMS.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\NotesLoaderDWI.cpp
 # End Source File
 # Begin Source File
 
 SOURCE=.\NotesLoaderDWI.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\NotesLoaderKSF.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\NotesLoaderKSF.h
 # End Source File
 # Begin Source File
 

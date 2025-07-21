@@ -111,7 +111,7 @@ LightsMapper.cpp LightsMapper.h LuaFunctions.h LuaReference.cpp LuaReference.h \
 LyricsLoader.cpp LyricsLoader.h MenuInput.h \
 NoteData.cpp NoteData.h NoteDataUtil.cpp NoteDataUtil.h NoteDataWithScoring.cpp NoteDataWithScoring.h \
 NoteFieldPositioning.cpp NoteFieldPositioning.h NoteTypes.cpp NoteTypes.h NotesLoader.cpp NotesLoader.h \
-NotesLoaderBMS.cpp NotesLoaderBMS.h NotesLoaderDWI.cpp NotesLoaderDWI.h NotesLoaderKSF.cpp NotesLoaderKSF.h \
+NotesLoaderDWI.cpp NotesLoaderDWI.h \
 NotesLoaderSM.cpp NotesLoaderSM.h NotesWriterDWI.cpp NotesWriterDWI.h NotesWriterSM.cpp NotesWriterSM.h \
 OptionRowHandler.cpp OptionRowHandler.h \
 PlayerAI.cpp PlayerAI.h PlayerNumber.cpp PlayerNumber.h PlayerOptions.cpp PlayerOptions.h \

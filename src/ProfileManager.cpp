@@ -609,14 +609,6 @@ void ProfileManager::AddStepsScore( const Song* pSong, const Steps* pSteps, Play
 			switch (st)
 			{
 				case STEPS_TYPE_DANCE_DOUBLE:
-				case STEPS_TYPE_PUMP_HALFDOUBLE:
-				case STEPS_TYPE_PUMP_DOUBLE:
-				case STEPS_TYPE_EZ2_DOUBLE:
-				case STEPS_TYPE_BM_DOUBLE5:
-				case STEPS_TYPE_BM_DOUBLE7:
-				case STEPS_TYPE_MANIAX_DOUBLE:
-				case STEPS_TYPE_TECHNO_DOUBLE4:
-				case STEPS_TYPE_TECHNO_DOUBLE5:
 					sStepType="1";
 					break;
 				default:

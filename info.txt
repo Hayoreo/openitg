@@ -1,6 +1,6 @@
 OpenITG PC unknown version
 Compiled unknown date (build unknown revision)
-Log starting 2025-07-20 19:09:47
+Log starting 2025-07-20 20:58:18
 VFS: No patch data found
 ======= MOUNTPOINTS =========
 mountpoints .....  ..... /
@@ -20,34 +20,108 @@ Drive: "WDC     WDS200T2B0A-00SM4150" Driver: storahci DMA: N/A
 Drive: "NVMe    WD_BLACK SN850X 61WD" Driver: stornvme DMA: N/A
 Sound device 0: Speakers (High Definition Audio, 0.0, MID 1, PID 65535 
 WARNING: GetVersionTokenFromBuildInfo(): couldn't parse version string "unknown version"
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-solo' encountered.  Assuming this is 'dance-single'.
 DirectSound Driver: Primary Sound Driver
 DirectSound Driver: Speakers (High Definition Audio Device) {0.0.0.00000000}.{9922116c-8907-4d34-8f83-5b8ecd4bbf1d}
 DirectSound sample rates: 100..200000 (continuous)
 Sound driver: DirectSound-sw
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
+WARNING: Invalid StepsType string 'dance-couple' encountered.  Assuming this is 'dance-single'.
 Loading courses.
 WARNING: Public and/or Private keys missing. Profile data cannot be signed.
 WARNING: GetSerialNumber(): failed to acquire port.
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Hardcore Symphony"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Amore"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Temple of Boom"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/VerTex^2"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Monolith"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Cryosleep"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Wanna Do"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Robotix"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Know Your Enemy"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/!"
-WARNING: Unlock: Cannot find song matching "In The Groove/Why Me"
-WARNING: Unlock: Cannot find song matching "In The Groove 2/Disconnected Disco"
 Video renderers: 'd3d,opengl'
-Windowed 1024x768 16 color 16 texture 0Hz Vsync AA
+Fullscreen 2560x1440 32 color 32 texture 0Hz Vsync AA
 Found 1 DirectInput devices:
    0: 'Keyboard' axes: 0, hats: 0, buttons: 256 (buffered)
-WARNING: Unknown input handler name: x11
+Checking P3IO cabinet type...
+P3IO Cabinet Type set to SD.
+WARNING: USBDriver::OpenInternal(0x0000, 0x5731): device does not exist
+WARNING: 
+WARNING: USBDriver::OpenInternal(0x1ccf, 0x8008): device does not exist
+WARNING: 
+WARNING: InputHandler_P3IO: could not establish a connection with the I/O device.
 WARNING: Theme element 'Fonts/ScreenDebugOverlay title' could not be found in 'Themes/home/' or 'Themes/default/'.
 WARNING: Theme element 'Fonts/ScreenDebugOverlay line' could not be found in 'Themes/home/' or 'Themes/default/'.
 WARNING: GetVersionTokenFromBuildInfo(): couldn't parse version string "unknown version"
-Mixing 4096.000000 ahead in 195 Mix() calls
+WARNING: Background missing: jb_120.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01452N.mpg
+WARNING: Background missing: EV01447N.mpg
+WARNING: Background missing: EV01440N.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: 738_JumpBack.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: 736_JumpBack.mpg
+WARNING: Background missing: VOL1-40-NTSC.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: vol4-09-ntsc.mpg
+WARNING: Background missing: EV01440N.mpg
+Couldn't load driver FFMpeg: Error opening "/RandomMovies/vol4-06-ntsc.mpg": No such file or directory
+WARNING: Unknown movie driver name: DShow
+Couldn't load driver FFMpeg: Error opening "/RandomMovies/vol4-24-ntsc.mpg": No such file or directory
+WARNING: Unknown movie driver name: DShow
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: EV01452N.mpg
+WARNING: Background missing: 738_JumpBack.mpg
+WARNING: Background missing: EV01440N.mpg
+WARNING: Background missing: EV01447N.mpg
+WARNING: Background missing: vol4-09-ntsc.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: jb_120.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01452N.mpg
+WARNING: Background missing: EV01447N.mpg
+WARNING: Background missing: EV01440N.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: 738_JumpBack.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: 736_JumpBack.mpg
+WARNING: Background missing: VOL1-40-NTSC.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: vol4-09-ntsc.mpg
+WARNING: Background missing: EV01440N.mpg
+Couldn't load driver FFMpeg: Error opening "/RandomMovies/vol4-06-ntsc.mpg": No such file or directory
+WARNING: Unknown movie driver name: DShow
+Couldn't load driver FFMpeg: Error opening "/RandomMovies/vol4-24-ntsc.mpg": No such file or directory
+WARNING: Unknown movie driver name: DShow
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: 728_JumpBack.mpg
+WARNING: Background missing: EV01438N.mpg
+WARNING: Background missing: EV01452N.mpg
+WARNING: Background missing: 738_JumpBack.mpg
+WARNING: Background missing: EV01440N.mpg
+WARNING: Background missing: EV01447N.mpg
+WARNING: Background missing: vol4-09-ntsc.mpg
+WARNING: Background missing: EV01442N.mpg
+WARNING: Background missing: EV01446N.mpg
+WARNING: Background missing: EV01442N.mpg
+Mixing 4096.000000 ahead in 3144 Mix() calls
 Players joined: P1
 Lost focus to: (NULL)
 Language: english

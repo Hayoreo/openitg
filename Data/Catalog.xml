@@ -4,254 +4,1255 @@
 <Catalog>
 <Courses>
 <Course Path='/Courses/Marathon/A Good Start.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>A Good Start</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>33</Holds>
+<Jumps>67</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1118</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>15</Holds>
+<Jumps>85</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>1533</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Around 200.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Around 200</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>60</Holds>
+<Jumps>284</Jumps>
+<Mines>11</Mines>
+<Rolls>0</Rolls>
+<Taps>1800</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>52</Holds>
+<Jumps>345</Jumps>
+<Mines>69</Mines>
+<Rolls>0</Rolls>
+<Taps>2066</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Bounce.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Bounce</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>61</Holds>
+<Jumps>61</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1161</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>45</Holds>
+<Jumps>149</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>1608</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Caddywhompus.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Caddywhompus</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>36</Holds>
+<Jumps>60</Jumps>
+<Mines>72</Mines>
+<Rolls>0</Rolls>
+<Taps>962</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>33</Holds>
+<Jumps>68</Jumps>
+<Mines>36</Mines>
+<Rolls>0</Rolls>
+<Taps>1403</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Do You Mine.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Do You Mine?</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>54</Holds>
+<Jumps>82</Jumps>
+<Mines>328</Mines>
+<Rolls>0</Rolls>
+<Taps>1177</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>55</Holds>
+<Jumps>102</Jumps>
+<Mines>364</Mines>
+<Rolls>0</Rolls>
+<Taps>1461</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Energy.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Energy</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>132</Holds>
+<Jumps>251</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>1986</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>50</Holds>
+<Jumps>269</Jumps>
+<Mines>61</Mines>
+<Rolls>0</Rolls>
+<Taps>2437</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Far East.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Far East</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>31</Holds>
+<Jumps>104</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>1429</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>31</Holds>
+<Jumps>184</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>1839</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Fractious.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Fractious</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>21</Hands>
+<Holds>71</Holds>
+<Jumps>85</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>1439</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>25</Hands>
+<Holds>122</Holds>
+<Jumps>123</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>1719</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Freedom.crs' >
 <HasMods>0</HasMods>
 <MainTitle>Freedom</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>77</Holds>
+<Jumps>82</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>886</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>43</Hands>
+<Holds>128</Holds>
+<Jumps>151</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>1295</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Get Groov&apos;n.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Get Groov&apos;n</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>15</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>381</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>31</Holds>
+<Jumps>62</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>857</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Hardcore Galore.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Hardcore Galore!</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>65</Holds>
+<Jumps>193</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>1387</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>60</Holds>
+<Jumps>336</Jumps>
+<Mines>33</Mines>
+<Rolls>0</Rolls>
+<Taps>1891</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Just Dance.crs' >
 <HasMods>0</HasMods>
 <MainTitle>Just Dance</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>65</Holds>
+<Jumps>107</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1234</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>55</Holds>
+<Jumps>82</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>1757</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/KeeL Over.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>KeeL Over</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>10</Hands>
+<Holds>59</Holds>
+<Jumps>103</Jumps>
+<Mines>65</Mines>
+<Rolls>0</Rolls>
+<Taps>1532</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>76</Holds>
+<Jumps>176</Jumps>
+<Mines>45</Mines>
+<Rolls>0</Rolls>
+<Taps>2101</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Outer World.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Outer World</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>159</Holds>
+<Jumps>93</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1198</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>71</Holds>
+<Jumps>106</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>1729</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Party.crs' >
 <HasMods>0</HasMods>
 <MainTitle>Party</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>48</Holds>
+<Jumps>87</Jumps>
+<Mines>40</Mines>
+<Rolls>0</Rolls>
+<Taps>1219</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>61</Holds>
+<Jumps>111</Jumps>
+<Mines>40</Mines>
+<Rolls>0</Rolls>
+<Taps>1493</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Pure Hell.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Breaking Point</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>41</Holds>
+<Jumps>271</Jumps>
+<Mines>87</Mines>
+<Rolls>0</Rolls>
+<Taps>1982</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>13</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>45</Holds>
+<Jumps>347</Jumps>
+<Mines>156</Mines>
+<Rolls>0</Rolls>
+<Taps>2499</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Rock Out.crs' >
 <HasMods>0</HasMods>
 <MainTitle>Rock Out</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>49</Holds>
+<Jumps>268</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>1615</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>15</Holds>
+<Jumps>342</Jumps>
+<Mines>19</Mines>
+<Rolls>0</Rolls>
+<Taps>2074</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Sisters.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Sisters</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>53</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1107</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>35</Holds>
+<Jumps>95</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>1483</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/The Legend.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>The Legend</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>60</Holds>
+<Jumps>151</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>1381</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>10</Hands>
+<Holds>49</Holds>
+<Jumps>141</Jumps>
+<Mines>61</Mines>
+<Rolls>0</Rolls>
+<Taps>1959</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Trance.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Trance</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>53</Holds>
+<Jumps>167</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1653</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>35</Holds>
+<Jumps>161</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>2148</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon/Wings.crs' >
 <HasMods>0</HasMods>
 <MainTitle>Wings</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>35</Holds>
+<Jumps>43</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1313</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>46</Holds>
+<Jumps>101</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>1722</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Animal.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Animal</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>76</Holds>
+<Jumps>116</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>1357</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>21</Hands>
+<Holds>67</Holds>
+<Jumps>204</Jumps>
+<Mines>68</Mines>
+<Rolls>0</Rolls>
+<Taps>1655</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Automation.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Automation</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>18</Hands>
+<Holds>85</Holds>
+<Jumps>105</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1700</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>21</Hands>
+<Holds>42</Holds>
+<Jumps>162</Jumps>
+<Mines>31</Mines>
+<Rolls>0</Rolls>
+<Taps>2213</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Awakening.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Awakening</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>54</Holds>
+<Jumps>87</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>1468</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>48</Holds>
+<Jumps>80</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>1845</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Bubblegum Pop.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Bubblegum Pop</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>50</Holds>
+<Jumps>152</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>1121</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>17</Hands>
+<Holds>62</Holds>
+<Jumps>139</Jumps>
+<Mines>107</Mines>
+<Rolls>0</Rolls>
+<Taps>1499</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Caliente.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Caliente</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>25</Holds>
+<Jumps>81</Jumps>
+<Mines>21</Mines>
+<Rolls>0</Rolls>
+<Taps>1357</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>14</Holds>
+<Jumps>97</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>1815</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Celebrate.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Celebrate</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>27</Holds>
+<Jumps>174</Jumps>
+<Mines>11</Mines>
+<Rolls>0</Rolls>
+<Taps>1423</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>47</Holds>
+<Jumps>116</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>1829</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Chill Out.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Chill Out</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>22</Hands>
+<Holds>29</Holds>
+<Jumps>107</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>1393</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>24</Hands>
+<Holds>32</Holds>
+<Jumps>143</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>1834</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Digital.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Digital</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>80</Jumps>
+<Mines>16</Mines>
+<Rolls>0</Rolls>
+<Taps>1623</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>18</Holds>
+<Jumps>88</Jumps>
+<Mines>383</Mines>
+<Rolls>0</Rolls>
+<Taps>2040</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Driven.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Driven</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>32</Holds>
+<Jumps>93</Jumps>
+<Mines>25</Mines>
+<Rolls>0</Rolls>
+<Taps>1025</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>40</Holds>
+<Jumps>194</Jumps>
+<Mines>99</Mines>
+<Rolls>0</Rolls>
+<Taps>1604</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Eat Your Feet.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Eat Your Feet</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>44</Holds>
+<Jumps>166</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>1063</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>14</Hands>
+<Holds>34</Holds>
+<Jumps>265</Jumps>
+<Mines>1</Mines>
+<Rolls>12</Rolls>
+<Taps>1456</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Funkitude.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Funkitude</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>23</Hands>
+<Holds>112</Holds>
+<Jumps>154</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>1423</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>38</Hands>
+<Holds>53</Holds>
+<Jumps>186</Jumps>
+<Mines>7</Mines>
+<Rolls>0</Rolls>
+<Taps>1654</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Fusion.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Fusion</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>56</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>692</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>41</Holds>
+<Jumps>71</Jumps>
+<Mines>21</Mines>
+<Rolls>0</Rolls>
+<Taps>1208</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Getting Started.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Getting Started</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>15</Holds>
+<Jumps>7</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>644</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>32</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>864</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Hot in the Sun.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Hot in the Sun</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>148</Jumps>
+<Mines>27</Mines>
+<Rolls>0</Rolls>
+<Taps>1478</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>18</Holds>
+<Jumps>157</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>1796</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Inside Out.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Inside Out</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>27</Holds>
+<Jumps>145</Jumps>
+<Mines>63</Mines>
+<Rolls>0</Rolls>
+<Taps>1924</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>13</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>37</Holds>
+<Jumps>196</Jumps>
+<Mines>44</Mines>
+<Rolls>0</Rolls>
+<Taps>2269</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Nightmare.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Nightmare</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>16</Hands>
+<Holds>57</Holds>
+<Jumps>142</Jumps>
+<Mines>57</Mines>
+<Rolls>0</Rolls>
+<Taps>2130</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>13</Meter>
+<RadarValues>
+<Hands>36</Hands>
+<Holds>74</Holds>
+<Jumps>298</Jumps>
+<Mines>37</Mines>
+<Rolls>0</Rolls>
+<Taps>2659</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Street Beat.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Street Beat</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>9</Hands>
+<Holds>35</Holds>
+<Jumps>122</Jumps>
+<Mines>17</Mines>
+<Rolls>0</Rolls>
+<Taps>1392</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>8</Holds>
+<Jumps>185</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>1492</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Transience.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Transience</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>36</Holds>
+<Jumps>89</Jumps>
+<Mines>48</Mines>
+<Rolls>0</Rolls>
+<Taps>1556</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>6</Holds>
+<Jumps>131</Jumps>
+<Mines>22</Mines>
+<Rolls>0</Rolls>
+<Taps>1934</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Universal.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Universal</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>34</Holds>
+<Jumps>175</Jumps>
+<Mines>47</Mines>
+<Rolls>0</Rolls>
+<Taps>1163</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>79</Holds>
+<Jumps>228</Jumps>
+<Mines>97</Mines>
+<Rolls>0</Rolls>
+<Taps>1532</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Marathon2/Wildside.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Wildside</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>8</Hands>
+<Holds>39</Holds>
+<Jumps>100</Jumps>
+<Mines>21</Mines>
+<Rolls>0</Rolls>
+<Taps>1823</Taps>
+</RadarValues>
+</Trail>
+<Trail CourseDifficulty='Difficult' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>61</Hands>
+<Holds>58</Holds>
+<Jumps>175</Jumps>
+<Mines>42</Mines>
+<Rolls>0</Rolls>
+<Taps>2161</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Blinker.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Blinker</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>60</Holds>
+<Jumps>128</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>1861</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Cohesion.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Cohesion</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>39</Holds>
+<Jumps>114</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>1359</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Decelerated.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Decelerated</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>38</Holds>
+<Jumps>84</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>935</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Mirage.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Mirage</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>11</Hands>
+<Holds>43</Holds>
+<Jumps>96</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>1348</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Perception.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Perception</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>34</Holds>
+<Jumps>105</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>913</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Robot.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Robot</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>51</Holds>
+<Jumps>168</Jumps>
+<Mines>39</Mines>
+<Rolls>0</Rolls>
+<Taps>1698</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Slower.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Slower</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>27</Holds>
+<Jumps>166</Jumps>
+<Mines>16</Mines>
+<Rolls>0</Rolls>
+<Taps>1312</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Space.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Space</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>78</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>1354</Taps>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='/Courses/Survival/Speeder.crs' >
-<HasMods>0</HasMods>
+<HasMods>1</HasMods>
 <MainTitle>Speeder</MainTitle>
 <SubTitle/>
+<Trail CourseDifficulty='Regular' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>64</Holds>
+<Jumps>172</Jumps>
+<Mines>13</Mines>
+<Rolls>0</Rolls>
+<Taps>1457</Taps>
+</RadarValues>
+</Trail>
 </Course>
 </Courses>
 <FooterLink>http://www.roxorgames.com</FooterLink>
@@ -260,16 +1261,6146 @@
 <InternetRankingUploadUrl>http://www.roxorgames.com/itg/redirect.php?location=upload_stats</InternetRankingUploadUrl>
 <InternetRankingViewGuidUrl>http://www.roxorgames.com/itg/redirect.php?location=view_guid&amp;</InternetRankingViewGuidUrl>
 <ProductTitle>In The Groove 2</ProductTitle>
-<Songs/>
+<Songs>
+<Song Dir='/Songs/In The Groove/Anubis/' >
+<MainTitle>Anubis</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>88</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>8</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>357</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>7</Holds>
+<Jumps>51</Jumps>
+<Mines>28</Mines>
+<Rolls>0</Rolls>
+<Taps>437</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>10</Holds>
+<Jumps>38</Jumps>
+<Mines>7</Mines>
+<Rolls>0</Rolls>
+<Taps>555</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Bend Your Mind/' >
+<MainTitle>Bend Your Mind</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>39</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>109</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>21</Hands>
+<Holds>55</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>203</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>25</Hands>
+<Holds>85</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>326</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>30</Hands>
+<Holds>76</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>437</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Boogie Down/' >
+<MainTitle>Boogie Down</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>18</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>218</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>30</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>289</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>92</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>380</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>12</Holds>
+<Jumps>135</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>476</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Bouff/' >
+<MainTitle>Bouff</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>214</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>44</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>293</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>109</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>461</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>4</Holds>
+<Jumps>105</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>550</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Bubble Dancer/' >
+<MainTitle>Bubble Dancer</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>156</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>35</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>226</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>29</Holds>
+<Jumps>33</Jumps>
+<Mines>40</Mines>
+<Rolls>0</Rolls>
+<Taps>356</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Changes/' >
+<MainTitle>Changes</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>61</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>175</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>15</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>379</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Charlene/' >
+<MainTitle>Charlene</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>120</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>271</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>349</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>22</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>485</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Crazy/' >
+<MainTitle>Crazy</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>22</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>145</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>270</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>56</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>351</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Da Roots/' >
+<MainTitle>Da Roots</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>193</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>333</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>14</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>468</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>43</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>523</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>(Folk Mix)</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove/Dawn/' >
+<MainTitle>Dawn</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>166</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>277</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>40</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>351</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>67</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>430</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Delirium/' >
+<MainTitle>Delirium</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>43</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>302</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>40</Holds>
+<Jumps>73</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>351</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>16</Holds>
+<Jumps>116</Jumps>
+<Mines>33</Mines>
+<Rolls>0</Rolls>
+<Taps>424</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>120</Jumps>
+<Mines>22</Mines>
+<Rolls>0</Rolls>
+<Taps>587</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Disconnected/' >
+<MainTitle>Disconnected</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>195</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>37</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>296</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>66</Jumps>
+<Mines>10</Mines>
+<Rolls>0</Rolls>
+<Taps>395</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>116</Jumps>
+<Mines>60</Mines>
+<Rolls>0</Rolls>
+<Taps>440</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Disconnected -hyper-/' >
+<MainTitle>Disconnected</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>47</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>285</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>64</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>330</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>93</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>491</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>81</Jumps>
+<Mines>21</Mines>
+<Rolls>0</Rolls>
+<Taps>599</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>-Hyper-</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove/Disconnected -mobius-/' >
+<MainTitle>Disconnected</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>207</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>263</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>28</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>404</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>21</Holds>
+<Jumps>36</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>466</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>-Mobius-</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove/DJ Party/' >
+<MainTitle>DJ Party</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>60</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>194</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>303</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Do U Love Me/' >
+<MainTitle>Do U Love Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>114</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>211</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>32</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>290</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>32</Jumps>
+<Mines>22</Mines>
+<Rolls>0</Rolls>
+<Taps>395</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Don&apos;t Promise Me/' >
+<MainTitle>Don&apos;t Promise Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>202</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>267</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>352</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>80</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>396</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Dreams of Passion/' >
+<MainTitle>Dreams of Passion</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>52</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>107</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>227</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Drifting Away/' >
+<MainTitle>Drifting Away</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>174</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>306</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>373</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>21</Holds>
+<Jumps>21</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>480</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Driving Force Classical/' >
+<MainTitle>Driving Force Classical</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>192</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>25</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>334</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>396</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>12</Holds>
+<Jumps>12</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>485</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Euphoria/' >
+<MainTitle>Euphoria</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>18</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>161</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>38</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>263</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>461</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>560</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Fly Away/' >
+<MainTitle>Fly Away</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>183</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>234</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>368</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>18</Holds>
+<Jumps>2</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>507</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Fly With Me/' >
+<MainTitle>Fly With Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>210</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>297</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>18</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>374</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>35</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>488</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Flying High/' >
+<MainTitle>Flying High</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>166</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>293</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>32</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>381</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>5</Holds>
+<Jumps>38</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>508</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Hand of Time/' >
+<MainTitle>Hand of Time</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>76</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>174</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>108</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>283</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>32</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>432</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>54</Jumps>
+<Mines>18</Mines>
+<Rolls>0</Rolls>
+<Taps>545</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Happiness Comes/' >
+<MainTitle>Don&apos;t Promise Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>191</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>310</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>21</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>412</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>24</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>485</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>~Happiness~</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove/Hardcore of the North/' >
+<MainTitle>Hardcore of the North</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>66</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>280</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>347</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>48</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>523</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>59</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>632</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Hip Hop Jam/' >
+<MainTitle>Hip Hop Jam</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>166</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>345</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>40</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>499</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>51</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>544</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Hybrid/' >
+<MainTitle>Hybrid</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>190</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>54</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>397</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>30</Holds>
+<Jumps>64</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>509</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>43</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>621</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/I Think I Like That Sound/' >
+<MainTitle>I Think I Like That Sound</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>78</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>303</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>21</Holds>
+<Jumps>48</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>377</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>14</Holds>
+<Jumps>33</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>459</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/I&apos;ll Get There Anyway/' >
+<MainTitle>I&apos;ll Get There Anyway</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>63</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>18</Holds>
+<Jumps>39</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>259</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>17</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>334</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Infection/' >
+<MainTitle>Infection</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>25</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>166</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>32</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>260</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>27</Holds>
+<Jumps>28</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>418</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>26</Holds>
+<Jumps>24</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>632</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/July/' >
+<MainTitle>July</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>227</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>28</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>334</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>46</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>525</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>80</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>602</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Kagami/' >
+<MainTitle>Kagami</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>28</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>214</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>18</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>350</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>33</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>484</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>31</Jumps>
+<Mines>17</Mines>
+<Rolls>0</Rolls>
+<Taps>614</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Kiss Me Red/' >
+<MainTitle>Kiss Me Red</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>17</Holds>
+<Jumps>26</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>156</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>17</Holds>
+<Jumps>43</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>199</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>47</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>266</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>7</Hands>
+<Holds>29</Holds>
+<Jumps>47</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>387</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Land of the Rising Sun/' >
+<MainTitle>Land of the Rising Sun</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>33</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>218</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>285</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>48</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>361</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>58</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>457</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Lemmings on the Run/' >
+<MainTitle>Lemmings on the Run</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>198</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>272</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>22</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>402</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>35</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>441</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Let Me Be the One/' >
+<MainTitle>Let Me Be The One</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>133</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>228</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>42</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>319</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Let My Love Go Blind/' >
+<MainTitle>Let My Love Go Blind</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>21</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>183</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>30</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>340</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>36</Holds>
+<Jumps>23</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>391</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>55</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>521</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Mellow/' >
+<MainTitle>Mellow</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>18</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>210</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>309</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>403</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>57</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>524</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Mouth/' >
+<MainTitle>Mouth</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>154</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>31</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>293</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>21</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>369</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>62</Jumps>
+<Mines>13</Mines>
+<Rolls>0</Rolls>
+<Taps>444</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/My Favourite Game/' >
+<MainTitle>My Favourite Game</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>116</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>251</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>23</Holds>
+<Jumps>44</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>322</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>15</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>475</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Mythology/' >
+<MainTitle>Mythology</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>196</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>46</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>376</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>33</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>534</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>63</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>605</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/No1 Nation/' >
+<MainTitle>No 1 Nation</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>255</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>14</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>368</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>59</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>528</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>90</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>569</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Normal/' >
+<MainTitle>Normal</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>74</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>101</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>285</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>100</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>423</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Not Worth the Paper/' >
+<MainTitle>Not Worth The Paper</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>119</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>256</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>64</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>307</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Oasis/' >
+<MainTitle>Oasis</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>22</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>191</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>309</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>38</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>434</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>54</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>456</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/On a Day Like Today/' >
+<MainTitle>On a Day Like Today</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>14</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>113</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>233</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>21</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>345</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>14</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>557</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/PA Theme/' >
+<MainTitle>PA Theme</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>83</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>142</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>249</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Pandemonium/' >
+<MainTitle>Pandemonium</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>35</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>241</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>55</Jumps>
+<Mines>72</Mines>
+<Rolls>0</Rolls>
+<Taps>505</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>43</Jumps>
+<Mines>36</Mines>
+<Rolls>0</Rolls>
+<Taps>583</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>90</Jumps>
+<Mines>35</Mines>
+<Rolls>0</Rolls>
+<Taps>715</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Perfect/' >
+<MainTitle>Perfect</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>14</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>149</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>231</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>338</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>25</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>474</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Queen of Light/' >
+<MainTitle>Queen of Light</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>165</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>301</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>398</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>21</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>471</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Remember December/' >
+<MainTitle>Remember December</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>302</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>62</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>367</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>32</Holds>
+<Jumps>105</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>480</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>14</Holds>
+<Jumps>75</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>548</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/ROM-eo &amp; Juli8/' >
+<MainTitle>ROM-eo &amp; Juli8</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>190</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>261</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>357</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>10</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>459</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Solina/' >
+<MainTitle>Solina</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>203</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>312</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>31</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>445</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>8</Holds>
+<Jumps>16</Jumps>
+<Mines>22</Mines>
+<Rolls>0</Rolls>
+<Taps>500</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Tell/' >
+<MainTitle>Tell</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>185</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>30</Holds>
+<Jumps>42</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>276</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>43</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>427</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>25</Holds>
+<Jumps>100</Jumps>
+<Mines>46</Mines>
+<Rolls>0</Rolls>
+<Taps>516</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Tension/' >
+<MainTitle>Tension</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>227</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>267</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>61</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>456</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>11</Holds>
+<Jumps>50</Jumps>
+<Mines>21</Mines>
+<Rolls>0</Rolls>
+<Taps>551</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/The Beginning/' >
+<MainTitle>The Beginning</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>187</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>321</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>6</Holds>
+<Jumps>64</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>471</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>82</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>583</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/The Game/' >
+<MainTitle>The Game</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>164</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>251</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>17</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>431</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>57</Jumps>
+<Mines>31</Mines>
+<Rolls>0</Rolls>
+<Taps>540</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Torn/' >
+<MainTitle>Torn</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>153</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>274</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>24</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>356</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>30</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>467</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Touch Me/' >
+<MainTitle>Touch Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>22</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>143</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>233</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>401</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>13</Holds>
+<Jumps>26</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>471</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Tough Enough/' >
+<MainTitle>Tough Enough</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>53</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>87</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>195</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>8</Holds>
+<Jumps>76</Jumps>
+<Mines>30</Mines>
+<Rolls>0</Rolls>
+<Taps>367</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Turn It On/' >
+<MainTitle>Turn It On</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>136</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>248</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>390</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>11</Holds>
+<Jumps>7</Jumps>
+<Mines>10</Mines>
+<Rolls>0</Rolls>
+<Taps>483</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Utopia/' >
+<MainTitle>Utopia</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>247</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>33</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>322</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>67</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>464</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>6</Holds>
+<Jumps>32</Jumps>
+<Mines>32</Mines>
+<Rolls>0</Rolls>
+<Taps>628</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/VerTex/' >
+<MainTitle>VerTex</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>15</Holds>
+<Jumps>7</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>313</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>23</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>484</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>64</Jumps>
+<Mines>46</Mines>
+<Rolls>0</Rolls>
+<Taps>608</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>68</Jumps>
+<Mines>58</Mines>
+<Rolls>0</Rolls>
+<Taps>764</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Walking on Fire/' >
+<MainTitle>Walking on Fire</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>171</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>267</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>15</Holds>
+<Jumps>49</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>433</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>9</Holds>
+<Jumps>25</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>551</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Which MC Was That/' >
+<MainTitle>Which MC Was That</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>94</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>151</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>244</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/While Tha Rekkid Spinz/' >
+<MainTitle>While Tha Rekkid Spinz</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>114</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>30</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>219</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>22</Holds>
+<Jumps>50</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>293</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>42</Hands>
+<Holds>99</Holds>
+<Jumps>53</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>294</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Why Me/' >
+<MainTitle>Why Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>1</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>56</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>14</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>167</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>18</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>296</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Xuxa/' >
+<MainTitle>Xuxa</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>202</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>36</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>265</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>43</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>423</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>21</Holds>
+<Jumps>105</Jumps>
+<Mines>34</Mines>
+<Rolls>0</Rolls>
+<Taps>456</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove/Zodiac/' >
+<MainTitle>Zodiac</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>28</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>95</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>9</Holds>
+<Jumps>14</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>296</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>18</Holds>
+<Jumps>40</Jumps>
+<Mines>47</Mines>
+<Rolls>0</Rolls>
+<Taps>447</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>8</Holds>
+<Jumps>77</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>506</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/!/' >
+<MainTitle>!</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>206</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>20</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>409</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>10</Holds>
+<Jumps>44</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>552</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Agent Blatant/' >
+<MainTitle>Agent Blatant</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>113</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>35</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>163</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>50</Holds>
+<Jumps>50</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>272</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>4</Holds>
+<Jumps>49</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>427</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Amore/' >
+<MainTitle>Amore</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>90</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>176</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>15</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>288</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Baby Baby/' >
+<MainTitle>Baby Baby</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>28</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>150</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>42</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>273</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>34</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>315</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>9</Hands>
+<Holds>7</Holds>
+<Jumps>57</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>377</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Baby Don&apos;t You Want Me/' >
+<MainTitle>Baby Don&apos;t You Want Me</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>112</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>150</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>249</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>443</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Birdie/' >
+<MainTitle>Birdie</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>141</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>36</Holds>
+<Jumps>36</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>208</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>36</Holds>
+<Jumps>15</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>311</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>18</Holds>
+<Jumps>34</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>363</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Bloodrush/' >
+<MainTitle>Bloodrush</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>37</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>147</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>28</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>276</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>33</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>476</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>6</Holds>
+<Jumps>54</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>583</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Bumble Bee/' >
+<MainTitle>Bumble Bee</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>137</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>48</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>204</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>8</Holds>
+<Jumps>47</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>303</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>7</Hands>
+<Holds>12</Holds>
+<Jumps>30</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>401</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Clockwork Genesis/' >
+<MainTitle>Clockwork Genesis</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>173</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>33</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>279</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>60</Holds>
+<Jumps>34</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>451</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>88</Jumps>
+<Mines>10</Mines>
+<Rolls>0</Rolls>
+<Taps>542</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Cryosleep/' >
+<MainTitle>Cryosleep</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>115</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>183</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>25</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>338</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/D-Code/' >
+<MainTitle>D-Code</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>88</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>190</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>42</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>294</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>74</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>387</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Destiny/' >
+<MainTitle>Destiny</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>202</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>29</Holds>
+<Jumps>52</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>300</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>44</Holds>
+<Jumps>49</Jumps>
+<Mines>24</Mines>
+<Rolls>0</Rolls>
+<Taps>423</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>38</Holds>
+<Jumps>45</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>526</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Determinator/' >
+<MainTitle>Determinator</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>53</Holds>
+<Jumps>17</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>127</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>18</Holds>
+<Jumps>54</Jumps>
+<Mines>20</Mines>
+<Rolls>0</Rolls>
+<Taps>245</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>14</Hands>
+<Holds>23</Holds>
+<Jumps>33</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>391</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>12</Meter>
+<RadarValues>
+<Hands>8</Hands>
+<Holds>18</Holds>
+<Jumps>24</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>613</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Energizer/' >
+<MainTitle>Energizer</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>21</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>299</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>55</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>417</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>17</Holds>
+<Jumps>33</Jumps>
+<Mines>29</Mines>
+<Rolls>0</Rolls>
+<Taps>576</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>13</Meter>
+<RadarValues>
+<Hands>10</Hands>
+<Holds>26</Holds>
+<Jumps>68</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>692</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Fleadh Uncut/' >
+<MainTitle>Fleadh Uncut</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>113</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>238</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>17</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>378</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>21</Jumps>
+<Mines>10</Mines>
+<Rolls>0</Rolls>
+<Taps>534</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Funk Factory/' >
+<MainTitle>Funk Factory</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>34</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>152</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>54</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>288</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>8</Holds>
+<Jumps>36</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>369</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>2</Holds>
+<Jumps>71</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>398</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Get Happy/' >
+<MainTitle>Get Happy</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>27</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>143</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>29</Holds>
+<Jumps>50</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>287</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>5</Hands>
+<Holds>14</Holds>
+<Jumps>50</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>359</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>4</Holds>
+<Jumps>42</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>410</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Go 60 Go/' >
+<MainTitle>Go 60 Go</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>147</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>241</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>8</Holds>
+<Jumps>55</Jumps>
+<Mines>1</Mines>
+<Rolls>0</Rolls>
+<Taps>401</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>10</Holds>
+<Jumps>28</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>520</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Habanera 1/' >
+<MainTitle>Habanera 1</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>75</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>181</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>10</Holds>
+<Jumps>68</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>295</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>13</Hands>
+<Holds>20</Holds>
+<Jumps>74</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>363</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/High/' >
+<MainTitle>High</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>133</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>212</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>367</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>420</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Hillbilly Hardcore/' >
+<MainTitle>Hillbilly Hardcore</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>104</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>18</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>203</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>25</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>395</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>30</Holds>
+<Jumps>23</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>505</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Hispanic Panic/' >
+<MainTitle>Hispanic Panic</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>68</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>207</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>3</Hands>
+<Holds>6</Holds>
+<Jumps>40</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>328</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>6</Holds>
+<Jumps>28</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>476</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Holy Guacamole/' >
+<MainTitle>Holy Guacamole</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>100</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>15</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>239</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>18</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>349</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>9</Holds>
+<Jumps>53</Jumps>
+<Mines>19</Mines>
+<Rolls>0</Rolls>
+<Taps>417</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Hustle Beach/' >
+<MainTitle>Hustle Beach</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>104</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>197</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>52</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>275</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>12</Holds>
+<Jumps>50</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>333</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Incognito/' >
+<MainTitle>Incognito</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>22</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>150</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>26</Holds>
+<Jumps>56</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>289</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>492</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>22</Holds>
+<Jumps>48</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>462</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Ize Pie/' >
+<MainTitle>Ize Pie</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>125</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>238</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>12</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>311</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>4</Holds>
+<Jumps>30</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>385</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/July -Euromix-/' >
+<MainTitle>July</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>148</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>34</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>305</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>15</Holds>
+<Jumps>60</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>368</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>36</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>393</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>-Euromix-</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Life of a Butterfly/' >
+<MainTitle>Life of a Butterfly</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>151</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>258</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>310</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Lipstick Kiss/' >
+<MainTitle>Lipstick Kiss</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>97</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>29</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>216</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>66</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>298</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>52</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>400</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Liquid Moon/' >
+<MainTitle>Liquid Moon</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>96</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>26</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>294</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>28</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>468</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>34</Hands>
+<Holds>38</Holds>
+<Jumps>40</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>423</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Little Kitty Mine/' >
+<MainTitle>Little Kitty Mine</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>173</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>230</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>11</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>320</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>16</Holds>
+<Jumps>35</Jumps>
+<Mines>26</Mines>
+<Rolls>0</Rolls>
+<Taps>435</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Monolith/' >
+<MainTitle>Monolith</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>0</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>330</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>381</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>12</Holds>
+<Jumps>59</Jumps>
+<Mines>15</Mines>
+<Rolls>0</Rolls>
+<Taps>504</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Music Pleeze/' >
+<MainTitle>Music Pleeze</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>150</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>254</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>27</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>267</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/My Life Is So Crazy/' >
+<MainTitle>My Life Is So Crazy</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>132</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>25</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>196</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>1</Holds>
+<Jumps>22</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>385</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>2</Holds>
+<Jumps>27</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>422</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/No Princess/' >
+<MainTitle>No Princess</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>11</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>165</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>16</Holds>
+<Jumps>13</Jumps>
+<Mines>6</Mines>
+<Rolls>0</Rolls>
+<Taps>261</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>29</Holds>
+<Jumps>15</Jumps>
+<Mines>35</Mines>
+<Rolls>0</Rolls>
+<Taps>336</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>10</Holds>
+<Jumps>20</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>483</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/One False Move/' >
+<MainTitle>One False Move</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>104</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>178</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>16</Holds>
+<Jumps>48</Jumps>
+<Mines>5</Mines>
+<Rolls>0</Rolls>
+<Taps>295</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>8</Hands>
+<Holds>18</Holds>
+<Jumps>78</Jumps>
+<Mines>37</Mines>
+<Rolls>0</Rolls>
+<Taps>388</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Out Of The Dark/' >
+<MainTitle>Out of the Dark</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>136</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>261</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>447</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>558</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Pick Me Up &amp; Tango/' >
+<MainTitle>Pick Me Up &amp; Tango</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>128</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>232</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>306</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Psalm Pilot/' >
+<MainTitle>Psalm Pilot</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>5</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>136</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>256</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>18</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>361</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>4</Holds>
+<Jumps>27</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>409</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Reactor/' >
+<MainTitle>Reactor</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>82</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>178</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>6</Holds>
+<Jumps>23</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>248</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>6</Holds>
+<Jumps>28</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>337</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Renaissance/' >
+<MainTitle>Renaissance</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>32</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>136</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>28</Holds>
+<Jumps>45</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>233</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>62</Jumps>
+<Mines>0</Mines>
+<Rolls>12</Rolls>
+<Taps>305</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>35</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>461</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Ride the Bass/' >
+<MainTitle>Ride the Bass</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>83</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>260</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>21</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>335</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>51</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>389</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Robotix/' >
+<MainTitle>Robotix</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>37</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>130</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>264</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>38</Jumps>
+<Mines>12</Mines>
+<Rolls>0</Rolls>
+<Taps>466</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Soapy Bubble/' >
+<MainTitle>Soapy Bubble</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>2</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>93</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>195</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>366</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>2</Jumps>
+<Mines>17</Mines>
+<Rolls>0</Rolls>
+<Taps>596</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Spaceman/' >
+<MainTitle>Spaceman</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>140</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>26</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>190</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>58</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>242</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>14</Holds>
+<Jumps>37</Jumps>
+<Mines>44</Mines>
+<Rolls>0</Rolls>
+<Taps>385</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Spacy Crazy Girl/' >
+<MainTitle>Spacy Crazy Girl</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>15</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>136</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>7</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>227</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>49</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>253</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>1</Hands>
+<Holds>24</Holds>
+<Jumps>66</Jumps>
+<Mines>33</Mines>
+<Rolls>0</Rolls>
+<Taps>311</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Spin Chicken/' >
+<MainTitle>Spin Chicken</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>124</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>22</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>208</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>19</Jumps>
+<Mines>2</Mines>
+<Rolls>0</Rolls>
+<Taps>284</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>10</Hands>
+<Holds>20</Holds>
+<Jumps>35</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>444</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Summer in Belize/' >
+<MainTitle>Summer in Belize</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>4</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>142</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>276</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>464</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>609</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Summer ~Speedy Mix~/' >
+<MainTitle>Summer</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>4</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>8</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>158</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>256</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>39</Jumps>
+<Mines>27</Mines>
+<Rolls>0</Rolls>
+<Taps>466</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>43</Jumps>
+<Mines>9</Mines>
+<Rolls>0</Rolls>
+<Taps>581</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>~Speedy Mix~</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Sunshine/' >
+<MainTitle>Sunshine</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>94</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>203</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>51</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>397</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>37</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>470</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Sweet World/' >
+<MainTitle>Sweet World</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>12</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>154</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>28</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>221</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>10</Holds>
+<Jumps>49</Jumps>
+<Mines>8</Mines>
+<Rolls>0</Rolls>
+<Taps>330</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>10</Holds>
+<Jumps>62</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>608</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Temple of Boom/' >
+<MainTitle>Temple of Boom</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>138</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>13</Holds>
+<Jumps>15</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>252</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>12</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>454</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/The Message/' >
+<MainTitle>The Message</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>141</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>213</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>7</Holds>
+<Jumps>29</Jumps>
+<Mines>13</Mines>
+<Rolls>0</Rolls>
+<Taps>323</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>6</Hands>
+<Holds>9</Holds>
+<Jumps>50</Jumps>
+<Mines>22</Mines>
+<Rolls>0</Rolls>
+<Taps>378</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/This is Rock &amp; Roll/' >
+<MainTitle>This is Rock &amp; Roll</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>0</Holds>
+<Jumps>3</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>146</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>10</Holds>
+<Jumps>24</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>314</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>21</Holds>
+<Jumps>24</Jumps>
+<Mines>11</Mines>
+<Rolls>0</Rolls>
+<Taps>431</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>65</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>426</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Tribal Style/' >
+<MainTitle>Tribal Style</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>15</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>147</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>20</Holds>
+<Jumps>11</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>263</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>12</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>516</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>11</Meter>
+<RadarValues>
+<Hands>47</Hands>
+<Holds>23</Holds>
+<Jumps>57</Jumps>
+<Mines>4</Mines>
+<Rolls>0</Rolls>
+<Taps>528</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Twilight/' >
+<MainTitle>Twilight</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>19</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>163</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>19</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>267</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>27</Holds>
+<Jumps>22</Jumps>
+<Mines>16</Mines>
+<Rolls>0</Rolls>
+<Taps>391</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>14</Hands>
+<Holds>12</Holds>
+<Jumps>23</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>504</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Typical Tropical/' >
+<MainTitle>Typical Tropical</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>131</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>5</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>226</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>7</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>6</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>340</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>27</Jumps>
+<Mines>3</Mines>
+<Rolls>0</Rolls>
+<Taps>412</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Visible Noise/' >
+<MainTitle>Visible Noise</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>1</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>126</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>17</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>283</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>43</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>414</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>12</Hands>
+<Holds>18</Holds>
+<Jumps>47</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>413</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Vorsprung Durch Techno/' >
+<MainTitle>Vorsprung Durch</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>6</Holds>
+<Jumps>20</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>150</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>24</Holds>
+<Jumps>16</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>259</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>28</Holds>
+<Jumps>23</Jumps>
+<Mines>34</Mines>
+<Rolls>0</Rolls>
+<Taps>385</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>10</Meter>
+<RadarValues>
+<Hands>2</Hands>
+<Holds>2</Holds>
+<Jumps>14</Jumps>
+<Mines>14</Mines>
+<Rolls>0</Rolls>
+<Taps>490</Taps>
+</RadarValues>
+</Steps>
+<SubTitle>-Techno-</SubTitle>
+</Song>
+<Song Dir='/Songs/In The Groove 2/Wake Up/' >
+<MainTitle>Wake Up</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>22</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>143</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>6</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>30</Holds>
+<Jumps>13</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>251</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>11</Hands>
+<Holds>34</Holds>
+<Jumps>33</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>338</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>25</Hands>
+<Holds>27</Holds>
+<Jumps>31</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>385</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+<Song Dir='/Songs/In The Groove 2/We Know What To Do/' >
+<MainTitle>We Know What To Do</MainTitle>
+<Steps Difficulty='Easy' StepsType='dance-double' >
+<Meter>3</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>2</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>125</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Medium' StepsType='dance-double' >
+<Meter>5</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>3</Holds>
+<Jumps>2</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>173</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Hard' StepsType='dance-double' >
+<Meter>8</Meter>
+<RadarValues>
+<Hands>0</Hands>
+<Holds>4</Holds>
+<Jumps>10</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>350</Taps>
+</RadarValues>
+</Steps>
+<Steps Difficulty='Challenge' StepsType='dance-double' >
+<Meter>9</Meter>
+<RadarValues>
+<Hands>4</Hands>
+<Holds>8</Holds>
+<Jumps>9</Jumps>
+<Mines>0</Mines>
+<Rolls>0</Rolls>
+<Taps>476</Taps>
+</RadarValues>
+</Steps>
+<SubTitle/>
+</Song>
+</Songs>
 <Totals>
-<NumSongsByGroup/>
-<NumStepsByGroup/>
+<NumSongsByGroup>
+<Group Name='In The Groove' Num='71' />
+<Group Name='In The Groove 2' Num='61' />
+</NumSongsByGroup>
+<NumStepsByGroup>
+<Group Name='In The Groove' >
+<StepsType StepsType='dance-double' >
+<Beginner>0</Beginner>
+<Challenge>59</Challenge>
+<Easy>71</Easy>
+<Edit>0</Edit>
+<Hard>71</Hard>
+<Medium>71</Medium>
+</StepsType>
+</Group>
+<Group Name='In The Groove 2' >
+<StepsType StepsType='dance-double' >
+<Beginner>0</Beginner>
+<Challenge>52</Challenge>
+<Easy>61</Easy>
+<Edit>0</Edit>
+<Hard>61</Hard>
+<Medium>61</Medium>
+</StepsType>
+</Group>
+</NumStepsByGroup>
 <NumUnlockedCourses>0</NumUnlockedCourses>
 <NumUnlockedSongs>0</NumUnlockedSongs>
 <NumUnlockedSteps>0</NumUnlockedSteps>
 <TotalCourses>50</TotalCourses>
-<TotalSongs>0</TotalSongs>
-<TotalSteps>0</TotalSteps>
+<TotalSongs>132</TotalSongs>
+<TotalSteps>507</TotalSteps>
 </Totals>
 <Types>
 <CourseDifficulty>
@@ -458,7 +7589,7 @@
 <Modifier DisplayAs='Overhead' >Overhead</Modifier>
 <Modifier DisplayAs='Planted' >Planted</Modifier>
 <Modifier DisplayAs='Quick' >Quick</Modifier>
-<Modifier DisplayAs='Roll Reverse' >Random</Modifier>
+<Modifier DisplayAs='Expand' >Random</Modifier>
 <Modifier DisplayAs='Reverse' >Reverse</Modifier>
 <Modifier DisplayAs='Right' >Right</Modifier>
 <Modifier DisplayAs='Left' >Shift Left</Modifier>
@@ -498,7 +7629,6 @@
 <RadarValue DisplayAs='Rolls' >Rolls</RadarValue>
 </RadarValue>
 <StepsType>
-<StepsType DisplayAs='Single' >dance-single</StepsType>
 <StepsType DisplayAs='Double' >dance-double</StepsType>
 </StepsType>
 <Style>

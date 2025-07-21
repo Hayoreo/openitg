@@ -239,7 +239,6 @@ void NotesWriterDWI::WriteDWINotesField( RageFile &f, const Steps &out, int star
 			switch( out.m_StepsType )
 			{
 			case STEPS_TYPE_DANCE_SINGLE:
-			case STEPS_TYPE_DANCE_COUPLE:
 			case STEPS_TYPE_DANCE_DOUBLE:
 				str = NotesToDWIString( 
 					notedata.GetTapNote(start+0, row), 
@@ -252,23 +251,6 @@ void NotesWriterDWI::WriteDWINotesField( RageFile &f, const Steps &out, int star
 				notedata.SetTapNote(start+1, row, TAP_EMPTY);
 				notedata.SetTapNote(start+2, row, TAP_EMPTY);
 				notedata.SetTapNote(start+3, row, TAP_EMPTY);
-				break;
-			case STEPS_TYPE_DANCE_SOLO:
-				str = NotesToDWIString( 
-					notedata.GetTapNote(0, row),
-					notedata.GetTapNote(1, row),
-					notedata.GetTapNote(2, row),
-					notedata.GetTapNote(3, row),
-					notedata.GetTapNote(4, row),
-					notedata.GetTapNote(5, row) );
-
-				// Blank out the notes so we don't write them again if the incrementer is small
-				notedata.SetTapNote(start+0, row, TAP_EMPTY);
-				notedata.SetTapNote(start+1, row, TAP_EMPTY);
-				notedata.SetTapNote(start+2, row, TAP_EMPTY);
-				notedata.SetTapNote(start+3, row, TAP_EMPTY);
-				notedata.SetTapNote(start+4, row, TAP_EMPTY);
-				notedata.SetTapNote(start+5, row, TAP_EMPTY);
 				break;
 			default:
 				ASSERT(0);	// not a type supported by DWI.  We shouldn't have called in here if that's the case
@@ -318,9 +300,7 @@ bool NotesWriterDWI::WriteDWINotesTag( RageFile &f, const Steps &out )
 	switch( out.m_StepsType )
 	{
 	case STEPS_TYPE_DANCE_SINGLE:	f.Write( "#SINGLE:" );	break;
-	case STEPS_TYPE_DANCE_COUPLE:	f.Write( "#COUPLE:" );	break;
 	case STEPS_TYPE_DANCE_DOUBLE:	f.Write( "#DOUBLE:" );	break;
-	case STEPS_TYPE_DANCE_SOLO:		f.Write( "#SOLO:" );	break;
 	default:	return false;	// not a type supported by DWI
 	}
 
@@ -410,8 +390,6 @@ bool NotesWriterDWI::Write( CString sPath, const Song &out )
 			continue;
 
 		WriteDWINotesField( f, *pSteps, 0 );
-		if( pSteps->m_StepsType==STEPS_TYPE_DANCE_DOUBLE ||
-		    pSteps->m_StepsType==STEPS_TYPE_DANCE_COUPLE )
 		{
 			f.PutLine( ":" );
 			WriteDWINotesField( f, *pSteps, 4 );

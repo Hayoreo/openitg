@@ -20,8 +20,6 @@
 
 #include "NotesLoaderSM.h"
 #include "NotesLoaderDWI.h"
-#include "NotesLoaderBMS.h"
-#include "NotesLoaderKSF.h"
 #include "NotesWriterDWI.h"
 #include "NotesWriterSM.h"
 
@@ -178,14 +176,6 @@ NotesLoader *Song::MakeLoader( const CString &sDir ) const
 	delete ret;
 
 	ret = new DWILoader;
-	if(ret->Loadable( sDir )) return ret;
-	delete ret;
-
-	ret = new BMSLoader;
-	if(ret->Loadable( sDir )) return ret;
-	delete ret;
-
-	ret = new KSFLoader;
 	if(ret->Loadable( sDir )) return ret;
 	delete ret;
 

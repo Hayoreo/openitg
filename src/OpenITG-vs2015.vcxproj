@@ -553,9 +553,7 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="NoteDataWithScoring.cpp" />
     <ClCompile Include="NoteFieldPositioning.cpp" />
     <ClCompile Include="NotesLoader.cpp" />
-    <ClCompile Include="NotesLoaderBMS.cpp" />
     <ClCompile Include="NotesLoaderDWI.cpp" />
-    <ClCompile Include="NotesLoaderKSF.cpp" />
     <ClCompile Include="NotesLoaderSM.cpp" />
     <ClCompile Include="NotesWriterDWI.cpp" />
     <ClCompile Include="NotesWriterSM.cpp" />
@@ -1185,9 +1183,7 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="NoteDataWithScoring.h" />
     <ClInclude Include="NoteFieldPositioning.h" />
     <ClInclude Include="NotesLoader.h" />
-    <ClInclude Include="NotesLoaderBMS.h" />
     <ClInclude Include="NotesLoaderDWI.h" />
-    <ClInclude Include="NotesLoaderKSF.h" />
     <ClInclude Include="NotesLoaderSM.h" />
     <ClInclude Include="NotesWriterDWI.h" />
     <ClInclude Include="NotesWriterSM.h" />

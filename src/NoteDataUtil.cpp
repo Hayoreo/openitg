@@ -860,7 +860,6 @@ static void GetTrackMapping( StepsType st, NoteDataUtil::TrackMapping tt, int Nu
 		{
 		case STEPS_TYPE_DANCE_SINGLE:
 		case STEPS_TYPE_DANCE_DOUBLE:
-		case STEPS_TYPE_DANCE_COUPLE:
 			iTakeFromTrack[0] = 2;
 			iTakeFromTrack[1] = 0;
 			iTakeFromTrack[2] = 3;
@@ -869,47 +868,6 @@ static void GetTrackMapping( StepsType st, NoteDataUtil::TrackMapping tt, int Nu
 			iTakeFromTrack[5] = 4;
 			iTakeFromTrack[6] = 7;
 			iTakeFromTrack[7] = 5;
-			break;
-		case STEPS_TYPE_DANCE_SOLO:
-			iTakeFromTrack[0] = 5;
-			iTakeFromTrack[1] = 4;
-			iTakeFromTrack[2] = 0;
-			iTakeFromTrack[3] = 3;
-			iTakeFromTrack[4] = 1;
-			iTakeFromTrack[5] = 2;
-			break;
-		case STEPS_TYPE_PUMP_SINGLE:
-		case STEPS_TYPE_PUMP_COUPLE:
-			iTakeFromTrack[0] = 3;
-			iTakeFromTrack[1] = 4;
-			iTakeFromTrack[2] = 2;
-			iTakeFromTrack[3] = 0;
-			iTakeFromTrack[4] = 1;
-			iTakeFromTrack[5] = 8;
-			iTakeFromTrack[6] = 9;
-			iTakeFromTrack[7] = 7;
-			iTakeFromTrack[8] = 5;
-			iTakeFromTrack[9] = 6;
-			break;
-		case STEPS_TYPE_PUMP_HALFDOUBLE:
-			iTakeFromTrack[0] = 2;
-			iTakeFromTrack[1] = 0;
-			iTakeFromTrack[2] = 1;
-			iTakeFromTrack[3] = 3;
-			iTakeFromTrack[4] = 4;
-			iTakeFromTrack[5] = 5;
-			break;
-		case STEPS_TYPE_PUMP_DOUBLE:
-			iTakeFromTrack[0] = 8;
-			iTakeFromTrack[1] = 9;
-			iTakeFromTrack[2] = 7;
-			iTakeFromTrack[3] = 5;
-			iTakeFromTrack[4] = 6;
-			iTakeFromTrack[5] = 3;
-			iTakeFromTrack[6] = 4;
-			iTakeFromTrack[7] = 2;
-			iTakeFromTrack[8] = 0;
-			iTakeFromTrack[9] = 1;
 			break;
 		default: break;
 		}
@@ -952,7 +910,6 @@ static void GetTrackMapping( StepsType st, NoteDataUtil::TrackMapping tt, int Nu
 		switch( st )
 		{
 		case STEPS_TYPE_DANCE_SINGLE:
-		case STEPS_TYPE_DANCE_COUPLE:
 			iTakeFromTrack[0] = 3;
 			iTakeFromTrack[1] = 2;
 			iTakeFromTrack[2] = 1;

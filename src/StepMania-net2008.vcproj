@@ -1580,27 +1580,11 @@
 				>
 			</File>
 			<File
-				RelativePath="NotesLoaderBMS.cpp"
-				>
-			</File>
-			<File
-				RelativePath="NotesLoaderBMS.h"
-				>
-			</File>
-			<File
 				RelativePath="NotesLoaderDWI.cpp"
 				>
 			</File>
 			<File
 				RelativePath="NotesLoaderDWI.h"
-				>
-			</File>
-			<File
-				RelativePath="NotesLoaderKSF.cpp"
-				>
-			</File>
-			<File
-				RelativePath="NotesLoaderKSF.h"
 				>
 			</File>
 			<File
