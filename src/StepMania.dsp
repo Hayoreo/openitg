@@ -2222,30 +2222,6 @@ SOURCE=.\DualScrollBar.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\EditCoursesMenu.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\EditCoursesMenu.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\EditCoursesSongMenu.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\EditCoursesSongMenu.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\EditMenu.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\EditMenu.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\GradeDisplay.cpp
 # End Source File
 # Begin Source File
@@ -2527,40 +2503,6 @@ SOURCE=.\ScreenDemonstration.cpp
 # Begin Source File
 
 SOURCE=.\ScreenDemonstration.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEdit.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEdit.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEditCoursesMenu.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEditCoursesMenu.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEditMenu.cpp
-
-!IF  "$(CFG)" == "StepMania - Win32 Debug"
-
-# ADD BASE CPP /YX"global.h"
-# ADD CPP /YX"global.h"
-
-!ELSEIF  "$(CFG)" == "StepMania - Win32 Release"
-
-!ENDIF 
-
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEditMenu.h
 # End Source File
 # Begin Source File
 

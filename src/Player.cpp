@@ -343,7 +343,7 @@ void Player::Load( const NoteData& noteData )
 	// they change depending on PlayerOptions.
 
 	//
-	// Load keysounds.  If sounds are already loaded (as in the editor), don't reload them.
+	// Load keysounds.  If sounds are already loaded don't reload them.
 	// XXX: the editor will load several duplicate copies (in each NoteField), and each
 	// player will load duplicate sounds.  Does this belong somewhere else (perhaps in
 	// a separate object, used alongside ScreenGameplay::m_pSoundMusic and ScreenEdit::m_pSoundMusic?)

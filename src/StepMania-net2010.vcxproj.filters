@@ -126,15 +126,6 @@
     <ClCompile Include="ScreenDimensions.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenEdit.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenEditCoursesMenu.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenEditMenu.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenEnding.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -748,15 +739,6 @@
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
     <ClCompile Include="DualScrollBar.cpp">
-      <Filter>Actors used in Menus</Filter>
-    </ClCompile>
-    <ClCompile Include="EditCoursesMenu.cpp">
-      <Filter>Actors used in Menus</Filter>
-    </ClCompile>
-    <ClCompile Include="EditCoursesSongMenu.cpp">
-      <Filter>Actors used in Menus</Filter>
-    </ClCompile>
-    <ClCompile Include="EditMenu.cpp">
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
     <ClCompile Include="FadingBanner.cpp">
@@ -1484,15 +1466,6 @@
     <ClInclude Include="ScreenDimensions.h">
       <Filter>Screens</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenEdit.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenEditCoursesMenu.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenEditMenu.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
     <ClInclude Include="ScreenEnding.h">
       <Filter>Screens</Filter>
     </ClInclude>
@@ -2157,15 +2130,6 @@
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="DualScrollBar.h">
-      <Filter>Actors used in Menus</Filter>
-    </ClInclude>
-    <ClInclude Include="EditCoursesMenu.h">
-      <Filter>Actors used in Menus</Filter>
-    </ClInclude>
-    <ClInclude Include="EditCoursesSongMenu.h">
-      <Filter>Actors used in Menus</Filter>
-    </ClInclude>
-    <ClInclude Include="EditMenu.h">
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="FadingBanner.h">

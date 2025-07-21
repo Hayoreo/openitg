@@ -580,9 +580,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenDebugOverlay.cpp" />
     <ClCompile Include="ScreenDemonstration.cpp" />
     <ClCompile Include="ScreenDimensions.cpp" />
-    <ClCompile Include="ScreenEdit.cpp" />
-    <ClCompile Include="ScreenEditCoursesMenu.cpp" />
-    <ClCompile Include="ScreenEditMenu.cpp" />
     <ClCompile Include="ScreenEnding.cpp" />
     <ClCompile Include="ScreenEndlessBreak.cpp" />
     <ClCompile Include="ScreenEvaluation.cpp" />
@@ -802,9 +799,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="DifficultyMeter.cpp" />
     <ClCompile Include="DifficultyRating.cpp" />
     <ClCompile Include="DualScrollBar.cpp" />
-    <ClCompile Include="EditCoursesMenu.cpp" />
-    <ClCompile Include="EditCoursesSongMenu.cpp" />
-    <ClCompile Include="EditMenu.cpp" />
     <ClCompile Include="FadingBanner.cpp" />
     <ClCompile Include="GradeDisplay.cpp" />
     <ClCompile Include="GraphDisplay.cpp" />
@@ -1245,9 +1239,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenDebugOverlay.h" />
     <ClInclude Include="ScreenDemonstration.h" />
     <ClInclude Include="ScreenDimensions.h" />
-    <ClInclude Include="ScreenEdit.h" />
-    <ClInclude Include="ScreenEditCoursesMenu.h" />
-    <ClInclude Include="ScreenEditMenu.h" />
     <ClInclude Include="ScreenEnding.h" />
     <ClInclude Include="ScreenEndlessBreak.h" />
     <ClInclude Include="ScreenEvaluation.h" />
@@ -1484,9 +1475,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="DifficultyMeter.h" />
     <ClInclude Include="DifficultyRating.h" />
     <ClInclude Include="DualScrollBar.h" />
-    <ClInclude Include="EditCoursesMenu.h" />
-    <ClInclude Include="EditCoursesSongMenu.h" />
-    <ClInclude Include="EditMenu.h" />
     <ClInclude Include="FadingBanner.h" />
     <ClInclude Include="GradeDisplay.h" />
     <ClInclude Include="GraphDisplay.h" />

@@ -581,31 +581,6 @@ bool GameCommand::IsPlayable( CString *why ) const
 		}
 	}
 
-	if( !m_sScreen.CompareNoCase("ScreenEditCoursesMenu") )
-	{
-		vector<Course*> vCourses;
-		SONGMAN->GetAllCourses( vCourses, false );
-
-		if( vCourses.size() == 0 )
-		{
-			if( why )
-				*why = "No courses are installed";
-			return false;
-		}
-	}
-
-	if( !m_sScreen.CompareNoCase("ScreenJukeboxMenu") ||
-		!m_sScreen.CompareNoCase("ScreenEditMenu") ||
-		!m_sScreen.CompareNoCase("ScreenEditCoursesMenu") )
-	{
-		if( SONGMAN->GetNumSongs() == 0 )
-		{
-			if( why )
-				*why = "No songs are installed";
-			return false;
-		}
-	}
-
 	if( !m_sModifiers.empty() )
 	{
 		// TODO: Split this and check each modifier individually

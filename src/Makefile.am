@@ -56,9 +56,6 @@ ScreenBookkeeping.cpp ScreenBookkeeping.h ScreenBranch.cpp ScreenBranch.h \
 ScreenCenterImage.cpp ScreenCenterImage.h ScreenCredits.cpp ScreenCredits.h \
 ScreenDebugOverlay.cpp ScreenDebugOverlay.h \
 ScreenDemonstration.cpp ScreenDemonstration.h ScreenDimensions.h \
-ScreenEdit.cpp ScreenEdit.h \
-ScreenEditCoursesMenu.cpp ScreenEditCoursesMenu.h EditCoursesSongMenu.cpp EditCoursesSongMenu.h \
-ScreenEditMenu.cpp ScreenEditMenu.h ScreenEnding.cpp ScreenEnding.h \
 ScreenEndlessBreak.cpp ScreenEndlessBreak.h ScreenEvaluation.cpp ScreenEvaluation.h ScreenExit.cpp ScreenExit.h ScreenNetEvaluation.cpp ScreenNetEvaluation.h \
 ScreenNetSelectMusic.cpp ScreenNetSelectMusic.h ScreenNetSelectBase.cpp ScreenNetSelectBase.h ScreenNetRoom.cpp ScreenNetRoom.h \
 ScreenGameplay.cpp ScreenGameplay.h ScreenHowToPlay.cpp ScreenHowToPlay.h \
@@ -319,7 +316,7 @@ CourseContentsList.cpp CourseContentsList.h CourseEntryDisplay.cpp CourseEntryDi
 DifficultyDisplay.cpp DifficultyDisplay.h DifficultyList.cpp DifficultyList.h \
 DifficultyMeter.cpp DifficultyMeter.h DifficultyRating.cpp DifficultyRating.h \
 DualScrollBar.cpp DualScrollBar.h \
-EditCoursesMenu.cpp EditCoursesMenu.h EditMenu.cpp EditMenu.h FadingBanner.cpp FadingBanner.h \
+FadingBanner.cpp FadingBanner.h \
 GradeDisplay.cpp GradeDisplay.h GraphDisplay.cpp GraphDisplay.h GrooveGraph.cpp GrooveGraph.h \
 GrooveRadar.cpp GrooveRadar.h GroupList.cpp GroupList.h HelpDisplay.cpp HelpDisplay.h \
 LinkedOptionsMenu.cpp LinkedOptionsMenu.h MemoryCardDisplay.cpp MemoryCardDisplay.h \

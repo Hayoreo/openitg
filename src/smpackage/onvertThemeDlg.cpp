@@ -141,15 +141,12 @@ void ConvertThemeDlg::OnButtonConvert()
 	RecursiveRename( sThemeDir, "BGAnimations\\caution",			"BGAnimations\\ScreenCaution background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\game over",			"BGAnimations\\ScreenGameOver background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\logo",				"BGAnimations\\ScreenLogo background" );
-	RecursiveRename( sThemeDir, "BGAnimations\\edit menu",			"BGAnimations\\ScreenEditMenu background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\evaluation",			"BGAnimations\\ScreenEvaluation background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\gameplay options",	"BGAnimations\\ScreenGameplayOptions background" );
-	RecursiveRename( sThemeDir, "BGAnimations\\edit menu",			"BGAnimations\\ScreenEditMenu background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\game options",		"BGAnimations\\ScreenGameOptions background" );
 	RecursiveRename( sThemeDir, "BGAnimations\\title menu",			"BGAnimations\\ScreenLogo background" );
 	RecursiveRename( sThemeDir, "evaluation summary top edge",		"ScreenEvaluationSummary header" );
 	RecursiveRename( sThemeDir, "top edge", "header" );
-	RecursiveRename( sThemeDir, "\\edit menu", "\\ScreenEditMenu" );
 	RecursiveRename( sThemeDir, "\\evaluation", "\\ScreenEvaluation" );
 	RecursiveRename( sThemeDir, "fallback banner", "Common fallback banner" );
 	RecursiveRename( sThemeDir, "Fonts\\music scroll", "Fonts\\ScreenMusicScroll titles" );
@@ -241,7 +238,6 @@ void ConvertThemeDlg::OnButtonConvert()
 	RecursiveRename( sThemeDir, " (1alpha)", "" );
 	RecursiveRename( sThemeDir, " (1 alpha)", "" );
 	RecursiveRename( sThemeDir, " (0 alpha)", "" );
-	RecursiveRename( sThemeDir, "edit header", "ScreenEdit header" );
 
 	AfxMessageBox( "Conversion Complete!" );
 }
