@@ -52,3 +52,24 @@ Release-SSE2
 # Windows build artefacts
 src/verstub.cpp
 src/version.bin
+Program/swscale-4.dll
+Program/swresample-2.dll
+Program/avutil-55.dll
+Program/avformat-57.dll
+Program/avfilter-6.dll
+Program/avdevice-57.dll
+Program/avcodec-57.dll
+src/.vs/StepMania-net2010/FileContentIndex/31f118c3-54ef-40b5-beb9-403b7e90269c.vsidx
+src/.vs/StepMania-net2010/v17/Browse.VC.db-shm
+src/.vs/StepMania-net2010/v17/Browse.VC.db-wal
+src/.vs/StepMania-net2010/v17/Browse.VC.opendb
+src/.vs/StepMania-net2010/v17/DocumentLayout.json
+src/.vs/StepMania-net2010/v17/Solution.VC.db-shm
+src/.vs/StepMania-net2010/v17/Solution.VC.db-wal
+src/lua-5.0/lib/LibLua.lib
+src/lua-5.0/lib/LibLuaLib.lib
+src/verinfo.h
+src/lua-5.0/lib/LibLua.lib
+src/lua-5.0/lib/LibLuaLib.lib
+src/verinfo.h
+src/verinfo.h
