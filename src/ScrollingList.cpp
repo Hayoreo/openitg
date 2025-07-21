@@ -5,21 +5,11 @@
 enum BANNER_PREFS_TYPES
 {
 	BANNERPREFS_DDRFLAT=0,
-	BANNERPREFS_DDRROT,
-	BANNERPREFS_EZ2,
-	BANNERPREFS_PUMP,
-	BANNERPREFS_PARA
+	BANNERPREFS_DDRROT
 };
 
 #define BANNER_WIDTH			THEME->GetMetricF("ScreenSelectMusic","BannerWidth")
 #define BANNER_HEIGHT			THEME->GetMetricF("ScreenSelectMusic","BannerHeight")
-#define EZ2_BANNER_WIDTH THEME->GetMetricF("ScreenSelectMusic","BannerWidth")
-#define EZ2_BANNER_HEIGHT THEME->GetMetricF("ScreenSelectMusic","BannerHeight")
-#define EZ2_BANNER_ZOOM 2.0
-
-#define ZOOM_OFFSET THEME->GetMetricF("ScreenEz2SelectMusic","BannerZoomOffset")
-#define FADE_OFFSET THEME->GetMetricF("ScreenEz2SelectMusic","BannerFadeOffset")
-#define BANNER_ROTATION THEME->GetMetricF("ScreenEz2SelectMusic","BannerRotation")
 
 
 #define SPRITE_TYPE_SPRITE 0
@@ -42,7 +32,6 @@ ScrollingList::ScrollingList()
 	m_iBouncingState = 0;
 	m_iBounceSize = 0;
 	m_fNextTween = 0;
-	m_iBannerPrefs = BANNERPREFS_EZ2;
 	m_iSpriteType = SPRITE_TYPE_SPRITE;
 	m_iSelection = 0;
 	m_fSelectionLag = 0;
@@ -55,8 +44,8 @@ ScrollingList::ScrollingList()
 	m_sprBannerMask.SetClearZBuffer( true );
 	m_sprBannerMask.SetBlendMode( BLEND_NO_EFFECT );	// don't draw to color buffer
 	m_sprBannerMask.SetZWrite( true );	// do draw to the zbuffer
-	m_sprBannerMask.SetWidth(EZ2_BANNER_WIDTH);
-	m_sprBannerMask.SetHeight(EZ2_BANNER_HEIGHT);
+	m_sprBannerMask.SetWidth(5);
+	m_sprBannerMask.SetHeight(5);
 
 	m_RippleCSprite.SetXY(0,0);
 	m_RippleSprite.SetXY(0,0);
@@ -117,7 +106,7 @@ void ScrollingList::StartBouncing()
 //			m_RippleCSprite.ScaleToClipped( -1, -1 ); // default image size.
 //			m_RippleCSprite.SetWH(EZ2_BANNER_WIDTH+10, EZ2_BANNER_HEIGHT+10);
 //		}
-		m_RippleCSprite.ScaleToClipped( EZ2_BANNER_WIDTH+10, EZ2_BANNER_HEIGHT+10 );
+		m_RippleCSprite.ScaleToClipped( 10, 10 );
 
 		m_RippleCSprite.SetXY( m_apCSprites[m_iSelection]->GetX(), m_apCSprites[m_iSelection]->GetY() );
 		m_RippleCSprite.SetZoom( 2.0f );
@@ -412,21 +401,6 @@ void ScrollingList::Replace(CString sGraphicPath, int ElementNumber)
 			pNewCSprite->ScaleToClipped( BANNER_WIDTH, BANNER_HEIGHT );
 			pNewCSprite->SetRotationZ( DDRROT_ROTATION );
 		}
-		else if(m_iBannerPrefs == BANNERPREFS_EZ2)
-		{
-			// ScaleToClipped should detect rotated banner files and correct
-			// accordingly.  If there's a case I didn't think about, feel free
-			// to change it back.  -Chris
-//			if(pNewCSprite->GetUnzoomedWidth() == pNewCSprite->GetUnzoomedHeight()) // rotated graphics need cropping
-//			{
-//				pNewCSprite->ScaleToClipped( EZ2_BANNER_WIDTH, EZ2_BANNER_HEIGHT );
-//			}
-//			else // flat, unrotated graphics need widths changing
-//			{
-//				pNewCSprite->SetWH(EZ2_BANNER_WIDTH, EZ2_BANNER_HEIGHT);
-//			}
-			pNewCSprite->ScaleToClipped( BANNER_WIDTH, BANNER_HEIGHT );
-		}
 			
 		m_apCSprites[ElementNumber] = pNewCSprite;
 	}
@@ -489,14 +463,11 @@ void ScrollingList::DrawPrimitives()
 
 			m_apCSprites[iIndexToDraw1]->SetX( (-i+m_fSelectionLag) * m_iSpacing );
 			m_apCSprites[iIndexToDraw2]->SetX( (+i+m_fSelectionLag) * m_iSpacing );
-			m_apCSprites[iIndexToDraw1]->SetRotationZ(BANNER_ROTATION);
-			m_apCSprites[iIndexToDraw2]->SetRotationZ(BANNER_ROTATION);
-			m_sprBannerMask.SetRotationZ(BANNER_ROTATION);
 			if( i==0 )	// so we don't draw 0 twice
 			{
 				if(!m_iBouncingState)
-					m_apCSprites[iIndexToDraw1]->SetZoom( 1.0f - (ZOOM_OFFSET * i) );
-				m_apCSprites[iIndexToDraw1]->SetDiffuse( COLOR_SELECTED + RageColor(0,0,0,(1.0f - (FADE_OFFSET * i))) );
+					m_apCSprites[iIndexToDraw1]->SetZoom( 1.0f - (1 * i) );
+				m_apCSprites[iIndexToDraw1]->SetDiffuse( COLOR_SELECTED + RageColor(0,0,0,(1.0f - (1 * i))) );
 				m_apCSprites[iIndexToDraw1]->SetZTestMode( ZTEST_WRITE_ON_PASS );	// do have to pass the z test
 				m_sprBannerMask.SetXY(m_apCSprites[iIndexToDraw1]->GetX(), m_apCSprites[iIndexToDraw1]->GetY());
 				m_sprBannerMask.SetZoom( m_apCSprites[iIndexToDraw1]->GetZoom());
@@ -526,10 +497,10 @@ void ScrollingList::DrawPrimitives()
 			}
 			else
 			{
-				m_apCSprites[iIndexToDraw1]->SetZoom( 1.0f - (ZOOM_OFFSET * i) );
-				m_apCSprites[iIndexToDraw2]->SetZoom( 1.0f - (ZOOM_OFFSET * i) );
-				m_apCSprites[iIndexToDraw1]->SetDiffuse( COLOR_NOT_SELECTED + RageColor(0,0,0,(- (FADE_OFFSET * i))) );
-				m_apCSprites[iIndexToDraw2]->SetDiffuse( COLOR_NOT_SELECTED + RageColor(0,0,0,(- (FADE_OFFSET * i))) );
+				m_apCSprites[iIndexToDraw1]->SetZoom( 1.0f - (1 * i) );
+				m_apCSprites[iIndexToDraw2]->SetZoom( 1.0f - (1 * i) );
+				m_apCSprites[iIndexToDraw1]->SetDiffuse( COLOR_NOT_SELECTED + RageColor(0,0,0,(- (1 * i))) );
+				m_apCSprites[iIndexToDraw2]->SetDiffuse( COLOR_NOT_SELECTED + RageColor(0,0,0,(- (1 * i))) );
 				m_apCSprites[iIndexToDraw1]->SetZTestMode( ZTEST_WRITE_ON_PASS );	// do have to pass the z test
 				m_sprBannerMask.SetXY(m_apCSprites[iIndexToDraw1]->GetX(), m_apCSprites[iIndexToDraw1]->GetY());
 				m_sprBannerMask.SetZoom( m_apCSprites[iIndexToDraw1]->GetZoom());

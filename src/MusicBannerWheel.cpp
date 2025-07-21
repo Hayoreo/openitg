@@ -17,7 +17,6 @@ TODO:
 #include "Style.h"
 #include "song.h"
 
-#define BANNERSPACING THEME->GetMetricI("ScreenEz2SelectMusic","BannerSpacing")
 #define MAXSONGSINBUFFER 5
 #define BANNERTYPE 1
 
@@ -26,9 +25,6 @@ enum
 	GOINGLEFT=0,
 	GOINGRIGHT
 };
-
-
-#define PREVIEWMUSICMODE			THEME->GetMetricI("ScreenEz2SelectMusic","PreviewMusicMode")
 
 MusicBannerWheel::MusicBannerWheel() 
 { 
@@ -47,7 +43,7 @@ MusicBannerWheel::MusicBannerWheel()
 
 	m_ScrollingList.UseSpriteType(BANNERTYPE);
 	m_ScrollingList.SetXY( 0, 0 );
-	m_ScrollingList.SetSpacing( BANNERSPACING );
+	m_ScrollingList.SetSpacing( 40 );
 	this->AddChild( &m_ScrollingList );
 
 	if( GAMESTATE->m_sPreferredSongGroup == GROUP_ALL_MUSIC )
@@ -188,14 +184,14 @@ void MusicBannerWheel::InsertNewBanner(int direction)
 	{
 		ASSERT(0); // we should be going in some sort of direction.
 	}
-	if((PREVIEWMUSICMODE == 0 || PREVIEWMUSICMODE == 3) && !bScanning)
+	if(!bScanning)
 		PlayMusicSample();
 }
 
 void MusicBannerWheel::SetScanMode(bool Scanmode)
 {
 	bScanning = Scanmode;
-	if((PREVIEWMUSICMODE == 0 || PREVIEWMUSICMODE == 3) && !Scanmode)
+	if(!Scanmode)
 		PlayMusicSample();	
 }
 
@@ -290,7 +286,7 @@ void MusicBannerWheel::LoadSongData()
 		m_ScrollingList.Load( asGraphicPaths );
 	if(SingleLoad == 2)
 		SingleLoad = 1;
-	if((PREVIEWMUSICMODE == 0 || PREVIEWMUSICMODE == 3) && !bScanning)
+	if(!bScanning)
 		PlayMusicSample();
 }
 

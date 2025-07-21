@@ -4,8 +4,6 @@
 const int ORIENTATION_LEFT = 0;
 const int ORIENTATION_CENTER = 1;
 
-#define ELEMSPACING		THEME->GetMetricF("ScreenEz2SelectMusic","DifficultyRatingSpacing")
-
 DifficultyRating::DifficultyRating()
 {
 	iMaxElements=10;
@@ -64,7 +62,7 @@ void DifficultyRating::SetOrientation(int Orientation)
 	{
 		for(int i=0; i<iMaxElements; i++)
 		{
-			m_apSprites[i]->SetX(0 + (ELEMSPACING * i) );
+			m_apSprites[i]->SetX(0 + (40 * i) );
 		}
 	}
 	else // central orientation
@@ -84,7 +82,7 @@ void DifficultyRating::SetOrientation(int Orientation)
 				else // - offset
 				{
 					m_apSprites[i]->SetX(0 - offset);
-					offset += ELEMSPACING + 0.5f; // increase offset
+					offset += 40 + 0.5f; // increase offset
 					incrementor=1;
 				}
 			}			
@@ -98,7 +96,7 @@ void DifficultyRating::SetOrientation(int Orientation)
 				if(incrementor == 0) // special case.... this means we're in the middle.
 				{
 					m_apSprites[i]->SetX(0); // set to the middle.
-					offset=ELEMSPACING;
+					offset=40;
 					incrementor++;
 				}
 				//the rest go either side....
@@ -112,7 +110,7 @@ void DifficultyRating::SetOrientation(int Orientation)
 					else // - offset
 					{
 						m_apSprites[i]->SetX(0-offset);
-						offset += ELEMSPACING; // increase offset
+						offset += 40; // increase offset
 						incrementor=1;
 					}
 				}

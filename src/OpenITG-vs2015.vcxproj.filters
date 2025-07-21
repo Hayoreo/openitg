@@ -150,12 +150,6 @@
     <ClCompile Include="ScreenExitCommand.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenEz2SelectMusic.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenEz2SelectPlayer.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenGameplay.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -1503,12 +1497,6 @@
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenExitCommand.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenEz2SelectMusic.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenEz2SelectPlayer.h">
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenGameplay.h">

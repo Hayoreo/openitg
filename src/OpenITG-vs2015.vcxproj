@@ -463,8 +463,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenEvaluation.cpp" />
     <ClCompile Include="ScreenExit.cpp" />
     <ClCompile Include="ScreenExitCommand.cpp" />
-    <ClCompile Include="ScreenEz2SelectMusic.cpp" />
-    <ClCompile Include="ScreenEz2SelectPlayer.cpp" />
     <ClCompile Include="ScreenGameplay.cpp" />
     <ClCompile Include="ScreenGameplayMultiplayer.cpp" />
     <ClCompile Include="ScreenHowToPlay.cpp" />
@@ -1088,8 +1086,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenEvaluation.h" />
     <ClInclude Include="ScreenExit.h" />
     <ClInclude Include="ScreenExitCommand.h" />
-    <ClInclude Include="ScreenEz2SelectMusic.h" />
-    <ClInclude Include="ScreenEz2SelectPlayer.h" />
     <ClInclude Include="ScreenGameplay.h" />
     <ClInclude Include="ScreenGameplayMultiplayer.h" />
     <ClInclude Include="ScreenHowToPlay.h" />

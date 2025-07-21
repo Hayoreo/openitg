@@ -2596,22 +2596,6 @@ SOURCE=.\ScreenExit.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\ScreenEz2SelectMusic.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEz2SelectMusic.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEz2SelectPlayer.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEz2SelectPlayer.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\ScreenGameplay.cpp
 # End Source File
 # Begin Source File
