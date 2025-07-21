@@ -1,12 +1,3 @@
-
-**NOTE**: This project is dead and has been archived. Thanks to those who have helped made it what it is for the last 12 years.
-
-Further ideas and contributions should be made toward the following projects instead:
-
- * NotITG (more featureful and up-to-date fork of this project): https://notitg.heysora.net/
- * StepMania (parent project): https://github.com/stepmania/stepmania. 
-
-
 # OpenITG
 
 An open-source rhythm dancing game which is a fork of StepMania 3.95
