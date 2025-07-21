@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Catalog.xsl"?>
+
+<Catalog>
+<Courses>
+<Course Path='/Courses/Marathon/A Good Start.crs' >
+<HasMods>0</HasMods>
+<MainTitle>A Good Start</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Around 200.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Around 200</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Bounce.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Bounce</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Caddywhompus.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Caddywhompus</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Do You Mine.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Do You Mine?</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Energy.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Energy</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Far East.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Far East</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Fractious.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Fractious</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Freedom.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Freedom</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Get Groov&apos;n.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Get Groov&apos;n</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Hardcore Galore.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Hardcore Galore!</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Just Dance.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Just Dance</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/KeeL Over.crs' >
+<HasMods>0</HasMods>
+<MainTitle>KeeL Over</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Outer World.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Outer World</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Party.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Party</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Pure Hell.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Breaking Point</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Rock Out.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Rock Out</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Sisters.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Sisters</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/The Legend.crs' >
+<HasMods>0</HasMods>
+<MainTitle>The Legend</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Trance.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Trance</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon/Wings.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Wings</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Animal.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Animal</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Automation.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Automation</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Awakening.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Awakening</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Bubblegum Pop.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Bubblegum Pop</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Caliente.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Caliente</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Celebrate.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Celebrate</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Chill Out.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Chill Out</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Digital.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Digital</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Driven.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Driven</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Eat Your Feet.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Eat Your Feet</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Funkitude.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Funkitude</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Fusion.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Fusion</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Getting Started.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Getting Started</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Hot in the Sun.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Hot in the Sun</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Inside Out.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Inside Out</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Nightmare.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Nightmare</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Street Beat.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Street Beat</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Transience.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Transience</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Universal.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Universal</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Marathon2/Wildside.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Wildside</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Blinker.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Blinker</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Cohesion.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Cohesion</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Decelerated.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Decelerated</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Mirage.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Mirage</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Perception.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Perception</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Robot.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Robot</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Slower.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Slower</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Space.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Space</MainTitle>
+<SubTitle/>
+</Course>
+<Course Path='/Courses/Survival/Speeder.crs' >
+<HasMods>0</HasMods>
+<MainTitle>Speeder</MainTitle>
+<SubTitle/>
+</Course>
+</Courses>
+<FooterLink>http://www.roxorgames.com</FooterLink>
+<FooterText>generated by In The Groove 2</FooterText>
+<InternetRankingHomeUrl>http://www.roxorgames.com/itg/redirect.php?location=home</InternetRankingHomeUrl>
+<InternetRankingUploadUrl>http://www.roxorgames.com/itg/redirect.php?location=upload_stats</InternetRankingUploadUrl>
+<InternetRankingViewGuidUrl>http://www.roxorgames.com/itg/redirect.php?location=view_guid&amp;</InternetRankingViewGuidUrl>
+<ProductTitle>In The Groove 2</ProductTitle>
+<Songs/>
+<Totals>
+<NumSongsByGroup/>
+<NumStepsByGroup/>
+<NumUnlockedCourses>0</NumUnlockedCourses>
+<NumUnlockedSongs>0</NumUnlockedSongs>
+<NumUnlockedSteps>0</NumUnlockedSteps>
+<TotalCourses>50</TotalCourses>
+<TotalSongs>0</TotalSongs>
+<TotalSteps>0</TotalSteps>
+</Totals>
+<Types>
+<CourseDifficulty>
+<CourseDifficulty DisplayAs='Normal' >Regular</CourseDifficulty>
+<CourseDifficulty DisplayAs='Intense' >Difficult</CourseDifficulty>
+</CourseDifficulty>
+<Difficulty>
+<Difficulty DisplayAs='Novice' >Beginner</Difficulty>
+<Difficulty DisplayAs='Easy' >Easy</Difficulty>
+<Difficulty DisplayAs='Medium' >Medium</Difficulty>
+<Difficulty DisplayAs='Hard' >Hard</Difficulty>
+<Difficulty DisplayAs='Expert' >Challenge</Difficulty>
+</Difficulty>
+<Grade>
+<Grade DisplayAs='????' >Tier01</Grade>
+<Grade DisplayAs='???' >Tier02</Grade>
+<Grade DisplayAs='??' >Tier03</Grade>
+<Grade DisplayAs='?' >Tier04</Grade>
+<Grade DisplayAs='S+' >Tier05</Grade>
+<Grade DisplayAs='S' >Tier06</Grade>
+<Grade DisplayAs='S-' >Tier07</Grade>
+<Grade DisplayAs='A+' >Tier08</Grade>
+<Grade DisplayAs='A' >Tier09</Grade>
+<Grade DisplayAs='A-' >Tier10</Grade>
+<Grade DisplayAs='B+' >Tier11</Grade>
+<Grade DisplayAs='B' >Tier12</Grade>
+<Grade DisplayAs='B-' >Tier13</Grade>
+<Grade DisplayAs='C+' >Tier14</Grade>
+<Grade DisplayAs='C' >Tier15</Grade>
+<Grade DisplayAs='C-' >Tier16</Grade>
+<Grade DisplayAs='D' >Tier17</Grade>
+</Grade>
+<HoldNoteScore>
+<HoldNoteScore DisplayAs='None' >None</HoldNoteScore>
+<HoldNoteScore DisplayAs='Bad' >NG</HoldNoteScore>
+<HoldNoteScore DisplayAs='Yeah' >OK</HoldNoteScore>
+</HoldNoteScore>
+<Meter>
+<Meter DisplayAs='1' >Meter1</Meter>
+<Meter DisplayAs='2' >Meter2</Meter>
+<Meter DisplayAs='3' >Meter3</Meter>
+<Meter DisplayAs='4' >Meter4</Meter>
+<Meter DisplayAs='5' >Meter5</Meter>
+<Meter DisplayAs='6' >Meter6</Meter>
+<Meter DisplayAs='7' >Meter7</Meter>
+<Meter DisplayAs='8' >Meter8</Meter>
+<Meter DisplayAs='9' >Meter9</Meter>
+<Meter DisplayAs='10' >Meter10</Meter>
+<Meter DisplayAs='11' >Meter11</Meter>
+<Meter DisplayAs='12' >Meter12</Meter>
+<Meter DisplayAs='13' >Meter13</Meter>
+</Meter>
+<Modifier>
+<Modifier DisplayAs='c700' >C700</Modifier>
+<Modifier DisplayAs='x1.5' >1.5x</Modifier>
+<Modifier DisplayAs='x2.5' >2.5x</Modifier>
+<Modifier DisplayAs='x2' >2x</Modifier>
+<Modifier DisplayAs='x3' >3x</Modifier>
+<Modifier DisplayAs='x4' >4x</Modifier>
+<Modifier DisplayAs='x5' >5x</Modifier>
+<Modifier DisplayAs='x6' >6x</Modifier>
+<Modifier DisplayAs='x8' >8x</Modifier>
+<Modifier DisplayAs='Alternate' >Alternate</Modifier>
+<Modifier DisplayAs='Beat' >Beat</Modifier>
+<Modifier DisplayAs='Stream' >Big</Modifier>
+<Modifier DisplayAs='Hide Judgment' >Blind</Modifier>
+<Modifier DisplayAs='Blink' >Blink</Modifier>
+<Modifier DisplayAs='Boomerang' >Boomerang</Modifier>
+<Modifier DisplayAs='Accel' >Boost</Modifier>
+<Modifier DisplayAs='Decel' >Brake</Modifier>
+<Modifier DisplayAs='Bumpy' >Bumpy</Modifier>
+<Modifier DisplayAs='c300' >C300</Modifier>
+<Modifier DisplayAs='c450' >C450</Modifier>
+<Modifier DisplayAs='Cel' >Cel</Modifier>
+<Modifier DisplayAs='Centered' >Centered</Modifier>
+<Modifier DisplayAs='Hide Background' >Cover</Modifier>
+<Modifier DisplayAs='Cross' >Cross</Modifier>
+<Modifier DisplayAs='Hide Targets' >Dark</Modifier>
+<Modifier DisplayAs='Distant' >Distant</Modifier>
+<Modifier DisplayAs='Dizzy' >Dizzy</Modifier>
+<Modifier DisplayAs='Drift' >Drunk</Modifier>
+<Modifier DisplayAs='Echo' >Echo</Modifier>
+<Modifier DisplayAs='Expand' >Expand</Modifier>
+<Modifier DisplayAs='Flat' >Flat</Modifier>
+<Modifier DisplayAs='Flip' >Flip</Modifier>
+<Modifier DisplayAs='Floored' >Floored</Modifier>
+<Modifier DisplayAs='Hallway' >Hallway</Modifier>
+<Modifier DisplayAs='Fade Out' >Hidden</Modifier>
+<Modifier DisplayAs='Fade Out Offset' >HiddenOffset</Modifier>
+<Modifier DisplayAs='Incoming' >Incoming</Modifier>
+<Modifier DisplayAs='Invert' >Invert</Modifier>
+<Modifier DisplayAs='Left' >Left</Modifier>
+<Modifier DisplayAs='Simple' >Little</Modifier>
+<Modifier DisplayAs='Metal' >Metal</Modifier>
+<Modifier DisplayAs='Metal+' >Metal+</Modifier>
+<Modifier DisplayAs='Add Mines' >Mines</Modifier>
+<Modifier DisplayAs='Mini' >Mini</Modifier>
+<Modifier DisplayAs='Mirror' >Mirror</Modifier>
+<Modifier DisplayAs='No Hands' >NoHands</Modifier>
+<Modifier DisplayAs='No Holds' >NoHolds</Modifier>
+<Modifier DisplayAs='No Jumps' >NoJumps</Modifier>
+<Modifier DisplayAs='No Mines' >NoMines</Modifier>
+<Modifier DisplayAs='No Quads' >NoQuads</Modifier>
+<Modifier DisplayAs='No Rolls' >NoRolls</Modifier>
+<Modifier DisplayAs='No Stretch Jumps' >NoStretch</Modifier>
+<Modifier DisplayAs='Overhead' >Overhead</Modifier>
+<Modifier DisplayAs='Planted' >Planted</Modifier>
+<Modifier DisplayAs='Quick' >Quick</Modifier>
+<Modifier DisplayAs='Reverse' >Reverse</Modifier>
+<Modifier DisplayAs='Right' >Right</Modifier>
+<Modifier DisplayAs='Robot' >Robot</Modifier>
+<Modifier DisplayAs='Roll' >Roll</Modifier>
+<Modifier DisplayAs='Random' >Shuffle</Modifier>
+<Modifier DisplayAs='Skippy' >Skippy</Modifier>
+<Modifier DisplayAs='Space' >Space</Modifier>
+<Modifier DisplayAs='Split' >Split</Modifier>
+<Modifier DisplayAs='Invisible' >Stealth</Modifier>
+<Modifier DisplayAs='Stomp' >Stomp</Modifier>
+<Modifier DisplayAs='Fade In' >Sudden</Modifier>
+<Modifier DisplayAs='Fade In Offset' >SuddenOffset</Modifier>
+<Modifier DisplayAs='Blender' >SuperShuffle</Modifier>
+<Modifier DisplayAs='Float' >Tipsy</Modifier>
+<Modifier DisplayAs='Tornado' >Tornado</Modifier>
+<Modifier DisplayAs='Twirl' >Twirl</Modifier>
+<Modifier DisplayAs='Twister' >Twister</Modifier>
+<Modifier DisplayAs='Vivid' >Vivid</Modifier>
+<Modifier DisplayAs='Wave' >Wave</Modifier>
+<Modifier DisplayAs='Wide' >Wide</Modifier>
+<Modifier DisplayAs='0.3x' >0.3x</Modifier>
+<Modifier DisplayAs='0.4x' >0.4x</Modifier>
+<Modifier DisplayAs='0.5x' >0.5x</Modifier>
+<Modifier DisplayAs='0.6x' >0.6x</Modifier>
+<Modifier DisplayAs='0.7x' >0.7x</Modifier>
+<Modifier DisplayAs='0.8x' >0.8x</Modifier>
+<Modifier DisplayAs='0.9x' >0.9x</Modifier>
+<Modifier DisplayAs='1.1x' >1.1x</Modifier>
+<Modifier DisplayAs='1.2x' >1.2x</Modifier>
+<Modifier DisplayAs='1.3x' >1.3x</Modifier>
+<Modifier DisplayAs='1.4x' >1.4x</Modifier>
+<Modifier DisplayAs='x1.5' >1.5x</Modifier>
+<Modifier DisplayAs='1.6x' >1.6x</Modifier>
+<Modifier DisplayAs='1.7x' >1.7x</Modifier>
+<Modifier DisplayAs='1.8x' >1.8x</Modifier>
+<Modifier DisplayAs='1.9x' >1.9x</Modifier>
+<Modifier DisplayAs='x2' >2.0x</Modifier>
+<Modifier DisplayAs='Alternate' >Alternate</Modifier>
+<Modifier DisplayAs='Stream' >Big</Modifier>
+<Modifier DisplayAs='Hide Judgment' >Blind</Modifier>
+<Modifier DisplayAs='Blink' >Blink</Modifier>
+<Modifier DisplayAs='Boomerang' >Boomerang</Modifier>
+<Modifier DisplayAs='Accel' >Boost</Modifier>
+<Modifier DisplayAs='Decel' >Brake</Modifier>
+<Modifier DisplayAs='C200' >C200</Modifier>
+<Modifier DisplayAs='C400' >C400</Modifier>
+<Modifier DisplayAs='Centered' >Centered</Modifier>
+<Modifier DisplayAs='Left' >Clear Left</Modifier>
+<Modifier DisplayAs='Right' >Clear Right</Modifier>
+<Modifier DisplayAs='Left' >Collapse Left</Modifier>
+<Modifier DisplayAs='x2' >Compress 2x</Modifier>
+<Modifier DisplayAs='Right' >Copy Left To Right</Modifier>
+<Modifier DisplayAs='Left' >Copy Right To Left</Modifier>
+<Modifier DisplayAs='Cross' >Cross</Modifier>
+<Modifier DisplayAs='Hide Targets' >Dark</Modifier>
+<Modifier DisplayAs='Distant' >Distant</Modifier>
+<Modifier DisplayAs='Dizzy' >Dizzy</Modifier>
+<Modifier DisplayAs='Drift' >Drunk</Modifier>
+<Modifier DisplayAs='Echo' >Echo</Modifier>
+<Modifier DisplayAs='Expand' >Expand</Modifier>
+<Modifier DisplayAs='x2' >Expand 2x</Modifier>
+<Modifier DisplayAs='Flat' >Flat</Modifier>
+<Modifier DisplayAs='Flip' >Flip</Modifier>
+<Modifier DisplayAs='Hallway' >Hallway</Modifier>
+<Modifier DisplayAs='Fade Out' >Hidden</Modifier>
+<Modifier DisplayAs='Fade Out Offset' >HiddenOffset</Modifier>
+<Modifier DisplayAs='Incoming' >Incoming</Modifier>
+<Modifier DisplayAs='Invert' >Invert</Modifier>
+<Modifier DisplayAs='Left' >Left</Modifier>
+<Modifier DisplayAs='Simple' >Little</Modifier>
+<Modifier DisplayAs='Mini' >Mini</Modifier>
+<Modifier DisplayAs='Mirror' >Mirror</Modifier>
+<Modifier DisplayAs='No Hands' >NoHands</Modifier>
+<Modifier DisplayAs='No Holds' >NoHolds</Modifier>
+<Modifier DisplayAs='No Jumps' >NoJumps</Modifier>
+<Modifier DisplayAs='No Mines' >NoMines</Modifier>
+<Modifier DisplayAs='No Stretch Jumps' >NoStretch</Modifier>
+<Modifier DisplayAs='Overhead' >Overhead</Modifier>
+<Modifier DisplayAs='Planted' >Planted</Modifier>
+<Modifier DisplayAs='Quick' >Quick</Modifier>
+<Modifier DisplayAs='Roll Reverse' >Random</Modifier>
+<Modifier DisplayAs='Reverse' >Reverse</Modifier>
+<Modifier DisplayAs='Right' >Right</Modifier>
+<Modifier DisplayAs='Left' >Shift Left</Modifier>
+<Modifier DisplayAs='Right' >Shift Right</Modifier>
+<Modifier DisplayAs='Random' >Shuffle</Modifier>
+<Modifier DisplayAs='Skippy' >Skippy</Modifier>
+<Modifier DisplayAs='Space' >Space</Modifier>
+<Modifier DisplayAs='Split' >Split</Modifier>
+<Modifier DisplayAs='Invisible' >Stealth</Modifier>
+<Modifier DisplayAs='Stomp' >Stomp</Modifier>
+<Modifier DisplayAs='Fade In' >Sudden</Modifier>
+<Modifier DisplayAs='Fade In Offset' >SuddenOffset</Modifier>
+<Modifier DisplayAs='Blender' >SuperShuffle</Modifier>
+<Modifier DisplayAs='Float' >Tipsy</Modifier>
+<Modifier DisplayAs='Tornado' >Tornado</Modifier>
+<Modifier DisplayAs='Twister' >Twister</Modifier>
+<Modifier DisplayAs='Wave' >Wave</Modifier>
+<Modifier DisplayAs='Wide' >Wide</Modifier>
+</Modifier>
+<PlayMode>
+<PlayMode DisplayAs='Dance' >Regular</PlayMode>
+<PlayMode DisplayAs='Marathon' >Nonstop</PlayMode>
+<PlayMode DisplayAs='Survival' >Oni</PlayMode>
+<PlayMode DisplayAs='Battle' >Rave</PlayMode>
+</PlayMode>
+<RadarValue>
+<RadarValue DisplayAs='Density' >Stream</RadarValue>
+<RadarValue DisplayAs='Spike' >Voltage</RadarValue>
+<RadarValue DisplayAs='Bounce' >Air</RadarValue>
+<RadarValue DisplayAs='Restriction' >Freeze</RadarValue>
+<RadarValue DisplayAs='Irregularity' >Chaos</RadarValue>
+<RadarValue DisplayAs='Taps' >Taps</RadarValue>
+<RadarValue DisplayAs='Jumps' >Jumps</RadarValue>
+<RadarValue DisplayAs='Holds' >Holds</RadarValue>
+<RadarValue DisplayAs='Mines' >Mines</RadarValue>
+<RadarValue DisplayAs='Hands' >Hands</RadarValue>
+<RadarValue DisplayAs='Rolls' >Rolls</RadarValue>
+</RadarValue>
+<StepsType>
+<StepsType DisplayAs='Single' >dance-single</StepsType>
+<StepsType DisplayAs='Double' >dance-double</StepsType>
+</StepsType>
+<Style>
+<Style DisplayAs='1 Player' Game='dance' Style='single' />
+<Style DisplayAs='2 Player' Game='dance' Style='versus' />
+<Style DisplayAs='Double' Game='dance' Style='double' />
+</Style>
+<TapNoteScore>
+<TapNoteScore DisplayAs='None' >None</TapNoteScore>
+<TapNoteScore DisplayAs='Hit Mine' >HitMine</TapNoteScore>
+<TapNoteScore DisplayAs='Avoid Mine' >AvoidMine</TapNoteScore>
+<TapNoteScore DisplayAs='Miss' >Miss</TapNoteScore>
+<TapNoteScore DisplayAs='Way Off' >Boo</TapNoteScore>
+<TapNoteScore DisplayAs='Decent' >Good</TapNoteScore>
+<TapNoteScore DisplayAs='Great' >Great</TapNoteScore>
+<TapNoteScore DisplayAs='Excellent' >Perfect</TapNoteScore>
+<TapNoteScore DisplayAs='Fantastic' >Marvelous</TapNoteScore>
+</TapNoteScore>
+</Types>
+</Catalog>

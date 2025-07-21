@@ -1,0 +1,55 @@
+OpenITG PC unknown version
+Compiled unknown date (build unknown revision)
+Log starting 2025-07-20 19:09:47
+VFS: No patch data found
+======= MOUNTPOINTS =========
+mountpoints .....  ..... /
+mem ..... (cache) ..... /@mem/
+oitg ..... C:/openitg/CryptPackages ..... /Packages/
+dir ..... C:/openitg ..... /
+=============================
+WARNING: GetVersionTokenFromBuildInfo(): couldn't parse version string "unknown version"
+Loading window: win32
+Windows 6.2 (unknown NT-based) build 9200 []
+Memory: 2047mb total, 4095mb swap (4095mb swap avail)
+Video driver: AMD Radeon RX 7700 XT [Advanced Micro Devices, Inc.]
+              32.0.11024.2, 6-25-2024 [PCI\VEN_1002&DEV_747E&REV_FF]
+Drive: "hp      DVD-RAM GH40L   RB0E" Driver: storahci DMA: N/A
+Drive: "WD Blue SA510 2.5 500GB" Driver: storahci DMA: N/A
+Drive: "WDC     WDS200T2B0A-00SM4150" Driver: storahci DMA: N/A
+Drive: "NVMe    WD_BLACK SN850X 61WD" Driver: stornvme DMA: N/A
+Sound device 0: Speakers (High Definition Audio, 0.0, MID 1, PID 65535 
+WARNING: GetVersionTokenFromBuildInfo(): couldn't parse version string "unknown version"
+DirectSound Driver: Primary Sound Driver
+DirectSound Driver: Speakers (High Definition Audio Device) {0.0.0.00000000}.{9922116c-8907-4d34-8f83-5b8ecd4bbf1d}
+DirectSound sample rates: 100..200000 (continuous)
+Sound driver: DirectSound-sw
+Loading courses.
+WARNING: Public and/or Private keys missing. Profile data cannot be signed.
+WARNING: GetSerialNumber(): failed to acquire port.
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Hardcore Symphony"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Amore"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Temple of Boom"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/VerTex^2"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Monolith"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Cryosleep"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Wanna Do"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Robotix"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Know Your Enemy"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/!"
+WARNING: Unlock: Cannot find song matching "In The Groove/Why Me"
+WARNING: Unlock: Cannot find song matching "In The Groove 2/Disconnected Disco"
+Video renderers: 'd3d,opengl'
+Windowed 1024x768 16 color 16 texture 0Hz Vsync AA
+Found 1 DirectInput devices:
+   0: 'Keyboard' axes: 0, hats: 0, buttons: 256 (buffered)
+WARNING: Unknown input handler name: x11
+WARNING: Theme element 'Fonts/ScreenDebugOverlay title' could not be found in 'Themes/home/' or 'Themes/default/'.
+WARNING: Theme element 'Fonts/ScreenDebugOverlay line' could not be found in 'Themes/home/' or 'Themes/default/'.
+WARNING: GetVersionTokenFromBuildInfo(): couldn't parse version string "unknown version"
+Mixing 4096.000000 ahead in 195 Mix() calls
+Players joined: P1
+Lost focus to: (NULL)
+Language: english
+Current renderer: Direct3D
+Theme: home
