@@ -102,29 +102,7 @@ void Steps::GetSMNoteData( CString &notes_comp_out ) const
 
 float Steps::PredictMeter() const
 {
-	float pMeter = 0.775f;
-	
-	const float RadarCoeffs[NUM_RADAR_CATEGORIES] =
-	{
-		10.1f, 5.27f,-0.905f, -1.10f, 2.86f,
-		0,0,0,0,0,0
-	};
-	for( int r = 0; r < NUM_RADAR_CATEGORIES; ++r )
-		pMeter += this->GetRadarValues()[r] * RadarCoeffs[r];
-	
-	const float DifficultyCoeffs[NUM_DIFFICULTIES] =
-	{
-		-0.877f, -0.877f, 0, 0.722f, 0.722f, 0
-	};
-	pMeter += DifficultyCoeffs[this->GetDifficulty()];
-	
-	// Init non-radar values
-	const float SV = this->GetRadarValues()[RADAR_STREAM] * this->GetRadarValues()[RADAR_VOLTAGE];
-	const float ChaosSquare = this->GetRadarValues()[RADAR_CHAOS] * this->GetRadarValues()[RADAR_CHAOS];
-	pMeter += -6.35f * SV;
-	pMeter += -2.58f * ChaosSquare;
-	if (pMeter < 1) pMeter = 1;	
-	return pMeter;
+	return 1;
 }
 
 void Steps::TidyUpData()

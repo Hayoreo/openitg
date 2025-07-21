@@ -28,11 +28,6 @@ static const Content_t g_Contents[NUM_PANE_CONTENTS] =
 	{ "SongRolls",				PANE_SONG_DIFFICULTY,		NEED_NOTES },
 	{ "SongMines",				PANE_SONG_DIFFICULTY,		NEED_NOTES },
 	{ "SongHands",				PANE_SONG_DIFFICULTY,		NEED_NOTES },
-	{ "DifficultyStream",		NUM_PANES,					NEED_NOTES }, // hide
-	{ "DifficultyChaos",		NUM_PANES,					NEED_NOTES },
-	{ "DifficultyFreeze",		NUM_PANES,					NEED_NOTES },
-	{ "DifficultyAir",			NUM_PANES,					NEED_NOTES },
-	{ "DifficultyVoltage",		NUM_PANES,					NEED_NOTES },
 	{ "MachineHighScore",		PANE_SONG_DIFFICULTY,		NEED_NOTES },
 	{ "MachineNumPlays",		NUM_PANES,					NEED_NOTES },
 	{ "MachineRank",			NUM_PANES,					NEED_NOTES },
@@ -202,11 +197,6 @@ void PaneDisplay::SetContent( PaneContents c )
 		case SONG_MINES:					val = rv[RADAR_NUM_MINES]; break;
 		case COURSE_HANDS:
 		case SONG_HANDS:					val = rv[RADAR_NUM_HANDS]; break;
-		case SONG_DIFFICULTY_RADAR_STREAM:	val = rv[RADAR_STREAM]; break;
-		case SONG_DIFFICULTY_RADAR_VOLTAGE:	val = rv[RADAR_VOLTAGE]; break;
-		case SONG_DIFFICULTY_RADAR_AIR:		val = rv[RADAR_AIR]; break;
-		case SONG_DIFFICULTY_RADAR_FREEZE:	val = rv[RADAR_FREEZE]; break;
-		case SONG_DIFFICULTY_RADAR_CHAOS:	val = rv[RADAR_CHAOS]; break;
 		case SONG_PROFILE_HIGH_SCORE:
 			val = PROFILEMAN->GetProfile(m_PlayerNumber)->GetStepsHighScoreList(pSong,pSteps).GetTopScore().fPercentDP;
 			break;
@@ -273,20 +263,6 @@ void PaneDisplay::SetContent( PaneContents c )
 
 		if( val == RADAR_VAL_UNKNOWN )
 			goto done;
-
-		/* Scale, round, clamp, etc. for floats: */
-		switch( c )
-		{
-		case SONG_DIFFICULTY_RADAR_STREAM:
-		case SONG_DIFFICULTY_RADAR_VOLTAGE:
-		case SONG_DIFFICULTY_RADAR_AIR:
-		case SONG_DIFFICULTY_RADAR_FREEZE:
-		case SONG_DIFFICULTY_RADAR_CHAOS:
-			val = roundf( SCALE( val, 0, 1, 0, 10 ) );
-			val = clamp( val, 0, 10 );
-			str = ssprintf( "%.0f", val );
-			break;
-		}
 
 		switch( c )
 		{

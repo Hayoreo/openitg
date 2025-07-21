@@ -16,11 +16,6 @@ struct RadarValues
 	{
 		struct
 		{
-			float fStream;
-			float fVoltage;
-			float fAir;
-			float fFreeze;
-			float fChaos;
 			float fNumTapsAndHolds;
 			float fNumJumps;
 			float fNumHolds;

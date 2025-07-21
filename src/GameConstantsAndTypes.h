@@ -18,11 +18,6 @@ const int MIN_METER = 1;
  * in the radar. */
 enum RadarCategory
 {
-	RADAR_STREAM = 0,
-	RADAR_VOLTAGE,
-	RADAR_AIR,
-	RADAR_FREEZE,
-	RADAR_CHAOS,
 	RADAR_NUM_TAPS_AND_HOLDS,
 	RADAR_NUM_JUMPS,
 	RADAR_NUM_HOLDS,

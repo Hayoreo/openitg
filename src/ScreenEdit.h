@@ -347,11 +347,6 @@ public:
 		quads,
 		holds,
 		mines,
-		stream,
-		voltage,
-		air,
-		freeze,
-		chaos,
 		NUM_STEPS_INFORMATION_CHOICES
 	};
 	void HandleStepsInformationChoice( StepsInformationChoice c, const vector<int> &iAnswers );

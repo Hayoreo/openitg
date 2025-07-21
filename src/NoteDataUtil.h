@@ -26,13 +26,6 @@ namespace NoteDataUtil
 	void LoadTransformedLightsFromTwo( const NoteData &marquee, const NoteData &bass, NoteData &out );
 	void InsertHoldTails( NoteData &inout );
 
-	// radar values - return between 0.0 and 1.2
-	float GetStreamRadarValue( const NoteData &in, float fSongSeconds );
-	float GetVoltageRadarValue( const NoteData &in, float fSongSeconds );
-	float GetAirRadarValue( const NoteData &in, float fSongSeconds );
-	float GetFreezeRadarValue( const NoteData &in, float fSongSeconds );
-	float GetChaosRadarValue( const NoteData &in, float fSongSeconds );
-
 	void CalculateRadarValues( const NoteData &in, float fSongSeconds, RadarValues& out );
 
 	void RemoveHoldNotes( NoteData &inout, int iStartIndex = 0, int iEndIndex = MAX_NOTE_ROW );

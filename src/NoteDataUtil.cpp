@@ -633,11 +633,6 @@ void NoteDataUtil::CalculateRadarValues( const NoteData &in, float fSongSeconds,
 	{
 		switch( rc )
 		{
-		case RADAR_STREAM:				out.m_Values.f[rc] = GetStreamRadarValue( in, fSongSeconds );	break;
-		case RADAR_VOLTAGE:				out.m_Values.f[rc] = GetVoltageRadarValue( in, fSongSeconds );	break;
-		case RADAR_AIR:					out.m_Values.f[rc] = GetAirRadarValue( in, fSongSeconds );		break;
-		case RADAR_FREEZE:				out.m_Values.f[rc] = GetFreezeRadarValue( in, fSongSeconds );	break;
-		case RADAR_CHAOS:				out.m_Values.f[rc] = GetChaosRadarValue( in, fSongSeconds );	break;
 		case RADAR_NUM_TAPS_AND_HOLDS:	out.m_Values.f[rc] = (float) in.GetNumRowsWithTapOrHoldHead();	break;
 		case RADAR_NUM_JUMPS:			out.m_Values.f[rc] = (float) in.GetNumJumps();					break;
 		case RADAR_NUM_HOLDS:			out.m_Values.f[rc] = (float) in.GetNumHoldNotes();				break;
@@ -647,78 +642,6 @@ void NoteDataUtil::CalculateRadarValues( const NoteData &in, float fSongSeconds,
 		default:	ASSERT(0);
 		}
 	}
-}
-
-float NoteDataUtil::GetStreamRadarValue( const NoteData &in, float fSongSeconds )
-{
-	if( !fSongSeconds )
-		return 0.0f;
-	// density of steps
-	int iNumNotes = in.GetNumTapNotes() + in.GetNumHoldNotes();
-	float fNotesPerSecond = iNumNotes/fSongSeconds;
-	float fReturn = fNotesPerSecond / 7;
-	return min( fReturn, 1.0f );
-}
-
-float NoteDataUtil::GetVoltageRadarValue( const NoteData &in, float fSongSeconds )
-{
-	if( !fSongSeconds )
-		return 0.0f;
-
-	const float fLastBeat = in.GetLastBeat();
-	const float fAvgBPS = fLastBeat / fSongSeconds;
-
-	// peak density of steps
-	float fMaxDensitySoFar = 0;
-
-	const float BEAT_WINDOW = 8;
-	const int BEAT_WINDOW_ROWS = BeatToNoteRow( BEAT_WINDOW );
-
-	for( int i=0; i<=BeatToNoteRow(fLastBeat); i+=BEAT_WINDOW_ROWS )
-	{
-		int iNumNotesThisWindow = in.GetNumTapNotes( i, i+BEAT_WINDOW_ROWS ) + in.GetNumHoldNotes( i, i+BEAT_WINDOW_ROWS );
-		float fDensityThisWindow = iNumNotesThisWindow / BEAT_WINDOW;
-		fMaxDensitySoFar = max( fMaxDensitySoFar, fDensityThisWindow );
-	}
-
-	float fReturn = fMaxDensitySoFar*fAvgBPS/10;
-	return min( fReturn, 1.0f );
-}
-
-float NoteDataUtil::GetAirRadarValue( const NoteData &in, float fSongSeconds )
-{
-	if( !fSongSeconds )
-		return 0.0f;
-	// number of doubles
-	int iNumDoubles = in.GetNumJumps();
-	float fReturn = iNumDoubles / fSongSeconds;
-	return min( fReturn, 1.0f );
-}
-
-float NoteDataUtil::GetFreezeRadarValue( const NoteData &in, float fSongSeconds )
-{
-	if( !fSongSeconds )
-		return 0.0f;
-	// number of hold steps
-	float fReturn = in.GetNumHoldNotes() / fSongSeconds;
-	return min( fReturn, 1.0f );
-}
-
-float NoteDataUtil::GetChaosRadarValue( const NoteData &in, float fSongSeconds )
-{
-	if( !fSongSeconds )
-		return 0.0f;
-	// count number of triplets or 16ths
-	int iNumChaosNotes = 0;
-
-	FOREACH_NONEMPTY_ROW_ALL_TRACKS( in, r )
-	{
-		if( GetNoteType(r) >= NOTE_TYPE_12TH )
-			iNumChaosNotes++;
-	}
-
-	float fReturn = iNumChaosNotes / fSongSeconds * 0.5f;
-	return min( fReturn, 1.0f );
 }
 
 void NoteDataUtil::RemoveHoldNotes( NoteData &in, int iStartIndex, int iEndIndex )
@@ -855,7 +778,7 @@ static void GetTrackMapping( StepsType st, NoteDataUtil::TrackMapping tt, int Nu
 	{
 	case NoteDataUtil::left:
 	case NoteDataUtil::right:
-		// Is there a way to do this withoutn handling each StepsType? -Chris
+		// Is there a way to do this without handling each StepsType? -Chris
 		switch( st )
 		{
 		case STEPS_TYPE_DANCE_SINGLE:
@@ -914,10 +837,6 @@ static void GetTrackMapping( StepsType st, NoteDataUtil::TrackMapping tt, int Nu
 			iTakeFromTrack[1] = 2;
 			iTakeFromTrack[2] = 1;
 			iTakeFromTrack[3] = 0;
-			iTakeFromTrack[4] = 7;
-			iTakeFromTrack[5] = 6;
-			iTakeFromTrack[6] = 5;
-			iTakeFromTrack[7] = 4;
 			break;
 		case STEPS_TYPE_DANCE_DOUBLE:
 			iTakeFromTrack[0] = 1;

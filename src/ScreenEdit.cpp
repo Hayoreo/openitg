@@ -427,12 +427,7 @@ static Menu g_StepsInformation(
 	MenuRow( ScreenEdit::hands,			"Hands",			false, EDIT_MODE_PRACTICE, 0, NULL ),
 	MenuRow( ScreenEdit::quads,			"Quads",			false, EDIT_MODE_PRACTICE, 0, NULL ),
 	MenuRow( ScreenEdit::holds,			"Holds",			false, EDIT_MODE_PRACTICE, 0, NULL ),
-	MenuRow( ScreenEdit::mines,			"Mines",			false, EDIT_MODE_PRACTICE, 0, NULL ),
-	MenuRow( ScreenEdit::stream,		"Stream",			false, EDIT_MODE_FULL, 0, NULL ),
-	MenuRow( ScreenEdit::voltage,		"Voltage",			false, EDIT_MODE_FULL, 0, NULL ),
-	MenuRow( ScreenEdit::air,			"Air",				false, EDIT_MODE_FULL, 0, NULL ),
-	MenuRow( ScreenEdit::freeze,		"Freeze",			false, EDIT_MODE_FULL, 0, NULL ),
-	MenuRow( ScreenEdit::chaos,			"Chaos",			false, EDIT_MODE_FULL, 0, NULL )
+	MenuRow( ScreenEdit::mines,			"Mines",			false, EDIT_MODE_PRACTICE, 0, NULL )
 );
 
 static Menu g_SongInformation(
@@ -1986,11 +1981,6 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, const vector<int> &iAns
 				g_StepsInformation.rows[quads].choices.resize(1);		g_StepsInformation.rows[quads].choices[0] = ssprintf("%d", m_NoteDataEdit.GetNumQuads());
 				g_StepsInformation.rows[holds].choices.resize(1);		g_StepsInformation.rows[holds].choices[0] = ssprintf("%d", m_NoteDataEdit.GetNumHoldNotes());
 				g_StepsInformation.rows[mines].choices.resize(1);		g_StepsInformation.rows[mines].choices[0] = ssprintf("%d", m_NoteDataEdit.GetNumMines());
-				g_StepsInformation.rows[stream].choices.resize(1);		g_StepsInformation.rows[stream].choices[0] = ssprintf("%.2f", NoteDataUtil::GetStreamRadarValue(m_NoteDataEdit,fMusicSeconds));
-				g_StepsInformation.rows[voltage].choices.resize(1);		g_StepsInformation.rows[voltage].choices[0] = ssprintf("%.2f", NoteDataUtil::GetVoltageRadarValue(m_NoteDataEdit,fMusicSeconds));
-				g_StepsInformation.rows[air].choices.resize(1);			g_StepsInformation.rows[air].choices[0] = ssprintf("%.2f", NoteDataUtil::GetAirRadarValue(m_NoteDataEdit,fMusicSeconds));
-				g_StepsInformation.rows[freeze].choices.resize(1);		g_StepsInformation.rows[freeze].choices[0] = ssprintf("%.2f", NoteDataUtil::GetFreezeRadarValue(m_NoteDataEdit,fMusicSeconds));
-				g_StepsInformation.rows[chaos].choices.resize(1);		g_StepsInformation.rows[chaos].choices[0] = ssprintf("%.2f", NoteDataUtil::GetChaosRadarValue(m_NoteDataEdit,fMusicSeconds));
 				SCREENMAN->MiniMenu( &g_StepsInformation, SM_BackFromStepsInformation );
 			}
 			break;
