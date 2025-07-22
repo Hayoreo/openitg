@@ -228,9 +228,6 @@
     <ClCompile Include="ScreenSelect.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenSelectCharacter.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenSelectDifficulty.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -847,9 +844,6 @@
       <Filter>Actors used in Gameplay</Filter>
     </ClCompile>
     <ClCompile Include="Background.cpp">
-      <Filter>Actors used in Gameplay</Filter>
-    </ClCompile>
-    <ClCompile Include="BeginnerHelper.cpp">
       <Filter>Actors used in Gameplay</Filter>
     </ClCompile>
     <ClCompile Include="CombinedLifeMeterTug.cpp">
@@ -1562,9 +1556,6 @@
     <ClInclude Include="ScreenSelect.h">
       <Filter>Screens</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenSelectCharacter.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
     <ClInclude Include="ScreenSelectDifficulty.h">
       <Filter>Screens</Filter>
     </ClInclude>
@@ -2223,9 +2214,6 @@
       <Filter>Actors used in Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="Background.h">
-      <Filter>Actors used in Gameplay</Filter>
-    </ClInclude>
-    <ClInclude Include="BeginnerHelper.h">
       <Filter>Actors used in Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="CombinedLifeMeter.h">

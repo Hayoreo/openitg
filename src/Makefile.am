@@ -70,7 +70,7 @@ ScreenProfileOptions.cpp ScreenProfileOptions.h ScreenPrompt.cpp ScreenPrompt.h 
 ScreenReloadSongs.cpp ScreenReloadSongs.h \
 ScreenSandbox.cpp ScreenSandbox.h \
 ScreenSaveSync.cpp ScreenSaveSync.h \
-ScreenSelect.cpp ScreenSelect.h ScreenSelectCharacter.cpp ScreenSelectCharacter.h \
+ScreenSelect.cpp ScreenSelect.h \
 ScreenSelectDifficulty.cpp ScreenSelectDifficulty.h ScreenSelectGroup.cpp ScreenSelectGroup.h \
 ScreenSelectMaster.cpp ScreenSelectMaster.h ScreenSelectMode.cpp ScreenSelectMode.h \
 ScreenSelectMusic.cpp ScreenSelectMusic.h ScreenSelectStyle.cpp ScreenSelectStyle.h \
@@ -331,7 +331,7 @@ WheelNotifyIcon.cpp WheelNotifyIcon.h
 
 ActorsInGameplay = \
 ArrowEffects.cpp ArrowEffects.h AttackDisplay.cpp AttackDisplay.h \
-Background.cpp Background.h BeginnerHelper.cpp BeginnerHelper.h CombinedLifeMeterTug.cpp CombinedLifeMeterTug.h \
+Background.cpp Background.h CombinedLifeMeterTug.cpp CombinedLifeMeterTug.h \
 Combo.cpp Combo.h DancingCharacters.cpp DancingCharacters.h Foreground.cpp Foreground.h GhostArrow.cpp GhostArrow.h \
 GhostArrowRow.cpp GhostArrowRow.h HoldGhostArrow.cpp HoldGhostArrow.h HoldJudgment.cpp HoldJudgment.h \
 Judgment.cpp Judgment.h LifeMeter.h LifeMeterBar.cpp LifeMeterBar.h \

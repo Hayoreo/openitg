@@ -1910,14 +1910,6 @@ SOURCE=.\Background.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\BeginnerHelper.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\BeginnerHelper.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\CombinedLifeMeterTug.cpp
 # End Source File
 # Begin Source File
@@ -2751,14 +2743,6 @@ SOURCE=.\ScreenSelect.cpp
 # Begin Source File
 
 SOURCE=.\ScreenSelect.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenSelectCharacter.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenSelectCharacter.h
 # End Source File
 # Begin Source File
 

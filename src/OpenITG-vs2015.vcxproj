@@ -489,7 +489,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenSandbox.cpp" />
     <ClCompile Include="ScreenSaveSync.cpp" />
     <ClCompile Include="ScreenSelect.cpp" />
-    <ClCompile Include="ScreenSelectCharacter.cpp" />
     <ClCompile Include="ScreenSelectDifficulty.cpp" />
     <ClCompile Include="ScreenSelectGroup.cpp" />
     <ClCompile Include="ScreenSelectMaster.cpp" />
@@ -708,7 +707,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ArrowEffects.cpp" />
     <ClCompile Include="AttackDisplay.cpp" />
     <ClCompile Include="Background.cpp" />
-    <ClCompile Include="BeginnerHelper.cpp" />
     <ClCompile Include="CombinedLifeMeterTug.cpp" />
     <ClCompile Include="Combo.cpp" />
     <ClCompile Include="DancingCharacters.cpp" />
@@ -1107,7 +1105,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenSandbox.h" />
     <ClInclude Include="ScreenSaveSync.h" />
     <ClInclude Include="ScreenSelect.h" />
-    <ClInclude Include="ScreenSelectCharacter.h" />
     <ClInclude Include="ScreenSelectDifficulty.h" />
     <ClInclude Include="ScreenSelectGroup.h" />
     <ClInclude Include="ScreenSelectMaster.h" />
@@ -1340,7 +1337,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ArrowEffects.h" />
     <ClInclude Include="AttackDisplay.h" />
     <ClInclude Include="Background.h" />
-    <ClInclude Include="BeginnerHelper.h" />
     <ClInclude Include="CombinedLifeMeter.h" />
     <ClInclude Include="CombinedLifeMeterTug.h" />
     <ClInclude Include="Combo.h" />

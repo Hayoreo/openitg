@@ -6,7 +6,6 @@
 #include "PrefsManager.h"
 #include "Steps.h"
 #include "DancingCharacters.h"
-#include "BeginnerHelper.h"
 #include "StatsManager.h"
 #include "ScreenDimensions.h"
 #include "PlayerState.h"
@@ -191,20 +190,6 @@ void BackgroundImpl::Init()
 		m_DangerPlayer[p].LoadFromAniDir( THEME->GetPathB("ScreenGameplay",ssprintf("danger p%d",p+1)) );
 	FOREACH_PlayerNumber( p )
 		m_DeadPlayer[p].LoadFromAniDir( THEME->GetPathB("ScreenGameplay",ssprintf("dead p%d",p+1)) );
-
-	bool bOneOrMoreChars = false;
-	bool bShowingBeginnerHelper = false;
-	FOREACH_HumanPlayer( p )
-	{
-		bOneOrMoreChars = true;
-		// Disable dancing characters if BH will be showing.
-		if( PREFSMAN->m_bShowBeginnerHelper && BeginnerHelper::CanUse() && 
-			GAMESTATE->m_pCurSteps[p] && GAMESTATE->m_pCurSteps[p]->GetDifficulty() == DIFFICULTY_BEGINNER )
-			bShowingBeginnerHelper = true;
-	}
-
-	if( bOneOrMoreChars && !bShowingBeginnerHelper )
-		m_pDancingCharacters = new DancingCharacters;
 
 	RageColor c = GetBrightnessColor(0);
 

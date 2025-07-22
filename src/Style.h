@@ -20,7 +20,6 @@ class Style
 public:
 	const Game*	m_pGame;				// Which Game is this Style used with?
 	bool		m_bUsedForGameplay;			// Can be used only for gameplay?
-	bool		m_bUsedForEdit;				// Can be used for editing?
 	bool		m_bUsedForDemonstration;	// Can be used for demonstration?
 	bool		m_bUsedForHowToPlay;		// Can be used for HowToPlay?
 	
@@ -49,7 +48,6 @@ public:
 	int			m_iInputColumn[MAX_GAME_CONTROLLERS][MAX_GAME_BUTTONS]; // maps each input to a column, or GAME_BUTTON_INVALID
 	int			m_iColumnDrawOrder[MAX_COLS_PER_PLAYER];
 	bool		m_bNeedsZoomOutWith2Players;
-	bool		m_bCanUseBeginnerHelper;
 
 	GameInput StyleInputToGameInput( const StyleInput& StyleI ) const;
 	StyleInput GameInputToStyleInput( const GameInput &GameI ) const;

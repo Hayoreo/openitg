@@ -209,7 +209,6 @@ public:
 	Preference<int>		m_iProgressiveLifebar;
 	Preference<int>		m_iProgressiveStageLifebar;
 	Preference<int>		m_iProgressiveNonstopLifebar;
-	Preference<bool>	m_bShowBeginnerHelper;
 	Preference<bool>	m_bEndlessBreakEnabled;
 	Preference<int>		m_iEndlessNumStagesUntilBreak;
 	Preference<int>		m_iEndlessBreakLength;

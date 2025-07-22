@@ -221,7 +221,6 @@ PrefsManager::PrefsManager() :
 	m_iProgressiveLifebar			( "ProgressiveLifebar",			0 ),
 	m_iProgressiveStageLifebar		( "ProgressiveStageLifebar",	0 ),
 	m_iProgressiveNonstopLifebar	( "ProgressiveNonstopLifebar",	0 ),
-	m_bShowBeginnerHelper			( "ShowBeginnerHelper",			false ),
 	m_bEndlessBreakEnabled			( "EndlessBreakEnabled",		true ),
 	m_iEndlessNumStagesUntilBreak	( "EndlessNumStagesUntilBreak",	5 ),
 	m_iEndlessBreakLength			( "EndlessBreakLength",			5 ),

@@ -271,7 +271,6 @@ MOVE( AutogenGroupCourses,	PREFSMAN->m_bAutogenGroupCourses );
 
 /* Background options */
 MOVE( DancingCharacters,	PREFSMAN->m_ShowDancingCharacters );
-MOVE( BeginnerHelper,		PREFSMAN->m_bShowBeginnerHelper );
 
 static void BGBrightness( int &sel, bool ToSel, const ConfOption *pConfOption )
 {
@@ -564,7 +563,6 @@ static void InitializeConfOptions()
 	ADD( ConfOption( "Brightness",					BGBrightness,		"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%" ) );
 	ADD( ConfOption( "ShowDanger",					MovePref,			"HIDE","SHOW" ) );
 	ADD( ConfOption( "DancingCharacters",			DancingCharacters,	"DEFAULT TO OFF","DEFAULT TO RANDOM","SELECT" ) );
-	ADD( ConfOption( "BeginnerHelper",				BeginnerHelper,		"OFF","ON" ) );
 	ADD( ConfOption( "RandomBackgrounds",			NumBackgrounds,		"5","10","15","20" ) );
 
 	/* Input options */

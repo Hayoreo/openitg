@@ -244,7 +244,6 @@ Style g_Styles[] =
 	{	// STYLE_DANCE_SINGLE
 		&g_Games[GAME_DANCE],					// m_Game
 		true,									// m_bUsedForGameplay
-		true,									// m_bUsedForEdit
 		true,									// m_bUsedForDemonstration
 		true,									// m_bUsedForHowToPlay
 		"single",								// m_szName
@@ -273,12 +272,10 @@ Style g_Styles[] =
 			0, 1, 2, 3
 		},
 		false, // m_bNeedsZoomOutWith2Players
-		true, // m_bCanUseBeginnerHelper
 	},
 	{	// STYLE_DANCE_VERSUS
 		&g_Games[GAME_DANCE],				// m_Game
 		true,									// m_bUsedForGameplay
-		false,									// m_bUsedForEdit
 		true,									// m_bUsedForDemonstration
 		false,									// m_bUsedForHowToPlay
 		"versus",								// m_szName
@@ -307,12 +304,10 @@ Style g_Styles[] =
 			0, 1, 2, 3
 		},
 		false, // m_bNeedsZoomOutWith2Players
-		true, // m_bCanUseBeginnerHelper
 	},
 	{	// STYLE_DANCE_DOUBLE
 		&g_Games[GAME_DANCE],				// m_Game
 		true,									// m_bUsedForGameplay
-		true,									// m_bUsedForEdit
 		true,									// m_bUsedForDemonstration
 		false,									// m_bUsedForHowToPlay
 		"double",								// m_szName
@@ -349,12 +344,10 @@ Style g_Styles[] =
 			0,1,2,3,4,5,6,7
 		},
 		false, // m_bNeedsZoomOutWith2Players
-		false, // m_bCanUseBeginnerHelper
 	},
 	{	// STYLE_LIGHTS_CABINET
 		&g_Games[GAME_LIGHTS],				// m_Game
 		true,									// m_bUsedForGameplay
-		true,									// m_bUsedForEdit
 		false,									// m_bUsedForDemonstration
 		false,									// m_bUsedForHowToPlay
 		"cabinet",								// m_szName
@@ -391,7 +384,6 @@ Style g_Styles[] =
 			0,1,2,3,4,5,6,7
 		},
 		false, // m_bNeedsZoomOutWith2Players
-		false, // m_bCanUseBeginnerHelper
 	},
 };
 
@@ -415,8 +407,6 @@ void GameManager::GetStylesForGame( const Game *pGame, vector<const Style*>& aSt
 			continue;
 		if( !editor && !style->m_bUsedForGameplay )	
 			continue;
-		if( editor && !style->m_bUsedForEdit )	
-			continue;
 
 		aStylesAddTo.push_back( style );
 	}
@@ -427,8 +417,6 @@ const Style* GameManager::GetEditorStyleForStepsType( StepsType st ) const
 	for( unsigned s=0; s<NUM_STYLES; s++ ) 
 	{
 		const Style* style = &g_Styles[s];
-		if( style->m_StepsType == st && style->m_bUsedForEdit )
-			return style;
 	}
 
 	ASSERT(0);	// this Game is missing a Style that can be used with the editor

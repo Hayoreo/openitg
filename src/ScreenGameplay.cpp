@@ -210,13 +210,6 @@ void ScreenGameplay::Init()
 	ON_COMMAND( m_SongBackground );
 	this->AddChild( &m_SongForeground );
 
-	if( PREFSMAN->m_bShowBeginnerHelper )
-	{
-		m_BeginnerHelper.SetDrawOrder( DRAW_ORDER_BEFORE_EVERYTHING );
-		m_BeginnerHelper.SetXY( SCREEN_CENTER_X, SCREEN_CENTER_Y );
-		this->AddChild( &m_BeginnerHelper );
-	}
-	
 	m_sprStaticBackground.SetName( "StaticBG" );
 	m_sprStaticBackground.Load( THEME->GetPathG(m_sName,"Static Background") );
 	SET_XY( m_sprStaticBackground );
@@ -980,41 +973,19 @@ void ScreenGameplay::LoadNextSong()
 	
 	/* Set up song-specific graphics. */
 	
-	
-	// Check to see if any players are in beginner mode.
-	// Note: steps can be different if turn modifiers are used.
-	if( PREFSMAN->m_bShowBeginnerHelper )
-	{
-		FOREACH_HumanPlayer( p )
-		{
-			if( GAMESTATE->m_pCurSteps[p]->GetDifficulty() == DIFFICULTY_BEGINNER )
-				m_BeginnerHelper.AddPlayer( p, &m_Player[p].m_NoteData );
-		}
-	}
-
 	m_SongBackground.Unload();
 
-	if( !PREFSMAN->m_bShowBeginnerHelper || !m_BeginnerHelper.Initialize(2) )
-	{
-		m_BeginnerHelper.SetHidden( true );
+	m_SongBackground.LoadFromSong( GAMESTATE->m_pCurSong );
 
-		/* BeginnerHelper disabled, or failed to load. */
-		m_SongBackground.LoadFromSong( GAMESTATE->m_pCurSong );
-
-		if( !GAMESTATE->m_bDemonstrationOrJukebox )
-		{
-			/* This will fade from a preset brightness to the actual brightness (based
-			 * on prefs and "cover").  The preset brightness may be 0 (to fade from
-			 * black), or it might be 1, if the stage screen has the song BG and we're
-			 * coming from it (like Pump).  This used to be done in SM_PlayReady, but
-			 * that means it's impossible to snap to the new brightness immediately. */
-			m_SongBackground.SetBrightness( INITIAL_BACKGROUND_BRIGHTNESS );
-			m_SongBackground.FadeToActualBrightness();
-		}
-	}
-	else
+	if( !GAMESTATE->m_bDemonstrationOrJukebox )
 	{
-		m_BeginnerHelper.SetHidden( false );
+		/* This will fade from a preset brightness to the actual brightness (based
+			* on prefs and "cover").  The preset brightness may be 0 (to fade from
+			* black), or it might be 1, if the stage screen has the song BG and we're
+			* coming from it (like Pump).  This used to be done in SM_PlayReady, but
+			* that means it's impossible to snap to the new brightness immediately. */
+		m_SongBackground.SetBrightness( INITIAL_BACKGROUND_BRIGHTNESS );
+		m_SongBackground.FadeToActualBrightness();
 	}
 
 	FOREACH_EnabledPlayer(p)

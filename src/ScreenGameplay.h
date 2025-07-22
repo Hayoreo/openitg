@@ -18,7 +18,6 @@
 #include "DifficultyMeter.h"
 #include "BPMDisplay.h"
 class Inventory;
-#include "BeginnerHelper.h"
 #include "LyricDisplay.h"
 #include "Character.h"
 #include "Attack.h"
@@ -168,8 +167,6 @@ protected:
 
 	RageSound		m_soundAssistTick;
 	RageSound		*m_pSoundMusic;
-
-	BeginnerHelper	m_BeginnerHelper;
 
 	NoteData		m_CabinetLightsNoteData;
 

@@ -544,12 +544,6 @@ cl /Zl /nologo /c verstub.cpp /Fo$(IntDir)\
 				RelativePath="ScreenSelect.h">
 			</File>
 			<File
-				RelativePath="ScreenSelectCharacter.cpp">
-			</File>
-			<File
-				RelativePath="ScreenSelectCharacter.h">
-			</File>
-			<File
 				RelativePath="ScreenSelectDifficulty.cpp">
 			</File>
 			<File
@@ -1642,12 +1636,6 @@ cl /Zl /nologo /c verstub.cpp /Fo$(IntDir)\
 			</File>
 			<File
 				RelativePath=".\Background.h">
-			</File>
-			<File
-				RelativePath="BeginnerHelper.cpp">
-			</File>
-			<File
-				RelativePath="BeginnerHelper.h">
 			</File>
 			<File
 				RelativePath="CombinedLifeMeter.h">
