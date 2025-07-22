@@ -269,9 +269,6 @@ MOVE( Lyrics,				PREFSMAN->m_bShowLyrics );
 MOVE( AutogenSteps,			PREFSMAN->m_bAutogenSteps );
 MOVE( AutogenGroupCourses,	PREFSMAN->m_bAutogenGroupCourses );
 
-/* Background options */
-MOVE( DancingCharacters,	PREFSMAN->m_ShowDancingCharacters );
-
 static void BGBrightness( int &sel, bool ToSel, const ConfOption *pConfOption )
 {
 	const float mapping[] = { 0.0f,0.1f,0.2f,0.3f,0.4f,0.5f,0.6f,0.7f,0.8f,0.9f,1.0f };
@@ -562,7 +559,6 @@ static void InitializeConfOptions()
 	ADD( ConfOption( "BackgroundMode",				MovePref,			"OFF","ANIMATIONS","VISUALIZATIONS","RANDOM MOVIES" ) );
 	ADD( ConfOption( "Brightness",					BGBrightness,		"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%" ) );
 	ADD( ConfOption( "ShowDanger",					MovePref,			"HIDE","SHOW" ) );
-	ADD( ConfOption( "DancingCharacters",			DancingCharacters,	"DEFAULT TO OFF","DEFAULT TO RANDOM","SELECT" ) );
 	ADD( ConfOption( "RandomBackgrounds",			NumBackgrounds,		"5","10","15","20" ) );
 
 	/* Input options */

@@ -832,7 +832,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="Background.cpp" />
     <ClCompile Include="CombinedLifeMeterTug.cpp" />
     <ClCompile Include="Combo.cpp" />
-    <ClCompile Include="DancingCharacters.cpp" />
     <ClCompile Include="Foreground.cpp" />
     <ClCompile Include="GhostArrow.cpp" />
     <ClCompile Include="GhostArrowRow.cpp" />
@@ -1505,7 +1504,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="CombinedLifeMeter.h" />
     <ClInclude Include="CombinedLifeMeterTug.h" />
     <ClInclude Include="Combo.h" />
-    <ClInclude Include="DancingCharacters.h" />
     <ClInclude Include="Foreground.h" />
     <ClInclude Include="GhostArrow.h" />
     <ClInclude Include="GhostArrowRow.h" />

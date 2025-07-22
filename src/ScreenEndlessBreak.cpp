@@ -12,30 +12,7 @@ ScreenEndlessBreak::ScreenEndlessBreak( CString sName ) : Screen( sName )
 	ASSERT(GAMESTATE->GetNumPlayersEnabled() > 0);	// This should never happen.. but just in case
 	PostScreenMessage( SM_BreakInitiated, 0 );
 
-	if( (int)PREFSMAN->m_ShowDancingCharacters != 0 )
-	{
-		if( GAMESTATE->GetNumPlayersEnabled() == 1 )
-			if( GAMESTATE->m_pCurCharacters[0] != NULL )
-				m_sprBreakPicture.LoadTABreakFromCharacter( GAMESTATE->m_pCurCharacters[0] );
-			else
-				m_sprBreakPicture.Load( THEME->GetPathG("Common","fallback takingabreak") );
-		else if( GAMESTATE->GetNumPlayersEnabled() > 1 ) // More than 1 player is present.
-		{
-			PlayerNumber pn;
-			do
-			{
-				pn = (PlayerNumber)(rand()%NUM_PLAYERS);
-				if( GAMESTATE->IsPlayerEnabled(pn) && (GAMESTATE->m_pCurCharacters[pn] != NULL) )
-				{
-					m_sprBreakPicture.LoadTABreakFromCharacter( GAMESTATE->m_pCurCharacters[pn] );
-					break;
-				}
-			}
-			while( !GAMESTATE->IsPlayerEnabled(pn) );
-		}
-	}
-	else	// Characters not enabled.
-		m_sprBreakPicture.Load( THEME->GetPathG("Common","fallback takingabreak") );
+	m_sprBreakPicture.Load( THEME->GetPathG("Common","fallback takingabreak") );
 	m_sprBreakPicture.SetX( SCREEN_CENTER_X );
 	m_sprBreakPicture.SetY( SCREEN_CENTER_Y );
 		this->AddChild(&m_sprBreakPicture);

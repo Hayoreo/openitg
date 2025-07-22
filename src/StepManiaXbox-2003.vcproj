@@ -1653,12 +1653,6 @@ cl /Zl /nologo /c verstub.cpp /Fo$(IntDir)\
 				RelativePath=".\Combo.h">
 			</File>
 			<File
-				RelativePath="DancingCharacters.cpp">
-			</File>
-			<File
-				RelativePath="DancingCharacters.h">
-			</File>
-			<File
 				RelativePath="Foreground.cpp">
 			</File>
 			<File

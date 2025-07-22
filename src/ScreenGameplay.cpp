@@ -21,7 +21,6 @@
 #include "ProfileManager.h"
 #include "StatsManager.h"
 #include "PlayerAI.h"	// for NUM_SKILL_LEVELS
-#include "DancingCharacters.h"
 #include "ScreenDimensions.h"
 #include "PlayerState.h"
 #include "Style.h"
@@ -1536,40 +1535,6 @@ void ScreenGameplay::Update( float fDeltaTime )
 		}
 	
 		//
-		// update 2d dancing characters
-		//
-        FOREACH_EnabledPlayer(p)
-		{
-			DancingCharacters *pCharacter = m_SongBackground.GetDancingCharacters();
-			if( pCharacter != NULL )
-			{
-				TapNoteScore tns = m_Player[p].GetLastTapNoteScore();
-				
-				ANIM_STATES_2D state = AS2D_MISS;
-
-				switch( tns )
-				{
-				case TNS_GOOD:
-				case TNS_GREAT:
-					state = AS2D_GOOD;
-					break;
-				case TNS_PERFECT:
-				case TNS_MARVELOUS:
-					state = AS2D_GREAT;
-					break;
-				default:
-					state = AS2D_MISS;
-					break;
-				}
-
-				if( state == AS2D_GREAT && m_pLifeMeter[p] && m_pLifeMeter[p]->GetLife() == 1.0f ) // full life
-					state = AS2D_FEVER;
-
-				pCharacter->Change2DAnimState( p, state );
-			}
-		}
-
-		//
 		// Check for enemy death in enemy battle
 		//
 		static float fLastSeenEnemyHealth = 1;
@@ -2191,22 +2156,6 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 	}
 	else if( SM == SM_LeaveGameplay )
 	{
-		// update dancing characters for win / lose
-		DancingCharacters *Dancers = m_SongBackground.GetDancingCharacters();
-		if( Dancers )
-		{
-			FOREACH_EnabledPlayer(p)
-			{
-				/* XXX: In battle modes, switch( GAMESTATE->GetStageResult(p) ). */
-				if( STATSMAN->m_CurStageStats.m_player[p].bFailed )
-					Dancers->Change2DAnimState( p, AS2D_FAIL ); // fail anim
-				else if( m_pLifeMeter[p] && m_pLifeMeter[p]->GetLife() == 1.0f ) // full life
-					Dancers->Change2DAnimState( p, AS2D_WINFEVER ); // full life pass anim
-				else
-					Dancers->Change2DAnimState( p, AS2D_WIN ); // pass anim
-			}
-		}
-
 		/* End round. */
 		if( m_DancingState == STATE_OUTRO )	// ScreenGameplay already ended
 			return;		// ignore

@@ -2944,14 +2944,6 @@
 				>
 			</File>
 			<File
-				RelativePath="DancingCharacters.cpp"
-				>
-			</File>
-			<File
-				RelativePath="DancingCharacters.h"
-				>
-			</File>
-			<File
 				RelativePath="Foreground.cpp"
 				>
 			</File>

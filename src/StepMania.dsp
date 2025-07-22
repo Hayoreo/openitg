@@ -1926,14 +1926,6 @@ SOURCE=.\Combo.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\DancingCharacters.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\DancingCharacters.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\Foreground.cpp
 # End Source File
 # Begin Source File

@@ -5,7 +5,6 @@
 #include "GameState.h"
 #include "PrefsManager.h"
 #include "Steps.h"
-#include "DancingCharacters.h"
 #include "StatsManager.h"
 #include "ScreenDimensions.h"
 #include "PlayerState.h"
@@ -66,13 +65,10 @@ public:
 
 	void FadeToActualBrightness() { m_Brightness.FadeToActualBrightness(); }
 	void SetBrightness( float fBrightness ) { m_Brightness.Set(fBrightness); } /* overrides pref and Cover */
-	
-	DancingCharacters* GetDancingCharacters() { return m_pDancingCharacters; };
 
 
 protected:
 	bool m_bInitted;
-	DancingCharacters*	m_pDancingCharacters;
 	const Song *m_pSong;
 	map<CString,BackgroundTransition> m_mapNameToTransition;
 	deque<BackgroundDef> m_RandomBGAnimations;	// random background to choose from.  These may or may not be loaded into m_BGAnimations.
@@ -139,7 +135,6 @@ static RageColor GetBrightnessColor( float fBrightnessPercent )
 BackgroundImpl::BackgroundImpl()
 {
 	m_bInitted = false;
-	m_pDancingCharacters = NULL;
 	m_pSong = NULL;
 }
 
@@ -213,7 +208,6 @@ void BackgroundImpl::Init()
 BackgroundImpl::~BackgroundImpl()
 {
 	Unload();
-	delete m_pDancingCharacters;
 }
 
 void BackgroundImpl::Unload()
@@ -668,10 +662,6 @@ void BackgroundImpl::LoadFromSong( const Song* pSong )
 	}
 
 	TEXTUREMAN->EnableOddDimensionWarning();
-
-	if( m_pDancingCharacters )
-		m_pDancingCharacters->LoadNextSong();
-
 	TEXTUREMAN->SetDefaultTexturePolicy( OldPolicy );
 
 	/* Song backgrounds always sync from the music by default, unlike other actors
@@ -836,9 +826,6 @@ void BackgroundImpl::Update( float fDeltaTime )
 			m_DeadPlayer[p].Update( fDeltaTime );
 	}
 
-	if( m_pDancingCharacters )
-		m_pDancingCharacters->Update( fDeltaTime );
-
 	/* Always update the current background, even when m_DangerAll is being displayed.
 	 * Otherwise, we'll stop updating movies during danger (which may stop them from
 	 * playing), and we won't start clips at the right time, which will throw backgrounds
@@ -858,17 +845,11 @@ void BackgroundImpl::DrawPrimitives()
 
 	if( IsDangerAllVisible() )
 	{
-		// Since this only shows when DANGER is visible, it will flash red on it's own accord :)
-		if( m_pDancingCharacters )
-			m_pDancingCharacters->m_bDrawDangerLight = true;
 		m_DangerAll.Draw();
 	}
 	
 	if( !IsDangerAllVisible() || !(bool)DANGER_ALL_IS_OPAQUE ) 
 	{	
-		if( m_pDancingCharacters )
-			m_pDancingCharacters->m_bDrawDangerLight = false;
-		
 		FOREACH_BackgroundLayer( i )
 		{
 			Layer &layer = m_Layer[i];
@@ -886,9 +867,6 @@ void BackgroundImpl::DrawPrimitives()
 				m_DeadPlayer[p].Draw();
 		}
 	}
-
-	if( m_pDancingCharacters )
-		m_pDancingCharacters->Draw();
 
 	ActorFrame::DrawPrimitives();
 }
@@ -992,7 +970,6 @@ void Background::LoadFromSong( const Song *pSong )		{ m_pImpl->LoadFromSong(pSon
 void Background::Unload()								{ m_pImpl->Unload(); }
 void Background::FadeToActualBrightness()				{ m_pImpl->FadeToActualBrightness(); }
 void Background::SetBrightness( float fBrightness )		{ m_pImpl->SetBrightness(fBrightness); }
-DancingCharacters* Background::GetDancingCharacters()	{ return m_pImpl->GetDancingCharacters(); }
 
 
 /*

@@ -122,7 +122,7 @@ void StreamDisplay::DrawPrimitives()
 		DrawStrip( f, fStripWidthInPercent );
 	}
 
-	// Don't leave the Zbuffer in a messy state for arrows and dancing characters
+	// Don't leave the Zbuffer in a messy state for arrows
 	DISPLAY->ClearZBuffer();
 }
 

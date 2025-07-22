@@ -840,9 +840,6 @@
     <ClCompile Include="Combo.cpp">
       <Filter>Actors used in Gameplay</Filter>
     </ClCompile>
-    <ClCompile Include="DancingCharacters.cpp">
-      <Filter>Actors used in Gameplay</Filter>
-    </ClCompile>
     <ClCompile Include="Foreground.cpp">
       <Filter>Actors used in Gameplay</Filter>
     </ClCompile>
@@ -2220,9 +2217,6 @@
       <Filter>Actors used in Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="Combo.h">
-      <Filter>Actors used in Gameplay</Filter>
-    </ClInclude>
-    <ClInclude Include="DancingCharacters.h">
       <Filter>Actors used in Gameplay</Filter>
     </ClInclude>
     <ClInclude Include="Foreground.h">

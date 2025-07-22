@@ -11,7 +11,6 @@
 #include <deque>
 #include <map>
 
-class DancingCharacters;
 class Song;
 class BackgroundImpl;
 
@@ -27,8 +26,6 @@ public:
 
 	void FadeToActualBrightness();
 	void SetBrightness( float fBrightness ); /* overrides pref and Cover */
-	
-	DancingCharacters* GetDancingCharacters();
 
 protected:
 	BackgroundImpl *m_pImpl;

@@ -266,11 +266,8 @@ void GameState::Reset()
 
 	FOREACH_PlayerNumber(p)
 	{
-		if( PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_RANDOM)
-			m_pCurCharacters[p] = GetRandomCharacter();
-		else
-			m_pCurCharacters[p] = GetDefaultCharacter();
-		ASSERT( m_pCurCharacters[p] );
+		// Why is this needed for the game to run?
+		m_pCurCharacters[p] = GetDefaultCharacter();
 	}
 
 	m_bTemporaryEventMode = false;

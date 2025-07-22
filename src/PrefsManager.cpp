@@ -213,7 +213,6 @@ PrefsManager::PrefsManager() :
 	m_bAutogenGroupCourses			( "AutogenGroupCourses",		true ),
 	m_bBreakComboToGetItem			( "BreakComboToGetItem",		false ),
 	m_bLockCourseDifficulties		( "LockCourseDifficulties",		true ),
-	m_ShowDancingCharacters			( "ShowDancingCharacters",		CO_OFF ),
 	m_bUseUnlockSystem				( "UseUnlockSystem",			false ),
 	m_bAutoMapOnJoyChange			( "AutoMapOnJoyChange",			true ),
 	m_fGlobalOffsetSeconds			( "GlobalOffsetSeconds",		0 ),
