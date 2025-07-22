@@ -48,7 +48,7 @@ CString SongOptions::GetString() const
 
 	if( m_fMusicRate != 1 )
 	{
-		CString s = ssprintf( "%2.2f", m_fMusicRate );
+		CString s = ssprintf( "%6.6f", m_fMusicRate );
 		if( s[s.length()-1] == '0' )
 			s.erase(s.length()-1);
 		sReturn += s + "xMusic, ";
