@@ -452,14 +452,14 @@ static void DisplayResolution( int &sel, bool ToSel, const ConfOption *pConfOpti
 {
 	const res_t mapping[] =
 	{
-		res_t(320, 240),
-		res_t(400, 300),
-		res_t(512, 384),
 		res_t(640, 480),
 		res_t(800, 600),
 		res_t(1024, 768),
 		res_t(1280, 960),
-		res_t(1280, 1024)
+		res_t(1280, 1024),
+		res_t(1920, 1080),
+		res_t(2560, 1440),
+		res_t(3480, 2160)
 	};
 	res_t sel_res( PREFSMAN->m_iDisplayWidth, PREFSMAN->m_iDisplayHeight );
 	MoveMap( sel, sel_res, ToSel, mapping, ARRAYLEN(mapping) );
@@ -614,7 +614,7 @@ static void InitializeConfOptions()
 	/* Graphic options */
 	ADD( ConfOption( "Windowed",					MovePref,			"FULLSCREEN", "WINDOWED" ) );
 	g_ConfOptions.back().m_iEffects = OPT_APPLY_GRAPHICS;
-	ADD( ConfOption( "DisplayResolution",			DisplayResolution,	"320","400","512","640","800","1024","1280x960","1280x1024" ) );
+	ADD( ConfOption( "DisplayResolution",			DisplayResolution,	"640","800","1024","1280x960","1280x1024","1920x1080","2560x1440","3840×2160"));
 	g_ConfOptions.back().m_iEffects = OPT_APPLY_GRAPHICS;
 	ADD( ConfOption( "DisplayColor",				DisplayColor,		"16BIT","32BIT" ) );
 	g_ConfOptions.back().m_iEffects = OPT_APPLY_GRAPHICS;

@@ -20,7 +20,7 @@ struct RageTextureManagerPrefs
 		m_bDelayedDelete = false;
 		m_iMovieColorDepth = 16;
 		m_iTextureColorDepth = 16;
-		m_iMaxTextureResolution = 1024;
+		m_iMaxTextureResolution = 2048;
 		m_bMipMaps = false;
 	}
 	RageTextureManagerPrefs( 
