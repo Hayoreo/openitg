@@ -828,14 +828,6 @@
 				>
 			</File>
 			<File
-				RelativePath="ScreenHowToPlay.cpp"
-				>
-			</File>
-			<File
-				RelativePath="ScreenHowToPlay.h"
-				>
-			</File>
-			<File
 				RelativePath="ScreenInstructions.cpp"
 				>
 			</File>

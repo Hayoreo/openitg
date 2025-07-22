@@ -147,9 +147,6 @@
     <ClCompile Include="ScreenGameplayMultiplayer.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenHowToPlay.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenInstructions.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -1482,9 +1479,6 @@
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenGameplayMultiplayer.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenHowToPlay.h">
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenInstructions.h">

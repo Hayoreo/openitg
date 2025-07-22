@@ -587,7 +587,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenExitCommand.cpp" />
     <ClCompile Include="ScreenGameplay.cpp" />
     <ClCompile Include="ScreenGameplayMultiplayer.cpp" />
-    <ClCompile Include="ScreenHowToPlay.cpp" />
     <ClCompile Include="ScreenInstructions.cpp" />
     <ClCompile Include="ScreenJukebox.cpp" />
     <ClCompile Include="ScreenLogo.cpp" />
@@ -1245,7 +1244,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenExitCommand.h" />
     <ClInclude Include="ScreenGameplay.h" />
     <ClInclude Include="ScreenGameplayMultiplayer.h" />
-    <ClInclude Include="ScreenHowToPlay.h" />
     <ClInclude Include="ScreenInstructions.h" />
     <ClInclude Include="ScreenJukebox.h" />
     <ClInclude Include="ScreenLogo.h" />

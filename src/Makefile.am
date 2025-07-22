@@ -58,7 +58,7 @@ ScreenDebugOverlay.cpp ScreenDebugOverlay.h \
 ScreenDemonstration.cpp ScreenDemonstration.h ScreenDimensions.h \
 ScreenEndlessBreak.cpp ScreenEndlessBreak.h ScreenEvaluation.cpp ScreenEvaluation.h ScreenExit.cpp ScreenExit.h ScreenNetEvaluation.cpp ScreenNetEvaluation.h \
 ScreenNetSelectMusic.cpp ScreenNetSelectMusic.h ScreenNetSelectBase.cpp ScreenNetSelectBase.h ScreenNetRoom.cpp ScreenNetRoom.h \
-ScreenGameplay.cpp ScreenGameplay.h ScreenHowToPlay.cpp ScreenHowToPlay.h \
+ScreenGameplay.cpp ScreenGameplay.h \
 ScreenInstructions.cpp ScreenInstructions.h \
 ScreenJukebox.cpp ScreenJukebox.h \
 ScreenLogo.cpp ScreenLogo.h ScreenMapControllers.cpp ScreenMapControllers.h \

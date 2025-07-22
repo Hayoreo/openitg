@@ -2546,14 +2546,6 @@ SOURCE=.\ScreenGameplayMultiplayer.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\ScreenHowToPlay.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenHowToPlay.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\ScreenInstructions.cpp
 # End Source File
 # Begin Source File
