@@ -824,7 +824,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="RoomWheel.cpp" />
     <ClCompile Include="ScrollBar.cpp" />
     <ClCompile Include="ScrollingList.cpp" />
-    <ClCompile Include="SnapDisplay.cpp" />
     <ClCompile Include="TextBanner.cpp" />
     <ClCompile Include="WheelBase.cpp" />
     <ClCompile Include="WheelItemBase.cpp" />
@@ -1500,7 +1499,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="RoomWheel.h" />
     <ClInclude Include="ScrollBar.h" />
     <ClInclude Include="ScrollingList.h" />
-    <ClInclude Include="SnapDisplay.h" />
     <ClInclude Include="TextBanner.h" />
     <ClInclude Include="WheelBase.h" />
     <ClInclude Include="WheelItemBase.h" />

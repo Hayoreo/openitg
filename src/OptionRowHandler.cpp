@@ -978,22 +978,7 @@ public:
 		Init();
 		defOut.Init();
 
-		if( sParam == "EditStepsType" )
-		{
-			m_pstToFill = &GAMESTATE->m_stEdit;
-		}
-		else if( sParam == "EditSourceStepsType" )
-		{
-			m_pstToFill = &GAMESTATE->m_stEditSource;
-			m_vsReloadRowMessages.push_back( MessageToString(MESSAGE_CURRENT_STEPS_P1_CHANGED) );
-			m_vsReloadRowMessages.push_back( MessageToString(MESSAGE_EDIT_STEPS_TYPE_CHANGED) );
-			if( GAMESTATE->m_pCurSteps[0].Get() != NULL )
-				defOut.m_vEnabledForPlayers.clear();	// hide row
-		}
-		else
-		{
-			RageException::Throw( "invalid StepsType param \"%s\"", sParam.c_str() );
-		}
+		RageException::Throw( "invalid StepsType param \"%s\"", sParam.c_str() );
 
 		m_sName = sParam;
 		defOut.name = sParam;
@@ -1077,25 +1062,7 @@ public:
 		Init();
 		defOut.Init();
 
-		if( sParam == "EditSteps" )
-		{
-			m_ppStepsToFill = &GAMESTATE->m_pCurSteps[0];
-			m_pDifficultyToFill = &GAMESTATE->m_PreferredDifficulty[0];
-			m_pst = &GAMESTATE->m_stEdit;
-			m_vsReloadRowMessages.push_back( MessageToString(MESSAGE_EDIT_STEPS_TYPE_CHANGED) );
-		}
-		else if( sParam == "EditSourceSteps" )
-		{
-			m_ppStepsToFill = &GAMESTATE->m_pEditSourceSteps;
-			m_pst = &GAMESTATE->m_stEditSource;
-			m_vsReloadRowMessages.push_back( MessageToString(MESSAGE_EDIT_SOURCE_STEPS_TYPE_CHANGED) );
-			if( GAMESTATE->m_pCurSteps[0].Get() != NULL )
-				defOut.m_vEnabledForPlayers.clear();	// hide row
-		}
-		else
-		{
-			RageException::Throw( "invalid StepsType param \"%s\"", sParam.c_str() );
-		}
+		RageException::Throw( "invalid StepsType param \"%s\"", sParam.c_str() );
 		
 		m_sName = sParam;
 		defOut.name = sParam;

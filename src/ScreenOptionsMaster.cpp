@@ -165,17 +165,8 @@ void ScreenOptionsMaster::GoToNextScreen()
 
 void ScreenOptionsMaster::GoToPrevScreen()
 {
-	/* XXX: A better way to handle this would be to check if we're a pushed screen. */
-	if( GAMESTATE->m_bEditing )
-	{
-		SCREENMAN->PopTopScreen( SM_None );
-		// XXX: handle different destinations based on play mode?
-	}
-	else
-	{
-		SCREENMAN->DeletePreparedScreens();
-		SCREENMAN->SetNewScreen( PREV_SCREEN ); // (GAMESTATE->m_PlayMode) );
-	}
+	SCREENMAN->DeletePreparedScreens();
+	SCREENMAN->SetNewScreen( PREV_SCREEN ); // (GAMESTATE->m_PlayMode) );
 }
 
 void ScreenOptionsMaster::RefreshIcons( int r, PlayerNumber pn )

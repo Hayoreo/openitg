@@ -29,8 +29,6 @@ public:
 		int iEndDrawingPixel );
 	virtual void Unload();
 
-	int	m_iBeginMarker, m_iEndMarker;	// only used with MODE_EDIT
-
 	void FadeToFail();
 	void CacheNoteSkin( const CString &sNoteSkin );
 

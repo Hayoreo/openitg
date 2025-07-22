@@ -2872,14 +2872,6 @@
 				>
 			</File>
 			<File
-				RelativePath="SnapDisplay.cpp"
-				>
-			</File>
-			<File
-				RelativePath="SnapDisplay.h"
-				>
-			</File>
-			<File
 				RelativePath=".\TextBanner.cpp"
 				>
 			</File>

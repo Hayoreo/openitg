@@ -45,23 +45,13 @@ void ScreenSongOptions::ExportOptions( int row, const vector<PlayerNumber> &vpns
 
 void ScreenSongOptions::GoToPrevScreen()
 {
-	if( GAMESTATE->m_bEditing )
-	{
-		SCREENMAN->PopTopScreen( SM_BackFromSongOptions );
-	}
-	else
-	{
-		SCREENMAN->DeletePreparedScreens();
-		SCREENMAN->SetNewScreen( PREV_SCREEN );
-	}
+	SCREENMAN->DeletePreparedScreens();
+	SCREENMAN->SetNewScreen( PREV_SCREEN );
 }
 
 void ScreenSongOptions::GoToNextScreen()
 {
-	if( GAMESTATE->m_bEditing )
-		SCREENMAN->PopTopScreen( SM_BackFromSongOptions );
-	else
-		SCREENMAN->SetNewScreen( NEXT_SCREEN );
+	SCREENMAN->SetNewScreen( NEXT_SCREEN );
 }
 
 /*

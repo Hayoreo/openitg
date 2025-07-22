@@ -314,13 +314,6 @@ public:
 	CoinMode	GetCoinMode();
 	Premium		GetPremium();
 
-	//
-	// Edit stuff
-	//
-	BroadcastOnChange<StepsType> m_stEdit;
-	BroadcastOnChangePtr<Steps> m_pEditSourceSteps;
-	BroadcastOnChange<StepsType> m_stEditSource;
-
 	// Workout stuff
 	float GetGoalPercentComplete( PlayerNumber pn );
 	bool IsGoalComplete( PlayerNumber pn )	{ return GetGoalPercentComplete( pn ) >= 1; }

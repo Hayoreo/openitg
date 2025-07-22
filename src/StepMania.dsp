@@ -2398,14 +2398,6 @@ SOURCE=.\ScrollingList.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\SnapDisplay.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\SnapDisplay.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\TextBanner.cpp
 # End Source File
 # Begin Source File

@@ -32,13 +32,6 @@ void ScreenMiniMenu::Init( const Menu* pDef, ScreenMessage SM_SendOnOK, ScreenMe
 	m_SMSendOnCancel = SM_SendOnCancel;
 
 
-	FOREACH_CONST( MenuRow, pDef->rows, r )
-	{
-		// Don't add rows that aren't applicable to HomeEditMode.
-		if( EDIT_MODE >= r->emShowIn )
-			m_vMenuRows.push_back( *r );
-	}
-
 	// Convert from m_vMenuRows to vector<OptionRowDefinition>
 	vector<OptionRowDefinition> vDefs;
 	vDefs.resize( m_vMenuRows.size() );

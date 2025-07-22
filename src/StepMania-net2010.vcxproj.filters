@@ -816,9 +816,6 @@
     <ClCompile Include="ScrollingList.cpp">
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
-    <ClCompile Include="SnapDisplay.cpp">
-      <Filter>Actors used in Menus</Filter>
-    </ClCompile>
     <ClCompile Include="TextBanner.cpp">
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
@@ -2205,9 +2202,6 @@
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="ScrollingList.h">
-      <Filter>Actors used in Menus</Filter>
-    </ClInclude>
-    <ClInclude Include="SnapDisplay.h">
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="TextBanner.h">

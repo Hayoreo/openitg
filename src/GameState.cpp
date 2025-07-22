@@ -86,10 +86,7 @@ GameState::GameState() :
     m_pCurSong(				MESSAGE_CURRENT_SONG_CHANGED ),
 	m_pCurSteps(			MESSAGE_CURRENT_STEPS_P1_CHANGED ),
     m_pCurCourse(			MESSAGE_CURRENT_COURSE_CHANGED ),
-	m_pCurTrail(			MESSAGE_CURRENT_TRAIL_P1_CHANGED ),
-	m_stEdit(				MESSAGE_EDIT_STEPS_TYPE_CHANGED ),
-    m_pEditSourceSteps(		MESSAGE_EDIT_SOURCE_STEPS_CHANGED ),
-	m_stEditSource(			MESSAGE_EDIT_SOURCE_STEPS_TYPE_CHANGED )
+	m_pCurTrail(			MESSAGE_CURRENT_TRAIL_P1_CHANGED )
 {
 	m_pCurStyle.Set( NULL );
 
@@ -281,10 +278,6 @@ void GameState::Reset()
 
 	LIGHTSMAN->SetLightsMode( LIGHTSMODE_ATTRACT );
 	
-	m_stEdit.Set( STEPS_TYPE_INVALID );
-	m_pEditSourceSteps.Set( NULL );
-	m_stEditSource.Set( STEPS_TYPE_INVALID );
-
 	SONGMAN->FreeAllLoadedPlayerSongs();
 
 	ApplyCmdline();
@@ -2153,13 +2146,6 @@ public:
 			lua_pushnil(L);
 		return 1;
 	}
-	static int GetEditSourceSteps( T* p, lua_State *L )
-	{
-		Steps *pSteps = p->m_pEditSourceSteps;  
-		if( pSteps ) { pSteps->PushSelf(L); }
-		else		 { lua_pushnil(L); }
-		return 1;
-	}
 	static int GetCurrentGame( T* p, lua_State *L )			{ const_cast<Game*>(p->GetCurrentGame())->PushSelf( L ); return 1; }
 	static int DelayedGameCommand( T* p, lua_State *L )		{ p->m_sDelayedGameCommand = SArg(1); return 1; }
 	static int GetPreferredDifficulty( T* p, lua_State *L )	{ lua_pushnumber(L, p->m_PreferredDifficulty[IArg(1)] ); return 1; }
@@ -2217,7 +2203,6 @@ public:
 		ADD_METHOD( Env )
 		ADD_METHOD( SetEnv )
 		ADD_METHOD( GetEnv )
-		ADD_METHOD( GetEditSourceSteps )
 		ADD_METHOD( GetPreferredDifficulty )
 		ADD_METHOD( AnyPlayerHasRankingFeats )
 		ADD_METHOD( IsCourseMode )

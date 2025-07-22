@@ -28,8 +28,6 @@ NoteField::NoteField()
 	m_sprBars.Load( THEME->GetPathG("NoteField","bars") );
 	m_sprBars.StopAnimating();
 
-	m_iBeginMarker = m_iEndMarker = -1;
-
 	m_fPercentFadeToFail = -1;
 	LastDisplay = NULL;
 }
@@ -516,108 +514,6 @@ void NoteField::DrawPrimitives()
 					DrawFreezeText( fBeat, aStopSegments[i].m_fStopSeconds );
 			}
 		}
-
-		//
-		// BGChange text
-		//
-		switch( EDIT_MODE.GetValue() )
-		{
-		case EDIT_MODE_HOME:
-		case EDIT_MODE_PRACTICE:
-			break;
-		case EDIT_MODE_FULL:
-			{
-				vector<BackgroundChange>::iterator iter[NUM_BackgroundLayer];
-				FOREACH_BackgroundLayer( i )
-					iter[i] = GAMESTATE->m_pCurSong->GetBackgroundChanges(i).begin();
-
-				while( 1 )
-				{
-					float fLowestBeat = FLT_MAX;
-					vector<BackgroundLayer> viLowestIndex;
-
-					FOREACH_BackgroundLayer( i )
-					{
-						if( iter[i] == GAMESTATE->m_pCurSong->GetBackgroundChanges(i).end() )
-							continue;
-
-						float fBeat = iter[i]->m_fStartBeat;
-						if( fBeat < fLowestBeat )
-						{
-							fLowestBeat = fBeat;
-							viLowestIndex.clear();
-							viLowestIndex.push_back( i );
-						}
-						else if( fBeat == fLowestBeat )
-						{
-							viLowestIndex.push_back( i );
-						}
-					}
-
-					if( viLowestIndex.empty() )
-					{
-						FOREACH_BackgroundLayer( i )
-							ASSERT( iter[i] == GAMESTATE->m_pCurSong->GetBackgroundChanges(i).end() );
-						break;
-					}
-
-					if( IS_ON_SCREEN(fLowestBeat) )
-					{
-						vector<CString> vsBGChanges;
-						FOREACH_CONST( BackgroundLayer, viLowestIndex, i )
-						{
-							ASSERT( iter[*i] != GAMESTATE->m_pCurSong->GetBackgroundChanges(*i).end() );
-
-							const BackgroundChange& change = *iter[*i];
-							vector<CString> vsParts;
-							if( *i!=0 )								vsParts.push_back( ssprintf("%d: ",*i) );
-							if( !change.m_def.m_sFile1.empty() )	vsParts.push_back( change.m_def.m_sFile1 );
-							if( !change.m_def.m_sFile2.empty() )	vsParts.push_back( change.m_def.m_sFile2 );
-							if( change.m_fRate!=1.0f )				vsParts.push_back( ssprintf("%.2f%%",change.m_fRate*100) );
-							if( !change.m_sTransition.empty() )		vsParts.push_back( change.m_sTransition );
-							if( !change.m_def.m_sEffect.empty() )	vsParts.push_back( change.m_def.m_sEffect );
-							if( !change.m_def.m_sColor1.empty() )	vsParts.push_back( change.m_def.m_sColor1 );
-							if( !change.m_def.m_sColor2.empty() )	vsParts.push_back( change.m_def.m_sColor2 );
-							
-							if( vsParts.empty() )
-								vsParts.push_back( "(empty)" );
-
-							vsBGChanges.push_back( join("\n",vsParts) );
-						}
-						DrawBGChangeText( fLowestBeat, join("\n",vsBGChanges) );
-					}
-					FOREACH_CONST( BackgroundLayer, viLowestIndex, i )
-						iter[*i]++;
-				}
-			}
-			break;
-		default:
-			ASSERT(0);
-		}
-
-		//
-		// Draw marker bars
-		//
-		if( m_iBeginMarker != -1  &&  m_iEndMarker != -1 )
-		{
-			int iBegin = m_iBeginMarker;
-			int iEnd = m_iEndMarker;
-			CLAMP( iBegin, iFirstIndexToDraw, iLastIndexToDraw );
-			CLAMP( iEnd, iFirstIndexToDraw, iLastIndexToDraw );
-			DrawAreaHighlight( iBegin, iEnd );
-		}
-		else if( m_iBeginMarker != -1 )
-		{
-			if( m_iBeginMarker >= iFirstIndexToDraw &&
-				m_iBeginMarker <= iLastIndexToDraw )
-				DrawMarkerBar( m_iBeginMarker );
-		}
-		else if( m_iEndMarker != -1 )
-		{
-			if( m_iEndMarker >= iFirstIndexToDraw &&
-				m_iEndMarker <= iLastIndexToDraw )
-			DrawMarkerBar( m_iEndMarker );
-		}
 	}
 
 
@@ -688,9 +584,7 @@ void NoteField::DrawPrimitives()
 				SearchForBeat( CurDisplay, NextDisplay, NoteRowToBeat(iStartRow) );
 
 				bool bIsInSelectionRange = false;
-				if( m_iBeginMarker!=-1 && m_iEndMarker!=-1 )
-					bIsInSelectionRange = (m_iBeginMarker <= iStartRow && iEndRow < m_iEndMarker);
-
+				
 				NoteDisplayCols *nd = CurDisplay->second;
 				nd->display[c].DrawHold( tn, c, iStartRow, bIsHoldingNote, bIsActive, Result, bIsInSelectionRange ? fSelectedRangeGlow : m_fPercentFadeToFail, false, m_fYReverseOffsetPixels, (float) iFirstPixelToDraw, (float) iLastPixelToDraw );
 			}
@@ -750,9 +644,7 @@ void NoteField::DrawPrimitives()
 			}
 
 			bool bIsInSelectionRange = false;
-			if( m_iBeginMarker!=-1 && m_iEndMarker!=-1 )
-				bIsInSelectionRange = m_iBeginMarker<=i && i<m_iEndMarker;
-
+			
 			bool bIsAddition = (tn.source == TapNote::addition);
 			bool bIsMine = (tn.type == TapNote::mine);
 			bool bIsAttack = (tn.type == TapNote::attack);
