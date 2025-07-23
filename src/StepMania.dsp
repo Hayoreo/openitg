@@ -2738,22 +2738,6 @@ SOURCE=.\ScreenSelect.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\ScreenSelectDifficulty.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenSelectDifficulty.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenSelectGroup.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenSelectGroup.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\ScreenSelectMaster.cpp
 # End Source File
 # Begin Source File

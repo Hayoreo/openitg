@@ -614,8 +614,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenSandbox.cpp" />
     <ClCompile Include="ScreenSaveSync.cpp" />
     <ClCompile Include="ScreenSelect.cpp" />
-    <ClCompile Include="ScreenSelectDifficulty.cpp" />
-    <ClCompile Include="ScreenSelectGroup.cpp" />
     <ClCompile Include="ScreenSelectMaster.cpp" />
     <ClCompile Include="ScreenSelectMode.cpp" />
     <ClCompile Include="ScreenSelectMusic.cpp" />
@@ -1268,8 +1266,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenSandbox.h" />
     <ClInclude Include="ScreenSaveSync.h" />
     <ClInclude Include="ScreenSelect.h" />
-    <ClInclude Include="ScreenSelectDifficulty.h" />
-    <ClInclude Include="ScreenSelectGroup.h" />
     <ClInclude Include="ScreenSelectMaster.h" />
     <ClInclude Include="ScreenSelectMode.h" />
     <ClInclude Include="ScreenSelectMusic.h" />

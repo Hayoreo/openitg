@@ -228,12 +228,6 @@
     <ClCompile Include="ScreenSelect.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenSelectDifficulty.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenSelectGroup.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenSelectMaster.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -1551,12 +1545,6 @@
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenSelect.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenSelectDifficulty.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenSelectGroup.h">
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenSelectMaster.h">

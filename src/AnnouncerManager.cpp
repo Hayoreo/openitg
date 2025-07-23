@@ -55,16 +55,6 @@ void AnnouncerManager::SwitchAnnouncer( CString sNewAnnouncerName )
  * announcer changes along with everything else.  We could use it to support
  * DWI announcers transparently, too. */
 static const char *aliases[][2] = {
-	/* ScreenSelectDifficulty compatibility: */
-	{ "ScreenSelectDifficulty comment beginner", "select difficulty comment beginner" },
-	{ "ScreenSelectDifficulty comment easy", "select difficulty comment easy" },
-	{ "ScreenSelectDifficulty comment medium", "select difficulty comment medium" },
-	{ "ScreenSelectDifficulty comment hard", "select difficulty comment hard" },
-	{ "ScreenSelectDifficulty comment oni", "select difficulty comment oni" },
-	{ "ScreenSelectDifficulty comment nonstop", "select difficulty comment nonstop" },
-	{ "ScreenSelectDifficulty comment endless", "select difficulty comment endless" },
-	{ "ScreenSelectDifficulty intro", "select difficulty intro" },
-
 	/* ScreenSelectStyle compatibility: */
 	{ "ScreenSelectStyle intro", "select style intro" },
 	{ "ScreenSelectStyle comment single", "select style comment single" },

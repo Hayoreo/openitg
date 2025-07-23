@@ -71,7 +71,6 @@ ScreenReloadSongs.cpp ScreenReloadSongs.h \
 ScreenSandbox.cpp ScreenSandbox.h \
 ScreenSaveSync.cpp ScreenSaveSync.h \
 ScreenSelect.cpp ScreenSelect.h \
-ScreenSelectDifficulty.cpp ScreenSelectDifficulty.h ScreenSelectGroup.cpp ScreenSelectGroup.h \
 ScreenSelectMaster.cpp ScreenSelectMaster.h ScreenSelectMode.cpp ScreenSelectMode.h \
 ScreenSelectMusic.cpp ScreenSelectMusic.h ScreenSelectStyle.cpp ScreenSelectStyle.h \
 ScreenSyncOverlay.cpp ScreenSyncOverlay.h \
