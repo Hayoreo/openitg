@@ -17,8 +17,7 @@
 #include "PlayerState.h"
 #include "CommonMetrics.h"
 #include "BannerCache.h"
-#include "MemoryCardManager.h" 
-#include "AnnouncerManager.h"
+#include "MemoryCardManager.h"
 
 // XXX: compatibility hackery for custom song text
 #include "DiagnosticsUtil.h"
@@ -370,8 +369,6 @@ void ScreenSelectMusic::Init()
 	m_soundOptionsChange.Load( THEME->GetPathS(m_sName,"options") );
 	m_soundLocked.Load( THEME->GetPathS(m_sName,"locked") );
 	m_soundSelectPressed.Load( THEME->GetPathS(m_sName,"select down"), true );
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select music intro" ));
 
 	m_bMadeChoice = false;
 	m_bGoToOptions = false;
@@ -1506,19 +1503,6 @@ void ScreenSelectMusic::MenuStart( PlayerNumber pn )
 				if( STATSMAN->m_vPlayedStageStats[i].vpPlayedSongs.back() == m_MusicWheel.GetSelectedSong() )
 					bIsRepeat = true;
 
-			/* Don't complain about repeats if the user didn't get to pick. */
-//			if( GAMESTATE->IsExtraStage() && !PREFSMAN->m_bPickExtraStage )
-//				bIsRepeat = false;
-
-			if( bIsRepeat )
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select music comment repeat" ));
-			else if( bIsNew )
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select music comment new" ));
-			else if( bIsHard )
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select music comment hard" ));
-			else
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select music comment general" ));
-
 			/* If we're in event mode, we may have just played a course (putting us
 			 * in course mode).  Make sure we're in a single song mode. */
 			if( GAMESTATE->IsCourseMode() )
@@ -1529,8 +1513,6 @@ void ScreenSelectMusic::MenuStart( PlayerNumber pn )
 	case TYPE_COURSE:
 		{
 			SCREENMAN->PlayStartSound();
-
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "select course comment general" ));
 
 			Course *pCourse = m_MusicWheel.GetSelectedCourse();
 			ASSERT( pCourse );

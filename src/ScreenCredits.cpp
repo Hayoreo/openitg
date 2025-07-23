@@ -2,7 +2,6 @@
 #include "ScreenCredits.h"
 #include "GameSoundManager.h"
 #include "SongManager.h"
-#include "AnnouncerManager.h"
 #include "SongUtil.h"
 
 
@@ -266,7 +265,6 @@ ScreenCredits::ScreenCredits( CString sName ) : ScreenAttract( sName )
 	this->ClearMessageQueue( SM_BeginFadingOut );	// ignore ScreenAttract's SecsToShow
 	this->PostScreenMessage( SM_BeginFadingOut, fTime );
 //	this->PostScreenMessage( SM_BeginFadingOut, m_Background.GetLengthSeconds() );
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("credits") );
 }
 
 ScreenCredits::~ScreenCredits()

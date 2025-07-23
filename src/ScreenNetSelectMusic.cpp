@@ -12,7 +12,6 @@
 #include "RageTimer.h"
 #include "ActorUtil.h"
 #include "Actor.h"
-#include "AnnouncerManager.h"
 #include "MenuTimer.h"
 #include "NetworkSyncManager.h"
 #include "StepsUtil.h"

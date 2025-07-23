@@ -2,7 +2,6 @@
 #include "ScreenMusicScroll.h"
 #include "SongManager.h"
 #include "GameSoundManager.h"
-#include "AnnouncerManager.h"
 #include "SongUtil.h"
 #include "ScreenDimensions.h"
 
@@ -68,8 +67,6 @@ void ScreenMusicScroll::Init()
 
 	this->ClearMessageQueue( SM_BeginFadingOut );	// ignore ScreenAttract's SecsToShow
 	this->PostScreenMessage( SM_BeginFadingOut, 0.2f * m_textLines.size() + 3.0f );
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("music scroll") );
 }
 
 ScreenMusicScroll::~ScreenMusicScroll()

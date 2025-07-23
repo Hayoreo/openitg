@@ -1,6 +1,5 @@
 #include "global.h"
 #include "ScreenStage.h"
-#include "AnnouncerManager.h"
 #include "GameState.h"
 #include "GameSoundManager.h"
 #include "LightsManager.h"
@@ -85,8 +84,6 @@ void ScreenStage::Init()
 
 	SET_XY_AND_ON_COMMAND( m_Artist );
 	SET_XY_AND_ON_COMMAND( m_SongTitle );
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("stage "+StageToString(GAMESTATE->GetCurrentStage())) );
 
 	this->SortByDrawOrder();
 }

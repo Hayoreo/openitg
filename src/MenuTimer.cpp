@@ -1,7 +1,6 @@
 #include "global.h"
 #include "MenuTimer.h"
 #include "ScreenManager.h"
-#include "AnnouncerManager.h"
 #include "GameSoundManager.h"
 #include "ActorUtil.h"
 
@@ -72,10 +71,6 @@ void MenuTimer::Update( float fDeltaTime )
 
 	if( fOldSecondsLeft == fNewSecondsLeft )
 		return;
-
-	if( fOldSecondsLeft > 5.5  &&  fNewSecondsLeft < 5.5 )	// transition to below 5.5
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("hurry up") );
-
 
 	int iCrossed = (int)floorf(fOldSecondsLeft);
 	if( fOldSecondsLeft > iCrossed && fNewSecondsLeft < iCrossed )	// crossed

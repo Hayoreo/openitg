@@ -3,7 +3,6 @@
 #include "RageLog.h"
 #include "GameManager.h"
 #include "GameState.h"
-#include "AnnouncerManager.h"
 #include "ProfileManager.h"
 #include "StepMania.h"
 #include "ScreenManager.h"
@@ -31,7 +30,6 @@ void GameCommand::Init()
 	m_dc = DIFFICULTY_INVALID;
 	m_CourseDifficulty = DIFFICULTY_INVALID;
 	m_sModifiers = "";
-	m_sAnnouncer = "";
 	m_sTheme = "";
 	m_sScreen = "";
 	m_LuaFunction.Unset();
@@ -97,9 +95,6 @@ bool GameCommand::DescribesCurrentMode( PlayerNumber pn ) const
 				return false;
 	}
 		
-	if( m_sAnnouncer != "" && m_sAnnouncer != ANNOUNCER->GetCurAnnouncerName() )
-		return false;
-
 	if( m_sModifiers != "" )
 	{
 		/* Apply modifiers. */
@@ -197,11 +192,6 @@ void GameCommand::LoadOne( const Command& cmd )
 			m_bInvalid |= true;
 	}
 
-	else if( sName == "announcer" )
-	{
-		m_sAnnouncer = sValue;
-	}
-	
 	else if( sName == "name" )
 	{
 		m_sName = sValue;
@@ -728,8 +718,6 @@ void GameCommand::ApplySelf( const vector<PlayerNumber> &vpns ) const
 	if( m_dc != DIFFICULTY_INVALID )
 		FOREACH_CONST( PlayerNumber, vpns, pn )
 			GAMESTATE->ChangePreferredDifficulty( *pn, m_dc );
-	if( m_sAnnouncer != "" )
-		ANNOUNCER->SwitchAnnouncer( m_sAnnouncer );
 	if( m_sModifiers != "" )
 		FOREACH_CONST( PlayerNumber, vpns, pn )
 			GAMESTATE->ApplyModifiers( *pn, m_sModifiers );
@@ -1127,7 +1115,6 @@ bool GameCommand::IsZero() const
 		m_pm != PLAY_MODE_INVALID ||
 		m_pStyle != NULL ||
 		m_dc != DIFFICULTY_INVALID ||
-		m_sAnnouncer != "" ||
 		m_sModifiers != "" ||
 		m_pSong != NULL || 
 		m_pSteps != NULL || 

@@ -1152,9 +1152,6 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>Rage\Actors</Filter>
     </ClCompile>
-    <ClCompile Include="AnnouncerManager.cpp">
-      <Filter>Global Singletons</Filter>
-    </ClCompile>
     <ClCompile Include="Bookkeeper.cpp">
       <Filter>Global Singletons</Filter>
     </ClCompile>
@@ -2539,9 +2536,6 @@
     </ClInclude>
     <ClInclude Include="Sprite.h">
       <Filter>Rage\Actors</Filter>
-    </ClInclude>
-    <ClInclude Include="AnnouncerManager.h">
-      <Filter>Global Singletons</Filter>
     </ClInclude>
     <ClInclude Include="Bookkeeper.h">
       <Filter>Global Singletons</Filter>

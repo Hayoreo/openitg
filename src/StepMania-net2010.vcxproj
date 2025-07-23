@@ -948,7 +948,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="Quad.cpp" />
     <ClCompile Include="RollingNumbers.cpp" />
     <ClCompile Include="Sprite.cpp" />
-    <ClCompile Include="AnnouncerManager.cpp" />
     <ClCompile Include="Bookkeeper.cpp" />
     <ClCompile Include="CryptManager.cpp" />
     <ClCompile Include="FontManager.cpp" />
@@ -1611,7 +1610,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="Quad.h" />
     <ClInclude Include="RollingNumbers.h" />
     <ClInclude Include="Sprite.h" />
-    <ClInclude Include="AnnouncerManager.h" />
     <ClInclude Include="Bookkeeper.h" />
     <ClInclude Include="CryptManager.h" />
     <ClInclude Include="FontManager.h" />

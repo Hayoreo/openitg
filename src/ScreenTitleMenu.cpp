@@ -4,7 +4,6 @@
 #include "PrefsManager.h"
 #include "RageLog.h"
 #include "SongManager.h"
-#include "AnnouncerManager.h"
 #include "GameState.h"
 #include "GameManager.h"
 #include "GameSoundManager.h"
@@ -94,8 +93,6 @@ void ScreenTitleMenu::Init()
 	SET_XY_AND_ON_COMMAND( m_textLifeDifficulty );
 
 	this->SortByDrawOrder();
-
-	SOUND->PlayOnceFromAnnouncer( "title menu game name" );
 }
 
 ScreenTitleMenu::~ScreenTitleMenu()
@@ -126,15 +123,6 @@ void ScreenTitleMenu::Input( const DeviceInput& DeviceI, const InputEventType ty
 			SCREENMAN->SystemMessage( "Theme: "+THEME->GetCurThemeName() );
 			SCREENMAN->SetNewScreen( m_sName );
 			TEXTUREMAN->DoDelayedDelete();
-		}
-		if( CodeDetector::EnteredCode(GameI.controller,CODE_NEXT_ANNOUNCER) ||
-			CodeDetector::EnteredCode(GameI.controller,CODE_NEXT_ANNOUNCER2) )
-		{
-			ANNOUNCER->NextAnnouncer();
-			CString sName = ANNOUNCER->GetCurAnnouncerName();
-			if( sName=="" ) sName = "(none)";
-			SCREENMAN->SystemMessage( "Announcer: "+sName );
-			SCREENMAN->SetNewScreen( m_sName );
 		}
 		if( CodeDetector::EnteredCode(GameI.controller,CODE_NEXT_GAME) ||
 			CodeDetector::EnteredCode(GameI.controller,CODE_NEXT_GAME2) )

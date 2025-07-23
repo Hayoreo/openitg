@@ -7,7 +7,6 @@
 #include "NotesLoaderSM.h"
 #include "PrefsManager.h"
 #include "RageDisplay.h"
-#include "AnnouncerManager.h"
 
 GameSoundManager *SOUND = NULL;
 
@@ -67,7 +66,6 @@ static RageThread MusicThread;
 
 vector<CString> g_SoundsToPlayOnce;
 vector<CString> g_SoundsToPlayOnceFromDir;
-vector<CString> g_SoundsToPlayOnceFromAnnouncer;
 
 struct MusicToPlay
 {
@@ -256,7 +254,6 @@ static bool SoundWaiting()
 {
 	return !g_SoundsToPlayOnce.empty() ||
 		!g_SoundsToPlayOnceFromDir.empty() ||
-		!g_SoundsToPlayOnceFromAnnouncer.empty() ||
 		!g_MusicsToPlay.empty();
 }
 
@@ -268,8 +265,6 @@ static void StartQueuedSounds()
 	g_SoundsToPlayOnce.clear();
 	vector<CString> aSoundsToPlayOnceFromDir = g_SoundsToPlayOnceFromDir;
 	g_SoundsToPlayOnceFromDir.clear();
-	vector<CString> aSoundsToPlayOnceFromAnnouncer = g_SoundsToPlayOnceFromAnnouncer;
-	g_SoundsToPlayOnceFromAnnouncer.clear();
 	vector<MusicToPlay> aMusicsToPlay = g_MusicsToPlay;
 	g_MusicsToPlay.clear();
 	g_Mutex->Unlock();
@@ -280,16 +275,6 @@ static void StartQueuedSounds()
 
 	for( unsigned i = 0; i < aSoundsToPlayOnceFromDir.size(); ++i )
 		DoPlayOnceFromDir( aSoundsToPlayOnceFromDir[i] );
-
-	for( unsigned i = 0; i < aSoundsToPlayOnceFromAnnouncer.size(); ++i )
-	{
-		CString sPath = aSoundsToPlayOnceFromAnnouncer[i];
-		if( sPath != "" )
-		{
-			sPath = ANNOUNCER->GetPathTo( sPath );
-			DoPlayOnceFromDir( sPath );
-		}
-	}
 
 	for( unsigned i = 0; i < aMusicsToPlay.size(); ++i )
 	{
@@ -614,15 +599,6 @@ void GameSoundManager::PlayOnce( CString sPath )
 }
 
 void GameSoundManager::PlayOnceFromDir( CString sPath )
-{
-	/* Add the path to the g_SoundsToPlayOnceFromDir queue. */
-	g_Mutex->Lock();
-	g_SoundsToPlayOnceFromDir.push_back( sPath );
-	g_Mutex->Broadcast();
-	g_Mutex->Unlock();
-}
-
-void GameSoundManager::PlayOnceFromAnnouncer( CString sPath )
 {
 	/* Add the path to the g_SoundsToPlayOnceFromDir queue. */
 	g_Mutex->Lock();

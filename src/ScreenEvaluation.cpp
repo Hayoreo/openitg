@@ -8,7 +8,6 @@
 #include "Steps.h"
 #include "PrefsManager.h"
 #include "RageLog.h"
-#include "AnnouncerManager.h"
 #include "GameState.h"
 #include "GrooveRadar.h"
 #include "ThemeManager.h"
@@ -812,39 +811,6 @@ void ScreenEvaluation::Init()
 		else
 			SOUND->PlayOnce( THEME->GetPathS(m_sName,"try extra1") );
 	}
-	else if( bOneHasNewTopRecord  &&  ANNOUNCER->HasSoundsFor("evaluation new record") )
-	{
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation new record") );
-	}
-	else
-	{	
-		switch( m_Type )
-		{
-		case stage:
-			switch( GAMESTATE->m_PlayMode )
-			{
-			case PLAY_MODE_BATTLE:
-				{
-					bool bWon = GAMESTATE->GetStageResult(GAMESTATE->m_MasterPlayerNumber) == RESULT_WIN;
-					if( bWon )
-						SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation win") );
-					else
-						SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation lose") );
-				}
-				break;
-			default:
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation "+GradeToOldString(best_grade)) );
-				break;
-			}
-			break;
-		case course:
-		case summary:
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation final "+GradeToOldString(best_grade)) );
-			break;
-		default:
-			ASSERT(0);
-		}
-	}
 
 	switch( best_grade )
 	{
@@ -1391,10 +1357,6 @@ void ScreenEvaluation::HandleScreenMessage( const ScreenMessage SM )
 
 		if(	m_sndPassFail.IsPlaying() )
 			m_sndPassFail.Stop();
-	}
-	else if( SM == SM_PlayCheer )
-	{
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("evaluation cheer") );
 	}
 	else if( SM == SM_AddBonus )
 	{

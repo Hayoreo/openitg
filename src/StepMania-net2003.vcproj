@@ -2812,12 +2812,6 @@ cl /Zl /nologo /c verstub.cpp /Fo&quot;$(IntDir)&quot;\
 			Name="Global Singletons"
 			Filter="">
 			<File
-				RelativePath="AnnouncerManager.cpp">
-			</File>
-			<File
-				RelativePath="AnnouncerManager.h">
-			</File>
-			<File
 				RelativePath="Bookkeeper.cpp">
 			</File>
 			<File

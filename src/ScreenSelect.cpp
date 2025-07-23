@@ -99,7 +99,6 @@ void ScreenSelect::Update( float fDelta )
 	{
 		if( IDLE_COMMENT_SECONDS > 0 && m_timerIdleComment.PeekDeltaTime() >= IDLE_COMMENT_SECONDS )
 		{
-			SOUND->PlayOnceFromAnnouncer( m_sName+" IdleComment" );
 			m_timerIdleComment.GetDeltaTime();
 		}
 		// don't time out on this screen is coin mode is pay.  

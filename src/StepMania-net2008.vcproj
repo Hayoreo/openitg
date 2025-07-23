@@ -3880,14 +3880,6 @@
 			Name="Global Singletons"
 			>
 			<File
-				RelativePath="AnnouncerManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath="AnnouncerManager.h"
-				>
-			</File>
-			<File
 				RelativePath="Bookkeeper.cpp"
 				>
 			</File>

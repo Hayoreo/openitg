@@ -6,7 +6,6 @@
 #include "GameState.h"
 #include "GameSoundManager.h"
 #include "FontCharAliases.h"
-#include "AnnouncerManager.h"
 #include "ProfileManager.h"
 #include "StatsManager.h"
 #include "RageDisplay.h"
@@ -493,9 +492,6 @@ ScreenNameEntryTraditional::~ScreenNameEntryTraditional()
 
 void ScreenNameEntryTraditional::Update( float fDelta )
 {
-	if( m_bFirstUpdate )
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("name entry") );
-
 	ScreenWithMenuElements::Update(fDelta);
 }
 

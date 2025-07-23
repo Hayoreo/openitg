@@ -2,7 +2,6 @@
 #include "ScreenEnding.h"
 #include "SongManager.h"
 #include "GameSoundManager.h"
-#include "AnnouncerManager.h"
 #include "ProfileManager.h"
 #include "GameState.h"
 #include "MemoryCardManager.h"
@@ -229,8 +228,6 @@ void ScreenEnding::Init()
 
 	
 	this->SortByDrawOrder();
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("music scroll") );
 
 	// Now that we've read the data from the profile, it's ok to Reset()
 	GAMESTATE->Reset();

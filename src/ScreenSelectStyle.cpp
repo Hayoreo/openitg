@@ -2,7 +2,6 @@
 #include "ScreenSelectStyle.h"
 #include "GameSoundManager.h"
 #include "GameState.h"
-#include "AnnouncerManager.h"
 #include "LightsManager.h"
 #include "CommonMetrics.h"
 
@@ -183,8 +182,6 @@ void ScreenSelectStyle::MenuStart( PlayerNumber pn )
 	SCREENMAN->SendMessageToTopScreen( SM_AllDoneChoosing );
 
 	const GameCommand& mc = m_aGameCommands[GetSelectionIndex(pn)];
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo(ssprintf("%s comment %s",m_sName.c_str(),mc.m_sName.c_str())) );
-
 	//
 	// TweenOffScreen
 	//

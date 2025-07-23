@@ -7,7 +7,6 @@
 #include "Style.h"
 #include "PrefsManager.h"
 #include "GameSoundManager.h"
-#include "AnnouncerManager.h"
 
 /* XXX: lights loading stuff...can we trim this down? */
 #include "LightsManager.h"
@@ -165,8 +164,6 @@ void ScreenWithMenuElements::Update( float fDeltaTime )
 
 		/* Don't play sounds during the ctor, since derived classes havn't loaded yet.
 		 * Play sounds after so loading so we don't thrash while loading files. */
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo(m_sName+" intro") );
-
 		StartPlayingMusic();
 		
 		/* Evaluate FirstUpdateCommand. */

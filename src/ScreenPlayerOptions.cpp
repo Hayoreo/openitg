@@ -2,7 +2,6 @@
 #include "ScreenPlayerOptions.h"
 #include "RageLog.h"
 #include "GameState.h"
-#include "AnnouncerManager.h"
 #include "GameSoundManager.h"
 #include "ScreenSongOptions.h"
 #include "PrefsManager.h"
@@ -52,8 +51,6 @@ void ScreenPlayerOptions::Init()
 	CString sPath = THEME->GetPathS( m_sName,"cancel all", true );
 	if( sPath != "" )
 		m_CancelAll.Load( sPath, true );
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("player options intro") );
 
 	FOREACH_HumanPlayer( p )
 	{

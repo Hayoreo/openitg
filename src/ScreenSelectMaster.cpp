@@ -2,7 +2,6 @@
 #include "ScreenSelectMaster.h"
 #include "GameSoundManager.h"
 #include "GameState.h"
-#include "AnnouncerManager.h"
 #include "RageLog.h"
 #include <set>
 #include "RageSoundManager.h"
@@ -192,7 +191,6 @@ void ScreenSelectMaster::Init()
 	}
 	
 	m_soundChange.Load( THEME->GetPathS(m_sName,"change"), true );
-	m_soundDifficult.Load( ANNOUNCER->GetPathTo("select difficulty challenge") );
 	m_soundStart.Load( THEME->GetPathS(m_sName,"start") );
 
 	// init m_Next order info
@@ -699,8 +697,6 @@ void ScreenSelectMaster::MenuStart( PlayerNumber pn )
 	if( !AnyOptionsArePlayable() )
 		return;
 		
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo(ssprintf("%s comment %s",m_sName.c_str(), mc.m_sName.c_str())) );
-	
 	/* Play a copy of the sound, so it'll finish playing even if we leave the screen immediately. */
 	if( mc.m_sSoundPath.empty() )
 		SOUNDMAN->PlayCopyOfSound( m_soundStart );

@@ -2902,14 +2902,6 @@ SOURCE=.\ScreenWithMenuElements.h
 # PROP Default_Filter ""
 # Begin Source File
 
-SOURCE=.\AnnouncerManager.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\AnnouncerManager.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\Bookkeeper.cpp
 # End Source File
 # Begin Source File

@@ -445,8 +445,6 @@ void ScreenGameplayMultiplayer::Update( float fDeltaTime )
 
 	if( m_bFirstUpdate )
 	{
-		SOUND->PlayOnceFromAnnouncer( "gameplay intro" );	// crowd cheer
-
 		//
 		// Get the transitions rolling
 		//

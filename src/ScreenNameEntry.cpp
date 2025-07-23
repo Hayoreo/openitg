@@ -5,7 +5,6 @@
 #include "GameState.h"
 #include "GameSoundManager.h"
 #include "Course.h"
-#include "AnnouncerManager.h"
 #include "ProfileManager.h"
 #include "Game.h"
 #include "ScreenDimensions.h"
@@ -272,9 +271,6 @@ ScreenNameEntry::~ScreenNameEntry()
 
 void ScreenNameEntry::Update( float fDelta )
 {
-	if( m_bFirstUpdate )
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo("name entry") );
-
 	m_fFakeBeat += fDelta * FAKE_BEATS_PER_SEC;
 	GAMESTATE->m_fSongBeat = m_fFakeBeat;
 	Screen::Update(fDelta);

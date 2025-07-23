@@ -28,7 +28,6 @@
 #include "CommonMetrics.h"
 #include "Game.h"
 #include "RageFileManager.h" // XXX!!! needed for custom song cleanup, remove as soon as we can
-#include "AnnouncerManager.h"
 #include "Course.h"
 #include "Inventory.h"
 
@@ -1006,8 +1005,6 @@ void ScreenGameplay::LoadNextSong()
 
 	m_SongForeground.LoadFromSong( GAMESTATE->m_pCurSong );
 
-	m_fTimeSinceLastDancingComment = 0;
-
 
 	/* m_soundMusic and m_SongBackground take a very long time to load,
 	 * so cap fDelta at 0 so m_NextSong will show up on screen.
@@ -1254,34 +1251,6 @@ void ScreenGameplay::PlayTicks()
 	}
 }
 
-/* Play announcer "type" if it's been at least fSeconds since the last announcer. */
-void ScreenGameplay::PlayAnnouncer( CString type, float fSeconds )
-{
-	if( GAMESTATE->m_fOpponentHealthPercent == 0 )
-		return; // Shut the announcer up
-
-	/* Don't play in demonstration. */
-	if( GAMESTATE->m_bDemonstrationOrJukebox )
-		return;
-
-	/* Don't play before the first beat, or after we're finished. */
-	if( m_DancingState != STATE_DANCING )
-		return;
-	if( GAMESTATE->m_pCurSong == NULL  ||	// this will be true on ScreenDemonstration sometimes
-		GAMESTATE->m_fSongBeat < GAMESTATE->m_pCurSong->m_fFirstBeat )
-		return;
-
-
-	if( m_fTimeSinceLastDancingComment < fSeconds )
-		return;
-	m_fTimeSinceLastDancingComment = 0;
-
-	SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( type ));
-
-	if( m_pCombinedLifeMeter )
-		m_pCombinedLifeMeter->OnTaunt();
-}
-
 void ScreenGameplay::UpdateSongPosition( float fDeltaTime )
 {
 	if( !m_pSoundMusic->IsPlaying() )
@@ -1313,8 +1282,6 @@ void ScreenGameplay::Update( float fDeltaTime )
 		// so we avoid skipping between the stage and gameplay.
 		LoadLights();
 		UpdateLights();
-
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay intro" ));	// crowd cheer
 
 		//
 		// Get the transitions rolling
@@ -1544,9 +1511,6 @@ void ScreenGameplay::Update( float fDeltaTime )
 
 			if( GAMESTATE->m_fOpponentHealthPercent == 0 )
 			{
-				// HACK:  Load incorrect directory on purpose for now.
-				PlayAnnouncer( "gameplay battle damage level3", 0 );
-
 				GAMESTATE->RemoveAllActiveAttacks();
 
                 FOREACH_CpuPlayer(p)
@@ -1557,32 +1521,6 @@ void ScreenGameplay::Update( float fDeltaTime )
                     m_Player[p].FadeToFail();	// tell the NoteField to fade to white
 				}
 			}
-		}
-
-		//
-		// Check to see if it's time to play a ScreenGameplay comment
-		//
-		m_fTimeSinceLastDancingComment += fDeltaTime;
-
-		switch( GAMESTATE->m_PlayMode )
-		{
-		case PLAY_MODE_REGULAR:
-		case PLAY_MODE_BATTLE:
-		case PLAY_MODE_RAVE:
-			if( GAMESTATE->OneIsHot() )			
-				PlayAnnouncer( "gameplay comment hot", SECONDS_BETWEEN_COMMENTS );
-			else if( GAMESTATE->AllAreInDangerOrWorse() )	
-				PlayAnnouncer( "gameplay comment danger", SECONDS_BETWEEN_COMMENTS );
-			else
-				PlayAnnouncer( "gameplay comment good", SECONDS_BETWEEN_COMMENTS );
-			break;
-		case PLAY_MODE_NONSTOP:
-		case PLAY_MODE_ONI:
-		case PLAY_MODE_ENDLESS:
-			PlayAnnouncer( "gameplay comment oni", SECONDS_BETWEEN_COMMENTS );
-			break;
-		default:
-			ASSERT(0);
 		}
 	}
 
@@ -2079,18 +2017,10 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 	CHECKPOINT_M( ssprintf("HandleScreenMessage(%i)", SM) );
 	if( SM == SM_DoneFadingIn )
 	{
-		SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay ready" ));
 		m_Ready.StartTransitioning( SM_PlayGo );
 	}
 	else if( SM == SM_PlayGo )
 	{
-		if( GAMESTATE->IsExtraStage() || GAMESTATE->IsExtraStage2() )
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay here we go extra" ));
-		else if( GAMESTATE->IsFinalStage() )
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay here we go final" ));
-		else
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay here we go normal" ));
-
 		m_Go.StartTransitioning( SM_None );
 		GAMESTATE->m_bPastHereWeGo = true;
 		m_DancingState = STATE_DANCING;		// STATE CHANGE!  Now the user is allowed to press Back
@@ -2181,7 +2111,6 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 		{
 			TweenOffScreen();
 			m_Extra.StartTransitioning( SM_GoToNextScreen );
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay extra" ));
 		}
 		else
 		{
@@ -2208,8 +2137,6 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 				m_Cleared.StartTransitioning( SM_GoToNextScreen );
 				break;
 			}
-			
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay cleared" ));
 		}
 
 	}
@@ -2275,20 +2202,10 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 	else if( SM >= SM_100Combo && SM <= SM_1000Combo )
 	{
 		int iCombo = (SM-SM_100Combo+1)*100;
-		PlayAnnouncer( ssprintf("gameplay %d combo",iCombo), 2 );
-	}
-	else if( SM == SM_ComboStopped )
-	{
-		PlayAnnouncer( "gameplay combo stopped", 2 );
-	}
-	else if( SM == SM_ComboContinuing )
-	{
-		PlayAnnouncer( "gameplay combo overflow", 2 );
 	}
 	else if( SM >= SM_BattleTrickLevel1 && SM <= SM_BattleTrickLevel3 )
 	{
 		int iTrickLevel = SM-SM_BattleTrickLevel1+1;
-		PlayAnnouncer( ssprintf("gameplay battle trick level%d",iTrickLevel), 3 );
 		switch( SM )
 		{
 		case SM_BattleTrickLevel1: m_soundBattleTrickLevel1.Play();	break;
@@ -2300,7 +2217,6 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 	else if( SM >= SM_BattleDamageLevel1 && SM <= SM_BattleDamageLevel3 )
 	{
 		int iDamageLevel = SM-SM_BattleDamageLevel1+1;
-		PlayAnnouncer( ssprintf("gameplay battle damage level%d",iDamageLevel), 3 );
 	}
 	else if( SM == SM_GoToScreenAfterBack )
 	{
@@ -2340,14 +2256,6 @@ void ScreenGameplay::HandleScreenMessage( const ScreenMessage SM )
 			m_textSurviveTime.SetText( "TIME: " + SecondsToMMSSMsMs(fMaxSurviveSeconds) );
 			SET_XY_AND_ON_COMMAND( m_textSurviveTime );
 		}
-		
-		if( GAMESTATE->IsCourseMode() )
-			if( GAMESTATE->GetCourseSongIndex() >= int(m_apSongsQueue.size() / 2) )
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay oni failed halfway" ));
-			else
-				SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay oni failed" ));
-		else
-			SOUND->PlayOnceFromDir( ANNOUNCER->GetPathTo( "gameplay failed" ));
 	}
 	else if( SM == SM_StopMusic )
 	{

@@ -2,7 +2,6 @@
 #include "ScreenOptionsMasterPrefs.h"
 #include "PrefsManager.h"
 #include "ThemeManager.h"
-#include "AnnouncerManager.h"
 #include "NoteSkinManager.h"
 #include "PlayerOptions.h"
 #include "RageDisplay.h"
@@ -193,29 +192,6 @@ static void Theme( int &sel, bool ToSel, const ConfOption *pConfOption )
 		const CString sNewTheme = choices[sel];
 		if( THEME->GetCurThemeName() != sNewTheme )
 			PREFSMAN->m_sTheme.Set( sNewTheme ); // OPT_APPLY_THEME will load the theme
-	}
-}
-
-static void AnnouncerChoices( CStringArray &out )
-{
-	ANNOUNCER->GetAnnouncerNames( out );
-	out.insert( out.begin(), "OFF" );
-}
-
-static void Announcer( int &sel, bool ToSel, const ConfOption *pConfOption )
-{
-	CStringArray choices;
-	pConfOption->MakeOptionsList( choices );
-
-	if( ToSel )
-	{
-		sel = 0;
-		for( unsigned i=1; i<choices.size(); i++ )
-			if( !stricmp(choices[i], ANNOUNCER->GetCurAnnouncerName()) )
-				sel = i;
-	} else {
-		const CString sNewAnnouncer = sel? choices[sel]:CString("");
-		ANNOUNCER->SwitchAnnouncer( sNewAnnouncer );
 	}
 }
 
@@ -536,7 +512,6 @@ static void InitializeConfOptions()
 	ADD( ConfOption( "Theme",						Theme, ThemeChoices ) );
 	g_ConfOptions.back().m_iEffects = OPT_APPLY_THEME;
 
-	ADD( ConfOption( "Announcer",					Announcer, AnnouncerChoices ) );
 	ADD( ConfOption( "DefaultNoteSkin",				DefaultNoteSkin, DefaultNoteSkinChoices ) );
 	ADD( ConfOption( "Instructions",				Instructions,		"SKIP","SHOW") );
 	ADD( ConfOption( "ShowCaution",					MovePref,			"SKIP","SHOW") );

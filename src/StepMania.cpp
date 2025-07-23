@@ -41,7 +41,6 @@
 #include "PrefsManager.h"
 #include "SongManager.h"
 #include "GameState.h"
-#include "AnnouncerManager.h"
 #include "ProfileManager.h"
 #include "MemoryCardManager.h"
 #include "GameManager.h"
@@ -256,7 +255,6 @@ void ShutdownGame()
 	SAFE_DELETE( LUA );
 	SAFE_DELETE( NOTESKIN );
 	SAFE_DELETE( THEME );
-	SAFE_DELETE( ANNOUNCER );
 	SAFE_DELETE( BOOKKEEPER );
 	SAFE_DELETE( LIGHTSMAN );
 	SAFE_DELETE( SOUNDMAN );
@@ -774,7 +772,6 @@ void ChangeCurrentGame( const Game* g )
 void ReadGamePrefsFromDisk( bool bSwitchToLastPlayedGame )
 {
 	ASSERT( GAMESTATE );
-	ASSERT( ANNOUNCER );
 	ASSERT( THEME );
 	ASSERT( GAMESTATE );
 
@@ -809,20 +806,17 @@ void ReadGamePrefsFromDisk( bool bSwitchToLastPlayedGame )
 		RageException::Throw( "Default note skin for \"%s\" missing", GAMESTATE->m_pCurGame->m_szName );
 
 	CString sGameName = GAMESTATE->GetCurrentGame()->m_szName;
-	CString sAnnouncer = sGameName;
 	CString sTheme = sGameName;
 	CString sNoteSkin = sGameName;
 	CString sDefaultModifiers;
 
 	// if these calls fail, the three strings will keep the initial values set above.
-	ini.GetValue( sGameName, "Announcer",			sAnnouncer );
 	ini.GetValue( sGameName, "Theme",				sTheme );
 	ini.GetValue( sGameName, "DefaultModifiers",	sDefaultModifiers );
 	PREFSMAN->m_sTheme.Set( sTheme );
 	PREFSMAN->m_sDefaultModifiers.Set( sDefaultModifiers );
 
 	// it's OK to call these functions with names that don't exist.
-	ANNOUNCER->SwitchAnnouncer( sAnnouncer );
 	THEME->SwitchThemeAndLanguage( sTheme, PREFSMAN->m_sLanguage );
 
 //	NOTESKIN->SwitchNoteSkin( sNoteSkin );
@@ -838,7 +832,6 @@ void SaveGamePrefsToDisk()
 	IniFile ini;
 	ini.ReadFile( GAMEPREFS_INI_PATH );	// it's OK if this fails
 
-	ini.SetValue( sGameName, "Announcer",			ANNOUNCER->GetCurAnnouncerName() );
 	ini.SetValue( sGameName, "Theme",				PREFSMAN->m_sTheme );
 	ini.SetValue( sGameName, "DefaultModifiers",	PREFSMAN->m_sDefaultModifiers );
 	ini.SetValue( "Options", "Game",				(CString)GAMESTATE->GetCurrentGame()->m_szName );
@@ -1114,11 +1107,10 @@ int main(int argc, char* argv[])
 
 	GAMEMAN		= new GameManager;
 	THEME		= new ThemeManager;
-	ANNOUNCER	= new AnnouncerManager;
 	NOTESKIN	= new NoteSkinManager;
 
 
-	/* Set up the theme and announcer, and switch to the last game type. */
+	/* Set up the theme and switch to the last game type. */
 	ReadGamePrefsFromDisk( true );
 
 	{
