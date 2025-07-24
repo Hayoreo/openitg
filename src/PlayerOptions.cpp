@@ -624,33 +624,6 @@ bool PlayerOptions::IsEasierForSongAndSteps( Song* pSong, Steps* pSteps )
 	// This makes songs with sparse notes easier.
 	if( m_bTransforms[TRANSFORM_ECHO] )	return true;
 
-	// not sure why, but this would be a dumb time to change it, yeah?
-	if( m_fCover )	return true;
-
-	// M-mods make songs with indefinite BPMs easier because
-	// they ensure that the song has a scrollable speed.
-	if( m_fMaxScrollBPM != 0 )
-	{
-		// BPM display is obfuscated
-		if( pSong->m_DisplayBPMType == Song::DISPLAY_RANDOM )
-			return true;
-	
-		DisplayBpms bpms;
-		if( GAMESTATE->IsCourseMode() )
-		{
-			Trail *pTrail = GAMESTATE->m_pCurCourse->GetTrail( GAMESTATE->GetCurrentStyle()->m_StepsType );
-			pTrail->GetDisplayBpms( bpms );
-		}
-		else
-		{
-			GAMESTATE->m_pCurSong->GetDisplayBpms( bpms );
-		}
-		pSong->GetDisplayBpms( bpms );
-
-		// maximum BPM is obfuscated, so M-mods will set a playable speed.
-		if( bpms.GetMax() <= 0 )
-			return true;
-	}
 	return false;
 }
 

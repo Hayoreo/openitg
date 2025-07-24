@@ -1154,9 +1154,6 @@ bool GameState::IsDisqualified( PlayerNumber pn )
 	if( !IsPlayerEnabled(pn) )
 		return false;
 
-	if( !PREFSMAN->m_bDisqualification )
-		return false;
-
 	if( GAMESTATE->m_SongOptions.m_fMusicRate < 1.0f )
 		return true;
 

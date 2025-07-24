@@ -194,7 +194,6 @@ public:
 	Preference<bool>	m_bPercentageScoring;
 	Preference<float>	m_fMinPercentageForMachineSongHighScore;
 	Preference<float>	m_fMinPercentageForMachineCourseHighScore;
-	Preference<bool>	m_bDisqualification;
 	Preference<bool>	m_bShowLyrics;
 	Preference<bool>	m_bAutogenSteps;
 	Preference<bool>	m_bAutogenGroupCourses;

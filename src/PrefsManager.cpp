@@ -207,7 +207,6 @@ PrefsManager::PrefsManager() :
 	m_bPercentageScoring			( "PercentageScoring",			false ),
 	m_fMinPercentageForMachineSongHighScore		( "MinPercentageForMachineSongHighScore",	0.5f ),
 	m_fMinPercentageForMachineCourseHighScore	( "MinPercentageForMachineCourseHighScore",	0.0001f ),	// don't save course scores with 0 percentage
-	m_bDisqualification				( "Disqualification",			false ),
 	m_bShowLyrics					( "ShowLyrics",					true ),
 	m_bAutogenSteps					( "AutogenSteps",				true ),
 	m_bAutogenGroupCourses			( "AutogenGroupCourses",		true ),
