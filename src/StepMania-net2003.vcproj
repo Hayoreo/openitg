@@ -542,12 +542,6 @@ cl /Zl /nologo /c verstub.cpp /Fo&quot;$(IntDir)&quot;\
 				RelativePath="ScreenArcadeDiagnostics.h">
 			</File>
 			<File
-				RelativePath="ScreenArcadePatch.cpp">
-			</File>
-			<File
-				RelativePath="ScreenArcadePatch.h">
-			</File>
-			<File
 				RelativePath=".\ScreenArcadeStart.cpp">
 			</File>
 			<File
@@ -918,12 +912,6 @@ cl /Zl /nologo /c verstub.cpp /Fo&quot;$(IntDir)&quot;\
 			</File>
 			<File
 				RelativePath="ScreenUnlock.h">
-			</File>
-			<File
-				RelativePath=".\ScreenUserPacks.cpp">
-			</File>
-			<File
-				RelativePath=".\ScreenUserPacks.h">
 			</File>
 			<File
 				RelativePath="ScreenWithMenuElements.cpp">
@@ -1970,12 +1958,6 @@ cl /Zl /nologo /c verstub.cpp /Fo&quot;$(IntDir)&quot;\
 			</File>
 			<File
 				RelativePath="HelpDisplay.h">
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.cpp">
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.h">
 			</File>
 			<File
 				RelativePath="MemoryCardDisplay.cpp">

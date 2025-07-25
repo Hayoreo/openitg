@@ -96,9 +96,6 @@
     <ClCompile Include="ScreenArcadeDiagnostics.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenArcadePatch.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenArcadeStart.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -283,9 +280,6 @@
       <Filter>Screens</Filter>
     </ClCompile>
     <ClCompile Include="ScreenUnlock.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenUserPacks.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
     <ClCompile Include="ScreenWithMenuElements.cpp">
@@ -760,9 +754,6 @@
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
     <ClCompile Include="HelpDisplay.cpp">
-      <Filter>Actors used in Menus</Filter>
-    </ClCompile>
-    <ClCompile Include="LinkedOptionsMenu.cpp">
       <Filter>Actors used in Menus</Filter>
     </ClCompile>
     <ClCompile Include="MemoryCardDisplay.cpp">
@@ -1412,9 +1403,6 @@
     <ClInclude Include="ScreenArcadeDiagnostics.h">
       <Filter>Screens</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenArcadePatch.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
     <ClInclude Include="ScreenArcadeStart.h">
       <Filter>Screens</Filter>
     </ClInclude>
@@ -1599,9 +1587,6 @@
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenUnlock.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenUserPacks.h">
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenWithMenuElements.h">
@@ -2118,9 +2103,6 @@
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="HelpDisplay.h">
-      <Filter>Actors used in Menus</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkedOptionsMenu.h">
       <Filter>Actors used in Menus</Filter>
     </ClInclude>
     <ClInclude Include="MemoryCardDisplay.h">

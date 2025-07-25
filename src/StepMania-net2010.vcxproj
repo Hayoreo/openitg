@@ -570,7 +570,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="io\USBDevice_Libusb.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenArcadeDiagnostics.cpp" />
-    <ClCompile Include="ScreenArcadePatch.cpp" />
     <ClCompile Include="ScreenArcadeStart.cpp" />
     <ClCompile Include="ScreenAttract.cpp" />
     <ClCompile Include="ScreenBookkeeping.cpp" />
@@ -633,7 +632,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenTextEntry.cpp" />
     <ClCompile Include="ScreenTitleMenu.cpp" />
     <ClCompile Include="ScreenUnlock.cpp" />
-    <ClCompile Include="ScreenUserPacks.cpp" />
     <ClCompile Include="ScreenWithMenuElements.cpp" />
     <ClCompile Include="ActorCommands.cpp" />
     <ClCompile Include="Attack.cpp" />
@@ -802,7 +800,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="GrooveRadar.cpp" />
     <ClCompile Include="GroupList.cpp" />
     <ClCompile Include="HelpDisplay.cpp" />
-    <ClCompile Include="LinkedOptionsMenu.cpp" />
     <ClCompile Include="MemoryCardDisplay.cpp" />
     <ClCompile Include="MenuTimer.cpp" />
     <ClCompile Include="ModeSwitcher.cpp" />
@@ -1221,7 +1218,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="io\USBDevice.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenArcadeDiagnostics.h" />
-    <ClInclude Include="ScreenArcadePatch.h" />
     <ClInclude Include="ScreenArcadeStart.h" />
     <ClInclude Include="ScreenAttract.h" />
     <ClInclude Include="ScreenBookkeeping.h" />
@@ -1284,7 +1280,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenTextEntry.h" />
     <ClInclude Include="ScreenTitleMenu.h" />
     <ClInclude Include="ScreenUnlock.h" />
-    <ClInclude Include="ScreenUserPacks.h" />
     <ClInclude Include="ScreenWithMenuElements.h" />
     <ClInclude Include="ActorCommands.h" />
     <ClInclude Include="Attack.h" />
@@ -1470,7 +1465,6 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="GrooveRadar.h" />
     <ClInclude Include="GroupList.h" />
     <ClInclude Include="HelpDisplay.h" />
-    <ClInclude Include="LinkedOptionsMenu.h" />
     <ClInclude Include="MemoryCardDisplay.h" />
     <ClInclude Include="MenuTimer.h" />
     <ClInclude Include="ModeSwitcher.h" />

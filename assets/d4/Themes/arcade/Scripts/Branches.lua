@@ -13,8 +13,3 @@ end
 function GetDiagnosticsScreen()
 	return "ScreenArcadeDiagnostics"
 end
-
-function GetUpdateScreen()
-	return "ScreenArcadePatch"
-end
-

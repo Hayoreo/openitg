@@ -49,7 +49,7 @@ $(srcdir)/libtommath/libtommath.a:
 
 Screens = \
 Screen.cpp Screen.h \
-ScreenArcadeDiagnostics.cpp ScreenArcadeDiagnostics.h ScreenArcadePatch.cpp ScreenArcadePatch.h \
+ScreenArcadeDiagnostics.cpp ScreenArcadeDiagnostics.h \
 ScreenArcadeStart.cpp ScreenArcadeStart.h \
 ScreenAttract.cpp ScreenAttract.h \
 ScreenBookkeeping.cpp ScreenBookkeeping.h ScreenBranch.cpp ScreenBranch.h \
@@ -81,7 +81,7 @@ ScreenStage.cpp ScreenStage.h \
 ScreenTest.cpp ScreenTest.h ScreenTestFonts.cpp ScreenTestFonts.h ScreenTestInput.cpp ScreenTestInput.h \
 ScreenTestLights.cpp ScreenTestLights.h ScreenTestSound.cpp ScreenTestSound.h ScreenTextEntry.cpp ScreenTextEntry.h \
 ScreenTitleMenu.cpp ScreenTitleMenu.h ScreenUnlock.cpp ScreenUnlock.h \
-ScreenUserPacks.cpp ScreenUserPacks.h ScreenWithMenuElements.cpp ScreenWithMenuElements.h
+ScreenWithMenuElements.cpp ScreenWithMenuElements.h
 
 if !WITHOUT_NETWORKING
 Screens += ScreenGameplayMultiplayer.cpp ScreenGameplayMultiplayer.h ScreenSMOnlineLogin.cpp ScreenSMOnlineLogin.h
@@ -318,7 +318,7 @@ DualScrollBar.cpp DualScrollBar.h \
 FadingBanner.cpp FadingBanner.h \
 GradeDisplay.cpp GradeDisplay.h GraphDisplay.cpp GraphDisplay.h GrooveGraph.cpp GrooveGraph.h \
 GrooveRadar.cpp GrooveRadar.h GroupList.cpp GroupList.h HelpDisplay.cpp HelpDisplay.h \
-LinkedOptionsMenu.cpp LinkedOptionsMenu.h MemoryCardDisplay.cpp MemoryCardDisplay.h \
+MemoryCardDisplay.cpp MemoryCardDisplay.h \
 MenuTimer.cpp MenuTimer.h ModeSwitcher.cpp ModeSwitcher.h MusicBannerWheel.cpp MusicBannerWheel.h \
 MusicList.cpp MusicList.h MusicSortDisplay.cpp MusicSortDisplay.h MusicWheel.cpp MusicWheel.h \
 MusicWheelItem.cpp MusicWheelItem.h OptionIcon.cpp OptionIcon.h OptionIconRow.cpp OptionIconRow.h \

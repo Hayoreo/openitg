@@ -15,19 +15,6 @@ function GetScreenNameEntryTraditionalHelpText()
 	return ret
 end
 
-function GetUserPacksHelpText()
-	local screen = "ScreenUserPacks"
-	local ret = THEME:GetMetric( screen, "HelpTextNormal" )
-
-	if SelectButtonAvailable() then
-		ret = ret .. "::" .. THEME:GetMetric( screen, "HelpTextAppendSelect" )
-	else
-		ret = ret .. "::" .. THEME:GetMetric( screen, "HelpTextAppendNoSelect" )
-	end
-
-	return ret
-end
-
 function GetScreenSelectMusicHelpText()
 -- function SetScreenSelectMusicHelpText( HelpText )
 	local text = {}

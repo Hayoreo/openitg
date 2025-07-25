@@ -646,12 +646,6 @@ cl /Zl /nologo /c verstub.cpp /Fo$(IntDir)\
 				RelativePath="ScreenUnlock.h">
 			</File>
 			<File
-				RelativePath=".\ScreenUserPacks.cpp">
-			</File>
-			<File
-				RelativePath=".\ScreenUserPacks.h">
-			</File>
-			<File
 				RelativePath="ScreenWithMenuElements.cpp">
 			</File>
 			<File
@@ -1464,12 +1458,6 @@ cl /Zl /nologo /c verstub.cpp /Fo$(IntDir)\
 			</File>
 			<File
 				RelativePath="HelpDisplay.h">
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.cpp">
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.h">
 			</File>
 			<File
 				RelativePath="MemoryCardDisplay.cpp">

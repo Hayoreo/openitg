@@ -692,14 +692,6 @@
 				>
 			</File>
 			<File
-				RelativePath="ScreenArcadePatch.cpp"
-				>
-			</File>
-			<File
-				RelativePath="ScreenArcadePatch.h"
-				>
-			</File>
-			<File
 				RelativePath=".\ScreenArcadeStart.cpp"
 				>
 			</File>
@@ -1193,14 +1185,6 @@
 			</File>
 			<File
 				RelativePath="ScreenUnlock.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ScreenUserPacks.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\ScreenUserPacks.h"
 				>
 			</File>
 			<File
@@ -2693,14 +2677,6 @@
 			</File>
 			<File
 				RelativePath="HelpDisplay.h"
-				>
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LinkedOptionsMenu.h"
 				>
 			</File>
 			<File

@@ -100,7 +100,3 @@ end
 function GetDiagnosticsScreen()
 	return "ScreenOptionsMenu"
 end
-
-function GetUpdateScreen()
-	return "ScreenOptionsMenu"
-end
