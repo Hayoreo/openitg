@@ -49,7 +49,4 @@
 			/>
 		</children></Layer>
 	</children></ActorFrame>
-	<AutoActor
-		File="../ScreenAttract overlay"
-	/>
 </children></ActorFrame>

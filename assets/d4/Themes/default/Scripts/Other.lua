@@ -11,11 +11,6 @@ function GetWorkoutMenuCommand()
 	return "difficulty," .. GetInitialDifficulty() .. ";screen,ScreenWorkoutMenu;PlayMode,regular;SetEnv,Workout,1"
 end
 
-function ScreenEndingGetDisplayName( pn )
-	if PROFILEMAN:IsPersistentProfile(pn) then return GAMESTATE:GetPlayerDisplayName(pn) end
-	return "No Card"
-end
-
 function GetCreditsText()
 	local song = GAMESTATE:GetCurrentSong()
 	if not song then return "" end

@@ -2458,14 +2458,6 @@ SOURCE=.\ScreenCenterImage.h
 # End Source File
 # Begin Source File
 
-SOURCE=.\ScreenCredits.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenCredits.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\ScreenDebugOverlay.cpp
 # End Source File
 # Begin Source File
@@ -2479,14 +2471,6 @@ SOURCE=.\ScreenDemonstration.cpp
 # Begin Source File
 
 SOURCE=.\ScreenDemonstration.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEnding.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ScreenEnding.h
 # End Source File
 # Begin Source File
 

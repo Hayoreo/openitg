@@ -45,11 +45,6 @@ function GetGameplayNextScreen()
 	return "GetGameplayNextScreen: YOU SHOULD NEVER GET HERE"
 end
 
-function SelectEndingScreen()
-	if GAMESTATE:GetEnv("ForceGoodEnding") == "1" or GetBestFinalGrade() <= GRADE_TIER05 then return "ScreenEndingGood" end
-	return "ScreenEndingNormal"
-end
-
 function ScreenAfterGameplayWorkout()
 	if GAMESTATE:GetPlayMode() == PLAY_MODE_NONSTOP then return "ScreenEvaluationNonstopWorkout" end
 	if GAMESTATE:GetPlayMode() == PLAY_MODE_ENDLESS then return "ScreenEvaluationNonstopWorkout" end

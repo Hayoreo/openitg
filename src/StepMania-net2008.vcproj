@@ -732,14 +732,6 @@
 				>
 			</File>
 			<File
-				RelativePath="ScreenCredits.cpp"
-				>
-			</File>
-			<File
-				RelativePath="ScreenCredits.h"
-				>
-			</File>
-			<File
 				RelativePath=".\ScreenDebugOverlay.cpp"
 				>
 			</File>
@@ -761,14 +753,6 @@
 			</File>
 			<File
 				RelativePath="ScreenDimensions.h"
-				>
-			</File>
-			<File
-				RelativePath="ScreenEnding.cpp"
-				>
-			</File>
-			<File
-				RelativePath="ScreenEnding.h"
 				>
 			</File>
 			<File

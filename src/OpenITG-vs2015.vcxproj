@@ -450,11 +450,9 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClCompile Include="ScreenBookkeeping.cpp" />
     <ClCompile Include="ScreenBranch.cpp" />
     <ClCompile Include="ScreenCenterImage.cpp" />
-    <ClCompile Include="ScreenCredits.cpp" />
     <ClCompile Include="ScreenDebugOverlay.cpp" />
     <ClCompile Include="ScreenDemonstration.cpp" />
     <ClCompile Include="ScreenDimensions.cpp" />
-    <ClCompile Include="ScreenEnding.cpp" />
     <ClCompile Include="ScreenEndlessBreak.cpp" />
     <ClCompile Include="ScreenEvaluation.cpp" />
     <ClCompile Include="ScreenExit.cpp" />
@@ -1059,11 +1057,9 @@ cl /Zl /nologo /c verstub.cpp /Fo"$(IntDir)/verstub.obj"</Command>
     <ClInclude Include="ScreenBookkeeping.h" />
     <ClInclude Include="ScreenBranch.h" />
     <ClInclude Include="ScreenCenterImage.h" />
-    <ClInclude Include="ScreenCredits.h" />
     <ClInclude Include="ScreenDebugOverlay.h" />
     <ClInclude Include="ScreenDemonstration.h" />
     <ClInclude Include="ScreenDimensions.h" />
-    <ClInclude Include="ScreenEnding.h" />
     <ClInclude Include="ScreenEndlessBreak.h" />
     <ClInclude Include="ScreenEvaluation.h" />
     <ClInclude Include="ScreenExit.h" />

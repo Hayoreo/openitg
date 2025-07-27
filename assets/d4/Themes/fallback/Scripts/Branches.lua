@@ -57,11 +57,6 @@ function ScreenBranchNetAfterEval()
 	return "ScreenSelectMusic"
 end	
 
-function SelectEndingScreen()
-	if GetBestFinalGrade() >= Grade("AA") then return "ScreenMusicScroll" end
-	return "ScreenCredits"
-end	
-
 function IsEventMode()
 	return PREFSMAN:GetPreference( "EventMode" )
 end

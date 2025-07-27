@@ -111,9 +111,6 @@
     <ClCompile Include="ScreenCenterImage.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenCredits.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenDebugOverlay.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
@@ -121,9 +118,6 @@
       <Filter>Screens</Filter>
     </ClCompile>
     <ClCompile Include="ScreenDimensions.cpp">
-      <Filter>Screens</Filter>
-    </ClCompile>
-    <ClCompile Include="ScreenEnding.cpp">
       <Filter>Screens</Filter>
     </ClCompile>
     <ClCompile Include="ScreenEndlessBreak.cpp">
@@ -1418,9 +1412,6 @@
     <ClInclude Include="ScreenCenterImage.h">
       <Filter>Screens</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenCredits.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
     <ClInclude Include="ScreenDebugOverlay.h">
       <Filter>Screens</Filter>
     </ClInclude>
@@ -1428,9 +1419,6 @@
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenDimensions.h">
-      <Filter>Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenEnding.h">
       <Filter>Screens</Filter>
     </ClInclude>
     <ClInclude Include="ScreenEndlessBreak.h">
